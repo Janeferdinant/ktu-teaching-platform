@@ -1,8 +1,6 @@
 {
   "version": 2,
-  "name": "ktu-teaching-platform",
-  "cleanUrls": true,
-  "trailingSlash": false,
+  "cleanUrls": false,
   "rewrites": [
     { "source": "/", "destination": "/faculty-dashboard/index.html" },
     { "source": "/faculty-dashboard", "destination": "/faculty-dashboard/index.html" },

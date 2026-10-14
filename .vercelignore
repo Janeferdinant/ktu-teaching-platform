@@ -1,0 +1,7 @@
+# Ignore server.js for Vercel so it deploys as a pure static site on the Edge CDN
+server.js
+tests/
+.git/
+.superpowers/
+__pycache__/
+*.pyc

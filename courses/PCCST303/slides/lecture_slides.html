@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PCCST303: Data Structures & Algorithms - Lecture Slide Deck | Jane Rose</title>
+  <title>PCCST303: Data Structures & Algorithms — 320 Exam-Oriented Lecture Deck | Jane Rose</title>
   <link rel="stylesheet" href="../../../shared-components/themes/liquid-glass.css">
   <style>
     body {
@@ -15,29 +15,153 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      transition: background 0.35s ease, color 0.35s ease;
     }
+
+    /* Top Glass Navbar */
     .slide-header {
-      padding: 1rem 2rem;
+      padding: 0.9rem 1.8rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
       border-bottom: 1px solid var(--glass-border);
       background: var(--glass-bg);
       backdrop-filter: var(--glass-blur);
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
+
+    /* Glass Effect Selector Toolbar */
+    .glass-toolbar {
+      background: var(--glass-bg);
+      backdrop-filter: var(--glass-blur);
+      border-bottom: 1px solid var(--glass-border);
+      padding: 0.6rem 1.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      font-size: 0.88rem;
+    }
+    .theme-pills {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .theme-pill-btn {
+      padding: 5px 11px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      border-radius: 20px;
+      border: 1px solid var(--glass-border);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .theme-pill-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+      color: var(--text-primary);
+      transform: translateY(-1px);
+    }
+    .theme-pill-btn.active {
+      background: var(--accent-primary);
+      color: #040814;
+      font-weight: 700;
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 12px var(--accent-glow);
+    }
+    .theme-select-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .theme-select-box select {
+      padding: 5px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--glass-border);
+      background: var(--glass-bg);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-size: 0.84rem;
+      cursor: pointer;
+    }
+
+    /* Navigation & Filters Sub-Bar */
+    .filter-bar {
+      padding: 0.6rem 1.8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      background: rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .module-tabs {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .module-tab-btn {
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px solid var(--glass-border);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .module-tab-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-primary);
+    }
+    .module-tab-btn.active {
+      background: var(--accent-primary);
+      color: #060913;
+      border-color: var(--accent-primary);
+    }
+
+    .jump-box {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .jump-box input {
+      width: 75px;
+      padding: 5px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--glass-border);
+      background: var(--glass-bg);
+      color: var(--text-primary);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    /* Slide Content Viewport */
     .slide-container {
       flex: 1;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 2rem;
+      padding: 1.5rem 1rem;
     }
     .slide-card {
       width: 100%;
-      max-width: 950px;
-      min-height: 520px;
-      padding: 3rem;
+      max-width: 1050px;
+      min-height: 560px;
+      padding: 2.5rem 3rem;
       background: var(--glass-bg);
       backdrop-filter: var(--glass-blur);
       border: 1px solid var(--glass-border);
@@ -47,213 +171,553 @@
       flex-direction: column;
       justify-content: space-between;
       position: relative;
+      transition: all 0.3s ease;
     }
-    .slide-badge {
-      align-self: flex-start;
-      margin-bottom: 1rem;
+    .progress-bar-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.08);
+      border-top-left-radius: var(--card-radius);
+      border-top-right-radius: var(--card-radius);
+      overflow: hidden;
     }
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary, #818cf8));
+      transition: width 0.3s ease;
+    }
+
+    .slide-badge-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.2rem;
+    }
+    .module-badge {
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent-primary);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .category-badge {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
     .slide-title {
       font-family: var(--font-heading);
-      font-size: 2.2rem;
-      margin: 0 0 1.5rem 0;
+      font-size: 2rem;
+      margin: 0 0 1.2rem 0;
       color: var(--accent-primary);
+      line-height: 1.3;
     }
     .slide-body {
-      font-size: 1.15rem;
-      line-height: 1.8;
+      font-size: 1.1rem;
+      line-height: 1.75;
       color: var(--text-secondary);
       flex: 1;
     }
     .slide-body ul {
       padding-left: 1.5rem;
+      margin: 0.5rem 0 1rem 0;
     }
     .slide-body li {
-      margin-bottom: 0.8rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .slide-code-wrapper {
+      position: relative;
+      margin-top: 1rem;
     }
     .slide-code {
-      background: rgba(0, 0, 0, 0.4);
-      padding: 1rem;
-      border-radius: 8px;
+      background: rgba(0, 0, 0, 0.45);
+      padding: 1.1rem 1.2rem;
+      border-radius: 10px;
       font-family: var(--font-mono);
-      font-size: 0.95rem;
+      font-size: 0.92rem;
+      line-height: 1.6;
       color: #38bdf8;
       border: 1px solid rgba(255, 255, 255, 0.1);
-      margin-top: 1rem;
       overflow-x: auto;
+      white-space: pre;
     }
+    .copy-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      padding: 4px 8px;
+      font-size: 0.75rem;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(15, 23, 42, 0.7);
+      color: var(--text-primary);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .copy-btn:hover {
+      background: var(--accent-primary);
+      color: #040814;
+    }
+
+    .exam-tip-box {
+      margin-top: 1.2rem;
+      padding: 0.9rem 1.2rem;
+      border-radius: 10px;
+      background: rgba(251, 191, 36, 0.1);
+      border-left: 4px solid var(--accent-warning, #fbbf24);
+      color: #fef08a;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .exam-tip-box strong {
+      color: #fde047;
+    }
+
+    /* Bottom Slide Controls */
     .slide-controls {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 2rem;
-      padding-top: 1rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      margin-top: 1.8rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid var(--glass-border);
+      flex-wrap: wrap;
+      gap: 1rem;
     }
-    .slide-progress {
+    .slide-nav-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .slide-progress-info {
       font-weight: 600;
+      font-size: 1rem;
       color: var(--accent-primary);
     }
+    .slide-sub-progress {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-left: 6px;
+    }
+
+    /* Footer */
     .branding-footer {
       text-align: center;
-      padding: 1rem;
+      padding: 1rem 1.5rem;
       font-size: 0.88rem;
       color: var(--text-muted);
       border-top: 1px solid var(--glass-border);
       background: var(--glass-bg);
+      backdrop-filter: var(--glass-blur);
     }
+
+    @media (max-width: 768px) {
+      .slide-card {
+        padding: 1.5rem;
+        min-height: auto;
+      }
+      .slide-title {
+        font-size: 1.5rem;
+      }
+      .slide-header, .glass-toolbar, .filter-bar {
+        padding: 0.6rem 1rem;
+      }
+    }
+
     @media print {
       body { background: #fff !important; color: #000 !important; }
       .slide-card { page-break-after: always; border: 1px solid #ccc; box-shadow: none; background: #fff !important; color: #000 !important; }
-      .slide-header, .slide-controls, .branding-footer { display: none !important; }
+      .slide-header, .glass-toolbar, .filter-bar, .slide-controls, .branding-footer { display: none !important; }
     }
   </style>
 </head>
 <body class="theme-liquid">
+
+  <!-- TOP HEADER -->
   <header class="slide-header">
-    <div>
-      <span class="glass-badge">PCCST303 &bull; S3 CSE</span>
-      <h2 style="margin: 0.3rem 0 0; font-family: var(--font-heading); font-size: 1.25rem;">Data Structures and Algorithms &bull; Lecture Presentation Deck</h2>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <span class="glass-badge" style="font-weight: 700;">PCCST303 &bull; KTU S3 CSE</span>
+      <div>
+        <h2 style="margin: 0; font-family: var(--font-heading); font-size: 1.2rem; color: var(--accent-primary);">
+          Data Structures and Algorithms &bull; Exam Presentation Deck (320 Slides)
+        </h2>
+        <div style="font-size: 0.82rem; color: var(--text-muted);">
+          Prof. Jane Rose &bull; 80 Slides per Module &bull; KTU Exam Solutions &amp; 10 Liquid Glass Effects
+        </div>
+      </div>
     </div>
-    <div style="display: flex; gap: 10px;">
-      <button class="glass-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
-      <a href="/courses/PCCST303/" onclick="if(location.protocol==='file:'){window.open('../website/index.html');return false;}" class="glass-btn">🏠 Back to Course</a>
+    <div style="display: flex; gap: 8px; align-items: center;">
+      <button class="glass-btn" onclick="toggleFullscreen()" title="Toggle Fullscreen (F)">⛶ Fullscreen</button>
+      <button class="glass-btn" onclick="window.print()" title="Print Slide Deck">🖨️ Print / PDF</button>
+      <a href="/courses/PCCST303/" 
+         onclick="if(location.protocol==='file:'){window.open('../website/index.html');return false;}" 
+         class="glass-btn">🏠 Back to Course</a>
     </div>
   </header>
 
+  <!-- 10 SELECTABLE LIQUID GLASS STYLES TOOLBAR -->
+  <div class="glass-toolbar">
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="font-weight: 700; color: var(--accent-primary); display: flex; align-items: center; gap: 4px;">
+        ✨ Glass Themes (10):
+      </span>
+      <div class="theme-pills" id="theme-pill-container">
+        <button class="theme-pill-btn active" data-theme="theme-liquid" onclick="applyGlassTheme('theme-liquid')">💧 Liquid</button>
+        <button class="theme-pill-btn" data-theme="theme-frosted" onclick="applyGlassTheme('theme-frosted')">❄️ Frosted</button>
+        <button class="theme-pill-btn" data-theme="theme-aurora" onclick="applyGlassTheme('theme-aurora')">🌌 Aurora</button>
+        <button class="theme-pill-btn" data-theme="theme-crystal" onclick="applyGlassTheme('theme-crystal')">💎 Crystal</button>
+        <button class="theme-pill-btn" data-theme="theme-holographic" onclick="applyGlassTheme('theme-holographic')">🌈 Holo</button>
+        <button class="theme-pill-btn" data-theme="theme-translucent" onclick="applyGlassTheme('theme-translucent')">🪞 Translucent</button>
+        <button class="theme-pill-btn" data-theme="theme-neumorphic" onclick="applyGlassTheme('theme-neumorphic')">🔘 Neumorphic</button>
+        <button class="theme-pill-btn" data-theme="theme-scifi" onclick="applyGlassTheme('theme-scifi')">🚀 Sci-Fi</button>
+        <button class="theme-pill-btn" data-theme="theme-academic" onclick="applyGlassTheme('theme-academic')">🎓 Academic</button>
+        <button class="theme-pill-btn" data-theme="theme-highcontrast" onclick="applyGlassTheme('theme-highcontrast')">⚡ High-Contrast</button>
+      </div>
+    </div>
+
+    <div class="theme-select-box">
+      <label for="glass-theme-select" style="font-size: 0.82rem; color: var(--text-muted);">Quick Dropdown:</label>
+      <select id="glass-theme-select" onchange="applyGlassTheme(this.value)">
+        <option value="theme-liquid" selected>1. 💧 Liquid Glass (Default)</option>
+        <option value="theme-frosted">2. ❄️ Frosted Glass</option>
+        <option value="theme-aurora">3. 🌌 Aurora Polar Glass</option>
+        <option value="theme-crystal">4. 💎 Crystal Prism Glass</option>
+        <option value="theme-holographic">5. 🌈 Holographic Rainbow</option>
+        <option value="theme-translucent">6. 🪞 Layered Translucent</option>
+        <option value="theme-neumorphic">7. 🔘 Neumorphic Glass</option>
+        <option value="theme-scifi">8. 🚀 Dark Sci-Fi Lab</option>
+        <option value="theme-academic">9. 🎓 Light Academic Glass</option>
+        <option value="theme-highcontrast">10. ⚡ High-Contrast WCAG</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- MODULE TABS & JUMP CONTROLS -->
+  <div class="filter-bar">
+    <div class="module-tabs" id="module-tab-container">
+      <button class="module-tab-btn active" data-mod="all" onclick="filterByModule('all')">All Modules (320)</button>
+      <button class="module-tab-btn" data-mod="1" onclick="filterByModule(1)">Mod 1: Stacks &amp; Queues (1-80)</button>
+      <button class="module-tab-btn" data-mod="2" onclick="filterByModule(2)">Mod 2: Lists &amp; Memory (81-160)</button>
+      <button class="module-tab-btn" data-mod="3" onclick="filterByModule(3)">Mod 3: Trees &amp; Graphs (161-240)</button>
+      <button class="module-tab-btn" data-mod="4" onclick="filterByModule(4)">Mod 4: Sort &amp; Hash (241-320)</button>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <!-- Category Filter -->
+      <select id="cat-filter" onchange="filterByCategory(this.value)" style="padding: 5px 10px; border-radius: 6px; border: 1px solid var(--glass-border); background: var(--glass-bg); color: var(--text-primary); font-size: 0.84rem;">
+        <option value="all">All Categories</option>
+        <option value="part_a_3m">Part A (3 Marks High-Yield)</option>
+        <option value="algorithm">Algorithms &amp; Core Code</option>
+        <option value="numerical">Worked Numericals &amp; Traces</option>
+        <option value="pyq_solution">KTU University Solved PYQs</option>
+        <option value="theory">Theory &amp; Taxonomies</option>
+        <option value="revision">Checklists &amp; Mind Maps</option>
+      </select>
+
+      <!-- Direct Jump -->
+      <div class="jump-box">
+        <label for="jump-input" style="font-size: 0.82rem; color: var(--text-muted);">Jump:</label>
+        <input type="number" id="jump-input" min="1" max="320" placeholder="1-320" onkeydown="if(event.key==='Enter') jumpToSlide()">
+        <button class="glass-btn" onclick="jumpToSlide()" style="padding: 5px 10px; font-size: 0.82rem;">Go</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN SLIDE VIEWER -->
   <main class="slide-container">
     <div class="slide-card" id="slide-content">
       <!-- Injected via JavaScript -->
     </div>
   </main>
 
+  <!-- BRANDING FOOTER -->
   <footer class="branding-footer">
-    Jane Rose | Asst. Professor | CSE &bull; APJ Abdul Kalam Technological University (KTU)
+    Jane Rose | Asst. Professor | CSE &bull; APJ Abdul Kalam Technological University (KTU) &bull; Course: PCCST303 Data Structures &amp; Algorithms
   </footer>
 
+  <!-- 320 EXAM SLIDES DATA -->
+  <script src="exam_slides_data.js"></script>
   <script src="../../../shared-components/themes/theme-switcher.js"></script>
+
   <script>
-    const slides = [
-      {
-        module: "Module 1",
-        title: "Abstract Data Types & Asymptotic Complexity",
-        badge: "Lecture 1-3 &bull; Core Foundations",
-        points: [
-          "<strong>Data Abstraction:</strong> Separating interface specifications (what it does) from implementation details (how it stores data).",
-          "<strong>Axiomatic ADT:</strong> Mathematically specifying operations with preconditions and postconditions (e.g. Stack, Queue, List).",
-          "<strong>Asymptotic Bounds:</strong> Big-O (upper bound worst case), Big-Omega (lower bound best case), Big-Theta (tight bound).",
-          "<strong>Recurrence Analysis:</strong> Estimating loop runtimes using formal summation and step-count tables."
-        ],
-        code: "// Big-O Definition: f(n) <= c * g(n) for all n >= n0\n// Example: 3n^2 + 5n + 7 = O(n^2) where c = 15, n0 = 1"
-      },
-      {
-        module: "Module 1",
-        title: "Sparse Matrices & Fast Transpose",
-        badge: "Lecture 6-7 &bull; Memory Optimization",
-        points: [
-          "<strong>3-Tuple Representation:</strong> Storing sparse matrices in a table of (Row, Col, Value) triplets with metadata at row 0.",
-          "<strong>Memory Savings:</strong> Reduces memory footprint from O(Rows &times; Cols) to O(Non-Zero elements).",
-          "<strong>Fast Transpose Algorithm:</strong> Pre-calculates <code>row_terms</code> (column frequency) and <code>starting_pos</code> (prefix sums).",
-          "<strong>Optimal Runtime:</strong> Achieves transpose in O(Cols + NonZero) time vs naive O(Cols &times; NonZero)."
-        ],
-        code: "// Starting position formula:\nstarting_pos[0] = 1;\nfor (i = 1; i < total_cols; i++)\n    starting_pos[i] = starting_pos[i-1] + row_terms[i-1];"
-      },
-      {
-        module: "Module 1",
-        title: "Expression Evaluation using Stacks",
-        badge: "Lecture 10-11 &bull; Compilers & Runtime",
-        points: [
-          "<strong>Operator Precedence & Associativity:</strong> Controlling parsing order without ambiguous parenthesization.",
-          "<strong>Infix to Postfix (Shunting-Yard):</strong> Operands route directly to output; operators queue on stack by precedence.",
-          "<strong>Postfix Evaluation:</strong> Scan expression; push operands; on encountering operator, pop two operands, evaluate, and push result.",
-          "<strong>Zero Parentheses:</strong> Postfix expressions execute unambiguously in single linear O(n) passes."
-        ],
-        code: "// Postfix evaluation step:\nop2 = pop(); op1 = pop();\nresult = evaluate(op1, operator, op2);\npush(result);"
-      },
-      {
-        module: "Module 2",
-        title: "Linked Lists & Memory Management",
-        badge: "Lecture 12-22 &bull; Dynamic Structures",
-        points: [
-          "<strong>Singly & Doubly Linked Lists:</strong> Dynamic heap allocation with O(1) head insertion without memory shifting.",
-          "<strong>Circular Linked Lists:</strong> Wrap-around traversal; maintenance of <code>last</code> pointer gives O(1) front and rear access.",
-          "<strong>Dynamic Allocation Heuristics:</strong> First-Fit (fastest), Best-Fit (tightest fit), Worst-Fit (leaves largest remainder).",
-          "<strong>Garbage Collection:</strong> Reference counting vs Mark-Sweep; resolving circular references and heap compaction."
-        ],
-        code: "// Doubly Linked List 4-pointer insertion before node:\nnewNode->next = curr;\nnewNode->prev = curr->prev;\ncurr->prev->next = newNode;\ncurr->prev = newNode;"
-      },
-      {
-        module: "Module 3",
-        title: "Binary Search Trees, Heaps & Graphs",
-        badge: "Lecture 23-33 &bull; Hierarchical Structures",
-        points: [
-          "<strong>Binary Search Tree Property:</strong> Left Subtree &lt; Root &lt; Right Subtree; Inorder traversal gives sorted order.",
-          "<strong>BST Deletion (3 Cases):</strong> Leaf deletion, single-child bypass, two-child replacement with Inorder Successor.",
-          "<strong>Binary Heaps:</strong> Complete binary tree array representation; Max-Heap maintains <code>A[parent(i)] >= A[i]</code>.",
-          "<strong>Graph Traversals:</strong> Breadth-First Search (Queue, level-order, shortest path) vs Depth-First Search (Stack/recursion)."
-        ],
-        code: "// Heap array indexing (1-based):\nParent = i / 2;\nLeftChild = 2 * i;\nRightChild = 2 * i + 1;"
-      },
-      {
-        module: "Module 4",
-        title: "Sorting, Searching & Hashing",
-        badge: "Lecture 34-44 &bull; Algorithms & Hashing",
-        points: [
-          "<strong>Comparison Sorting:</strong> Quick Sort (O(n log n) average, in-place), Merge Sort (guaranteed O(n log n), stable), Heap Sort.",
-          "<strong>Radix Sort:</strong> Non-comparative digit distribution sort achieving O(d(n + b)) runtime.",
-          "<strong>Binary Search:</strong> Logarithmic search halving candidate space; O(log n) time.",
-          "<strong>Collision Resolution:</strong> Linear probing, Quadratic probing, Double hashing, and Open hashing (Separate Chaining)."
-        ],
-        code: "// Linear Probing: h(k, i) = (h'(k) + i) % m\n// Quadratic Probing: h(k, i) = (h'(k) + c1*i + c2*i^2) % m\n// Separate Chaining: Array of Linked Lists with load factor alpha = n/m"
+    // Master Slides Dataset
+    const allSlides = (window.EXAM_SLIDES_320 && Array.isArray(window.EXAM_SLIDES_320)) 
+      ? window.EXAM_SLIDES_320 
+      : [];
+
+    let currentModuleFilter = 'all';
+    let currentCategoryFilter = 'all';
+    let filteredSlides = [...allSlides];
+    let currentIndex = 0;
+
+    // Initialize Theme
+    function initTheme() {
+      const savedTheme = localStorage.getItem('user-theme') || 'theme-liquid';
+      applyGlassTheme(savedTheme, false);
+    }
+
+    function applyGlassTheme(themeName, persist = true) {
+      document.body.className = themeName;
+      if (persist) {
+        localStorage.setItem('user-theme', themeName);
       }
-    ];
+      // Update pills
+      document.querySelectorAll('#theme-pill-container .theme-pill-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.theme === themeName);
+      });
+      // Update dropdown
+      const select = document.getElementById('glass-theme-select');
+      if (select) select.value = themeName;
+    }
 
-    let currentSlide = 0;
+    function filterByModule(mod) {
+      currentModuleFilter = mod;
+      document.querySelectorAll('#module-tab-container .module-tab-btn').forEach(btn => {
+        btn.classList.toggle('active', String(btn.dataset.mod) === String(mod));
+      });
+      applyFilters();
+    }
 
-    function renderSlide(idx) {
-      const s = slides[idx];
+    function filterByCategory(cat) {
+      currentCategoryFilter = cat;
+      applyFilters();
+    }
+
+    function applyFilters() {
+      filteredSlides = allSlides.filter(s => {
+        const matchMod = (currentModuleFilter === 'all') || (s.module_no === parseInt(currentModuleFilter));
+        const matchCat = (currentCategoryFilter === 'all') || (s.category === currentCategoryFilter);
+        return matchMod && matchCat;
+      });
+
+      if (filteredSlides.length === 0) {
+        filteredSlides = [...allSlides];
+      }
+      currentIndex = 0;
+      renderCurrentSlide();
+    }
+
+    function renderCurrentSlide() {
+      const s = filteredSlides[currentIndex];
       const card = document.getElementById('slide-content');
+      if (!card || !s) return;
+
+      const overallIndex = s.id;
+      const progressPercent = ((overallIndex) / 320) * 100;
+
+      // Module Color Palette
+      const modColors = {
+        1: '#38bdf8', // Cyan
+        2: '#818cf8', // Indigo
+        3: '#34d399', // Emerald
+        4: '#fbbf24'  // Amber
+      };
+      const themeColor = modColors[s.module_no] || '#38bdf8';
+
       card.innerHTML = `
+        <div class="progress-bar-container">
+          <div class="progress-bar-fill" style="width: ${progressPercent}%;"></div>
+        </div>
+
         <div>
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <span class="glass-badge">${s.module}</span>
-            <span style="font-size: 0.88rem; color: var(--text-muted);">${s.badge}</span>
+          <div class="slide-badge-row">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span class="module-badge" style="color: ${themeColor}; border-color: ${themeColor}44; background: ${themeColor}15;">
+                ${s.module} &bull; Slide ${s.slide_in_mod} of 80
+              </span>
+              <span class="category-badge">
+                🏷️ ${s.badge}
+              </span>
+            </div>
+            <div style="font-size: 0.84rem; color: var(--text-muted);">
+              Overall: <strong>${overallIndex} / 320</strong> (${progressPercent.toFixed(1)}%)
+            </div>
           </div>
-          <h1 class="slide-title">${s.title}</h1>
+
+          <h1 class="slide-title" style="color: ${themeColor};">${s.title}</h1>
+
           <div class="slide-body">
             <ul>
               ${s.points.map(p => `<li>${p}</li>`).join('')}
             </ul>
-            <div class="slide-code">${s.code}</div>
+
+            ${s.code ? `
+              <div class="slide-code-wrapper">
+                <button class="copy-btn" onclick="copyCode(this)">📋 Copy Code</button>
+                <div class="slide-code">${escapeHtml(s.code)}</div>
+              </div>
+            ` : ''}
+
+            ${s.exam_tip ? `
+              <div class="exam-tip-box">
+                <span style="font-size: 1.25rem; line-height: 1;">💡</span>
+                <div>
+                  <strong>KTU Examiner's Marking Tip:</strong> ${s.exam_tip}
+                </div>
+              </div>
+            ` : ''}
           </div>
         </div>
+
         <div class="slide-controls">
-          <button class="glass-btn" onclick="prevSlide()" ${idx === 0 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}>&larr; Previous</button>
-          <span class="slide-progress">Slide ${idx + 1} of ${slides.length}</span>
-          <button class="glass-btn glass-btn-primary" onclick="nextSlide()" ${idx === slides.length - 1 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}>Next &rarr;</button>
+          <div class="slide-nav-group">
+            <button class="glass-btn" onclick="firstSlide()" title="First Slide (Home)" ${currentIndex === 0 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}>⏮️ First</button>
+            <button class="glass-btn" onclick="prevSlide()" title="Previous Slide (← / Left Arrow)" ${currentIndex === 0 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}>&larr; Previous</button>
+          </div>
+
+          <div style="text-align: center;">
+            <span class="slide-progress-info">Slide ${currentIndex + 1} of ${filteredSlides.length}</span>
+            <span class="slide-sub-progress">(Deck: #${overallIndex} of 320)</span>
+          </div>
+
+          <div class="slide-nav-group">
+            <button class="glass-btn glass-btn-primary" onclick="nextSlide()" title="Next Slide (→ / Space / Right Arrow)" ${currentIndex === filteredSlides.length - 1 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}>Next &rarr;</button>
+            <button class="glass-btn" onclick="lastSlide()" title="Last Slide (End)" ${currentIndex === filteredSlides.length - 1 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}>Last ⏭️</button>
+          </div>
         </div>
       `;
+
+      // Update jump input placeholder
+      const jumpInput = document.getElementById('jump-input');
+      if (jumpInput) jumpInput.value = overallIndex;
     }
 
     function prevSlide() {
-      if (currentSlide > 0) {
-        currentSlide--;
-        renderSlide(currentSlide);
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderCurrentSlide();
       }
     }
 
     function nextSlide() {
-      if (currentSlide < slides.length - 1) {
-        currentSlide++;
-        renderSlide(currentSlide);
+      if (currentIndex < filteredSlides.length - 1) {
+        currentIndex++;
+        renderCurrentSlide();
       }
     }
 
+    function firstSlide() {
+      currentIndex = 0;
+      renderCurrentSlide();
+    }
+
+    function lastSlide() {
+      currentIndex = filteredSlides.length - 1;
+      renderCurrentSlide();
+    }
+
+    function jumpToSlide() {
+      const input = document.getElementById('jump-input');
+      if (!input) return;
+      const val = parseInt(input.value);
+      if (isNaN(val) || val < 1 || val > 320) {
+        alert('Please enter a valid slide number between 1 and 320.');
+        return;
+      }
+      
+      // If module filter is active, reset to all to ensure target is reachable
+      if (currentModuleFilter !== 'all' || currentCategoryFilter !== 'all') {
+        currentModuleFilter = 'all';
+        currentCategoryFilter = 'all';
+        document.querySelectorAll('#module-tab-container .module-tab-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.mod === 'all');
+        });
+        const catSelect = document.getElementById('cat-filter');
+        if (catSelect) catSelect.value = 'all';
+        filteredSlides = [...allSlides];
+      }
+
+      currentIndex = Math.max(0, Math.min(val - 1, filteredSlides.length - 1));
+      renderCurrentSlide();
+    }
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(err => {
+          console.warn(`Fullscreen error: ${err.message}`);
+        });
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        }
+      }
+    }
+
+    function copyCode(btn) {
+      const codeBlock = btn.nextElementSibling;
+      if (!codeBlock) return;
+      navigator.clipboard.writeText(codeBlock.innerText).then(() => {
+        const orig = btn.innerText;
+        btn.innerText = '✅ Copied!';
+        setTimeout(() => btn.innerText = orig, 1800);
+      }).catch(err => {
+        console.error('Copy failed:', err);
+      });
+    }
+
+    function escapeHtml(str) {
+      return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    // Keyboard Shortcuts
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
-      if (e.key === 'ArrowLeft') prevSlide();
+      // Ignore if user is typing in an input
+      if (['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
+        nextSlide();
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        prevSlide();
+      } else if (e.key === 'Home') {
+        e.preventDefault();
+        firstSlide();
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        lastSlide();
+      } else if (e.key === 'f' || e.key === 'F') {
+        toggleFullscreen();
+      }
     });
 
-    renderSlide(currentSlide);
+    // Touch swipe gesture support for mobile devices
+    let touchStartX = 0;
+    let touchEndX = 0;
+    document.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, false);
+    document.addEventListener('touchend', (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      if (touchEndX < touchStartX - 50) nextSlide();
+      if (touchEndX > touchStartX + 50) prevSlide();
+    }, false);
+
+    // Boot
+    window.addEventListener('DOMContentLoaded', () => {
+      initTheme();
+      applyFilters();
+    });
   </script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+{
+  "code": "PECST418",
+  "title": "COMPUTATIONAL GEOMETRY",
+  "semester": "S4",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Computational Geometry",
+      "contact_hours": 2,
+      "topics": "Introduction to Computational Geometry:-   Basics of Computational Geometry - Introduction and applications of  computational geometry, Geometric objects, and their representations, Basic  geometric primitives: points, lines, segments, polygons (Text 1, Chapters 1,"
+    },
+    {
+      "module_no": 2,
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "COMPUTATIONAL GEOMETRY  (Common to CS/CM)  Course Code  PECS",
+      "contact_hours": 40,
+      "topics": "COMPUTATIONAL GEOMETRY  (Common to CS/CM)  Course Code  PECST418  CIE Marks"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "course_code": "UCHUT346",
+  "title": "ECONOMICS FOR ENGINEERS",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 10,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
+    },
+    {
+      "module_no": 2,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 3,
+      "title": "ECONOMICS FOR ENGINEERS  (Common to All Branches)  Course Co",
+      "contact_hours": 50,
+      "topics": "ECONOMICS FOR ENGINEERS  (Common to All Branches)  Course Code  UCHUT346  CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "Value Analysis and value Engineering - Cost Value, Exchange",
+      "contact_hours": 6,
+      "topics": "Value Analysis and value Engineering - Cost Value, Exchange Value, Use  Value, Esteem Value - Aims, Advantages and Application areas of Value  Engineering - Value Engineering Procedure - Break-even Analysis - Cost- Benefit Analysis - Capital Budgeting - Process planning"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "PEAIT523",
+  "title": "HEALTHCARE ANALYTICS",
+  "semester": "S5",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Healthcare Analysis - Overview - History of",
+      "contact_hours": 8,
+      "topics": "Introduction to Healthcare Analysis - Overview - History of Healthcare Analysis Parameters on medical care systems- Health care policy- Standardized code sets \u2013 Data Formats \u2013 Machine Learning Foundations: Tree Like reasoning , Probabilistic reasoning and Bayes Theorem, Weighted sum approach."
+    },
+    {
+      "module_no": 2,
+      "title": "Analytics on Machine Learning - Machine Learning Pipeline \u2013",
+      "contact_hours": 8,
+      "topics": "Analytics on Machine Learning - Machine Learning Pipeline \u2013 Pre- processing \u2013Visualization \u2013 Feature Selection \u2013 Training model parameter \u2013 Evaluation model : Sensitivity , Specificity , PPV ,NPV, FPR , Accuracy , ROC , Precision Recall Curves , Valued target variables \u2013 Python: Variables and types, Data Structures and containers , Pandas Data Frame : Operations \u2013 Scikit \u2013Learn : Pre-processing , Feature Selection."
+    },
+    {
+      "module_no": 3,
+      "title": "Healthcare Management - IOT- Smart Sensors \u2013 Migration of He",
+      "contact_hours": 10,
+      "topics": "Healthcare Management - IOT- Smart Sensors \u2013 Migration of Healthcare Relational database to NoSQL Cloud Database \u2013 Decision Support System \u2013 Matrix block Cipher System \u2013 Semantic Framework Analysis \u2013 Histogram bin Shifting and Rc6 Encryption \u2013 Clinical Prediction Models \u2013 Visual Analytics for Healthcare."
+    },
+    {
+      "module_no": 4,
+      "title": "Healthcare and Deep Learning - Introduction on Deep Learning",
+      "contact_hours": 10,
+      "topics": "Healthcare and Deep Learning - Introduction on Deep Learning \u2013 DFF network CNN- RNN for Sequences \u2013 Biomedical Image and Signal Analysis"
+    }
+  ]
+}

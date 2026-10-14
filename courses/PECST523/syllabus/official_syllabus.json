@@ -1,0 +1,32 @@
+{
+  "code": "PECST523",
+  "title": "DATA ANALYTICS",
+  "semester": "S5",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "(Written)  Internal  Examination- 2  (Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written )  Total"
+    },
+    {
+      "module_no": 2,
+      "title": "Association of Two Variables",
+      "contact_hours": 9,
+      "topics": "Association of Two Variables:-   Summarizing the Distribution of Two Discrete Variables, Contingency  Tables for Discrete Data, Joint, Marginal, and Conditional Frequency  Distributions, Graphical Representation of Two Nominal or Ordinal  Variables, Measures of Association for Two Discrete Variables,"
+    },
+    {
+      "module_no": 3,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
+    }
+  ]
+}

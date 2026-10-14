@@ -1,0 +1,30 @@
+{
+  "course_code": "PBCAT604",
+  "title": "INTRODUCTION TO DEEP LEARNING",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "ESE Marks",
+      "contact_hours": 40,
+      "topics": "ESE Marks"
+    },
+    {
+      "module_no": 2,
+      "title": "--- Page 243 ---     cropping, blurring, noise addition, sel",
+      "contact_hours": 4,
+      "topics": "--- Page 243 ---     cropping, blurring, noise addition, self-supervision techniques, semi- supervised and weakly supervised learning, adversarial training Transfer  Learning, freezing the input layers, fine tuning output layers"
+    },
+    {
+      "module_no": 3,
+      "title": "Course Type Theory    Course Objectives",
+      "contact_hours": 1,
+      "topics": "Course Type Theory    Course Objectives:"
+    },
+    {
+      "module_no": 4,
+      "title": "CIE Marks",
+      "contact_hours": 60,
+      "topics": "CIE Marks"
+    }
+  ]
+}

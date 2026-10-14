@@ -1,0 +1,30 @@
+{
+  "course_code": "OECST725",
+  "title": "MOBILE APPLICATION DEVELOPMENT",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "SEMESTER S7  MOBILE APPLICATION DEVELOPMENT  (Common to CS/C",
+      "contact_hours": 40,
+      "topics": "SEMESTER S7  MOBILE APPLICATION DEVELOPMENT  (Common to CS/CA/CM/CD/CR/AI/AM/AD)  Course Code  OECST725  CIE Marks"
+    },
+    {
+      "module_no": 2,
+      "title": "Networking in Flutter",
+      "contact_hours": 4,
+      "topics": "Networking in Flutter: HTTP Requests, JSON Parsing, RESTful APIs  Data Persistence: SQLite, SharedPreferences, Hive  Asynchronous Programming with Dart: Futures, async/await, and Streams"
+    },
+    {
+      "module_no": 3,
+      "title": "Advanced Flutter Development",
+      "contact_hours": 9,
+      "topics": "Advanced Flutter Development:  State Management in Flutter: Provider, Riverpod, and BLoC"
+    },
+    {
+      "module_no": 4,
+      "title": "Industry Practices and App Deployment",
+      "contact_hours": 9,
+      "topics": "Industry Practices and App Deployment:  Advanced UI Components and Animations, App Security Best Practices,  Testing and Debugging Flutter Applications, Publishing Apps to Google Play  Store and Apple App Store, Industry Trends and Future of Mobile  Development with Flutter"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "PCCAL507",
+  "title": "AI ALGORITHM LAB",
+  "semester": "S5",
+  "credits": "2",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to AI and ES",
+      "contact_hours": 11,
+      "topics": "Introduction to AI and ES"
+    },
+    {
+      "module_no": 2,
+      "title": "Artificial Intelligence",
+      "contact_hours": 11,
+      "topics": "Artificial Intelligence"
+    },
+    {
+      "module_no": 3,
+      "title": "Artificial Intelligence by Example",
+      "contact_hours": 11,
+      "topics": "Artificial Intelligence by Example"
+    },
+    {
+      "module_no": 4,
+      "title": "Artificial Intelligence",
+      "contact_hours": 11,
+      "topics": "Artificial Intelligence"
+    }
+  ]
+}

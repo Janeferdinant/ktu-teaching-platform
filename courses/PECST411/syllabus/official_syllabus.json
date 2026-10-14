@@ -1,0 +1,32 @@
+{
+  "code": "PECST411",
+  "title": "SOFTWARE ENGINEERING",
+  "semester": "S4",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 2,
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "SOFTWARE ENGINEERING  (Common to CS/CD/CM/CR/CA/AD/AM/CB/CN/",
+      "contact_hours": 40,
+      "topics": "SOFTWARE ENGINEERING  (Common to CS/CD/CM/CR/CA/AD/AM/CB/CN/CU/CI)  Course Code  PECST411  CIE Marks"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "PECAT633",
+  "title": "AI FOR CYBER SECURITY",
+  "semester": "S6",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to AI and Cybersecurity",
+      "contact_hours": 8,
+      "topics": "Introduction to AI and Cybersecurity :- Introduction to AI - Definition and types of AI (narrow AI vs. general AI)- Historical context and evolution of AI; Basics of Machine Learning - Supervised learning: regression and classification-Unsupervised learning: clustering and dimensionality reduction-Reinforcement learning: basics and applications; Key Concepts and Terminology - Algorithms, models, and training-Overfitting and underfitting; Applications of AI in Cybersecurity - Case Studies: Examples of AI in real-world cybersecurity applications; Benefits and Limitations"
+    },
+    {
+      "module_no": 2,
+      "title": "AI Techniques for Security",
+      "contact_hours": 9,
+      "topics": "AI Techniques for Security :- Anomaly Detection - Techniques and Algorithms: Statistical methods for anomaly detection-Machine learning models: Isolation Forest, One-Class SVM, etc.; Threat Intelligence and Prediction-Data Collection and Processing - Gathering and preprocessing threat data-Feature extraction and engineering; Predictive Analytics - Building and evaluating predictive"
+    },
+    {
+      "module_no": 3,
+      "title": "Building AI Security Solutions",
+      "contact_hours": 10,
+      "topics": "Building AI Security Solutions :- Designing Intrusion Detection Systems (IDS) - IDS types: network-based vs. host-based-Integrating AI techniques for enhanced detection; Automated Threat Response Mechanisms - Response strategies and automation workflows-Integration with threat detection systems; Integration with Existing Security Tools - Integration Techniques:-Connecting AI solutions with legacy security tools, Ensuring compatibility and effectiveness; Case Studies."
+    },
+    {
+      "module_no": 4,
+      "title": "Addressing AI Security Risks and Future Trends",
+      "contact_hours": 9,
+      "topics": "Addressing AI Security Risks and Future Trends :- AI Security Risks - Adversarial attacks: techniques and examples-Model poisoning and data privacy issues; Mitigating AI Security Risks; Strategies and Best Practices - Techniques for securing AI systems against adversarial attacks-Data protection and model validation strategies- Future Trends and Emerging Technologie - Emerging Technologies : Latest developments in AI and cybersecurity, Future directions and research areas, Impact of new technologies on cybersecurity."
+    }
+  ]
+}

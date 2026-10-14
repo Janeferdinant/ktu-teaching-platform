@@ -1,0 +1,32 @@
+{
+  "code": "PECCT632",
+  "title": "CRYPTOGRAPHIC ALGORITHMS IN BLOCK CHAIN",
+  "semester": "S6",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Foundations of Blockchain Blockchain Architecture \u2013Challenge",
+      "contact_hours": 7,
+      "topics": "Foundations of Blockchain Blockchain Architecture \u2013Challenges \u2013Applications \u2013Blockchain Design Principles -The Blockchain Ecosystem - The consensus problem - Asynchronous Byzantine Agreement - AAP protocol and its analysis - peer- to-peer network \u2013 Abstract Models - GARAY model - RLA Model-Proof of Work (PoW) -Proof of Stake (PoS) based Chains - Hybrid models."
+    },
+    {
+      "module_no": 2,
+      "title": "Fundamentals of Cryptography Introduction to Cryptography, S",
+      "contact_hours": 7,
+      "topics": "Fundamentals of Cryptography Introduction to Cryptography, Symmetric cryptography \u2013 AES. Asymmetric cryptography \u2013 RSA. Elliptic curve cryptography, Digital signatures \u2013 RSA digital signature algorithms. Secure Hash Algorithms \u2013 SHA-256. Applications of cryptographic hash functions \u2013 Merkle trees, Distributed hash tables."
+    },
+    {
+      "module_no": 3,
+      "title": "Crypto Primitives, Securing and Interconnecting Public and P",
+      "contact_hours": 7,
+      "topics": "Crypto Primitives, Securing and Interconnecting Public and Private Block Chains Hash Function and Merle Tree-Security Properties-Security Considerations for block chain Digital Signature-Public Key Cryptography-Bitcoin"
+    },
+    {
+      "module_no": 4,
+      "title": "Blockchain Protocols Ethereum tokens \u2013Augur -Golem -Understa",
+      "contact_hours": 6,
+      "topics": "Blockchain Protocols Ethereum tokens \u2013Augur -Golem -Understanding Ethereum tokens -App Coins and Protocol Tokens - Blockchain Token Securities Law Framework - Token Economy - Token sale structure - Ethereum Subreddit."
+    }
+  ]
+}

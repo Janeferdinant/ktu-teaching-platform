@@ -1,0 +1,32 @@
+{
+  "code": "PCCCT602",
+  "title": "CYBER FORENSICS",
+  "semester": "S6",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Cyber Forensics and Investigations",
+      "contact_hours": 9,
+      "topics": "Cyber Forensics and Investigations: Introduction- Computer Forensic Investigations - Forensics Investigation Process -Preparing for computer investigations, understanding Public and private investigations. Data Acquisition - storage formats for digital evidence, determining the best acquisition method -Forensic Protocol for Evidence Acquisition - Digital Forensics Standards and Guidelines \u2013 Incident Response stages -Digital Evidence \u2013 identification, collection, processing, seizing documenting and storing - contingency planning for image acquisitions."
+    },
+    {
+      "module_no": 2,
+      "title": "Cyber Forensics Tools and Types of Forensics",
+      "contact_hours": 9,
+      "topics": "Cyber Forensics Tools and Types of Forensics: Cyber Forensics Tools-Computer Forensics software and hardware tools - Open Source and Proprietary -Challenges in Cyber Forensics, Skills"
+    },
+    {
+      "module_no": 3,
+      "title": "OS and Network Forensics Windows Forensics-Live Response",
+      "contact_hours": 9,
+      "topics": "OS and Network Forensics Windows Forensics-Live Response: Data Collection- Introduction , Locard\u2019s Exchange Principle, Order of Volatility - Volatile and Non Volatile Data Live-Response Methodologies: Data Analysis, Windows Memory Analysis, Rootkits and Rootkit detection. Linux Forensics: Live Response- Data Collection- Data Analysis- Log Analysis, Keyword Searches, User Activity, Network Connections, Running Processes, Open File Handlers, The Hacking Top Ten and Reconnaissance Tools. Network Forensics: The OSI Model, Forensic Footprints, Seizure of Networking Devices, Network Forensic Artifacts, ICMP Attacks, Drive-By Downloads, Network Forensic Analysis Tools, Network Log analysis, Case Study: Wireshark. Web Attack Forensics: OWASP Top 10, Web Attack Tests, Penetration Testing. Mobile Device Forensics and Internet of Anything- Cloud Forensics."
+    },
+    {
+      "module_no": 4,
+      "title": "Cyber Security and Anti Forensics Cyber Security",
+      "contact_hours": 9,
+      "topics": "Cyber Security and Anti Forensics Cyber Security: Cybercrimes, Types of Cybercrimes \u2013Cyber Security Steps taken to protect ICT and prevent Misuse of Internet- IT Act 2000 and amendments- Email and Social Media Investigations-. Cyber Technology- Technological/Governance/Judicial/Legal Aspects and perspectives of Cyber Forensics/Security. Cyber-attack Frameworks-Mitre Framework-Crypto currency."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "course_code": "PBCCT304",
+  "title": "BASIC CONCEPTS IN COMPUTER NETWORKS",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 2,
+      "title": "Total",
+      "contact_hours": 5,
+      "topics": "Total"
+    },
+    {
+      "module_no": 3,
+      "title": "BASIC CONCEPTS IN COMPUTER NETWORKS    Course Code  PBCCT304",
+      "contact_hours": 60,
+      "topics": "BASIC CONCEPTS IN COMPUTER NETWORKS    Course Code  PBCCT304  CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "CIE Marks",
+      "contact_hours": 60,
+      "topics": "CIE Marks"
+    }
+  ]
+}

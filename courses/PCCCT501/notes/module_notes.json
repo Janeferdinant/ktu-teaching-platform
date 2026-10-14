@@ -1,0 +1,30 @@
+{
+  "course_code": "PCCCT501",
+  "title": "APPLIED CRYPTOGRAPHY",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 2,
+      "title": "Cryptographic Concepts and Techniques  Symmetric Key Cryptog",
+      "contact_hours": 10,
+      "topics": "Cryptographic Concepts and Techniques  Symmetric Key Cryptography: Block Ciphers: DES, 3DES, AES (Block  Level only) - Stream Ciphers: RC4 - Modes of Operation: ECB, CBC, CFB,  OFB, CTR  Asymmetric Key Cryptography: Principles of Public Key Cryptosystems- RSA Algorithm-Diffie-Hellman Key Exchange-Elliptic Curve Cryptography"
+    },
+    {
+      "module_no": 3,
+      "title": "Understanding Cryptography",
+      "contact_hours": 4,
+      "topics": "Understanding Cryptography:  A Textbook for Students and  Practitioners  Christof Paar and Jan  Pelzl  Springer  2009"
+    },
+    {
+      "module_no": 4,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    }
+  ]
+}

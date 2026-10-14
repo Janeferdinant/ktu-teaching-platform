@@ -1,0 +1,252 @@
+/* ===================================================================
+   LIQUID GLASS DESIGN SYSTEM & THEME ENGINE
+   Jane Rose | Asst. Professor | CSE
+   APJ Abdul Kalam Technological University (KTU) Curriculum 2024
+   =================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* Default: Dark Liquid Glass */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-scheme: dark;
+  --bg-primary: #0a0e17;
+  --bg-gradient: radial-gradient(circle at 15% 20%, rgba(20, 30, 60, 0.8) 0%, #080b12 70%);
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  
+  --glass-bg: rgba(15, 23, 42, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-blur: blur(16px);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --glass-highlight: rgba(255, 255, 255, 0.15);
+
+  --accent-primary: #38bdf8;
+  --accent-secondary: #818cf8;
+  --accent-glow: rgba(56, 189, 248, 0.35);
+  --accent-success: #34d399;
+  --accent-warning: #fbbf24;
+  --accent-danger: #f87171;
+
+  --card-radius: 16px;
+  --btn-radius: 10px;
+  --transition-smooth: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Light Mode Base Variables */
+[data-mode="light"] {
+  --color-scheme: light;
+  --bg-primary: #f8fafc;
+  --bg-gradient: radial-gradient(circle at 20% 20%, #e0e7ff 0%, #f1f5f9 60%, #ffffff 100%);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-blur: blur(14px);
+  --glass-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --glass-highlight: rgba(255, 255, 255, 0.8);
+
+  --accent-primary: #0284c7;
+  --accent-secondary: #4f46e5;
+  --accent-glow: rgba(2, 132, 199, 0.25);
+}
+
+/* ===================================================================
+   10 SELECTABLE GLASS STYLES
+   =================================================================== */
+
+/* 1. Frosted Glass (Soft diffused matte) */
+.theme-frosted {
+  --glass-bg: rgba(22, 32, 54, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.15);
+  --glass-blur: blur(24px);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --accent-primary: #60a5fa;
+  --accent-glow: rgba(96, 165, 250, 0.3);
+}
+
+/* 2. Liquid Glass (Glossy specular reflections, fluid gradients) */
+.theme-liquid {
+  --glass-bg: rgba(14, 28, 54, 0.55);
+  --glass-border: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(56, 189, 248, 0.3) 100%);
+  --glass-blur: blur(18px);
+  --glass-shadow: 0 12px 40px rgba(0, 16, 40, 0.5);
+  --accent-primary: #38bdf8;
+  --accent-glow: rgba(56, 189, 248, 0.4);
+}
+
+/* 3. Aurora Glass (Vibrant polar teal & magenta iridescent glow) */
+.theme-aurora {
+  --bg-gradient: radial-gradient(circle at 10% 20%, rgba(34, 197, 94, 0.15) 0%, rgba(168, 85, 247, 0.2) 50%, #060913 90%);
+  --glass-bg: rgba(15, 23, 42, 0.6);
+  --glass-border: rgba(52, 211, 153, 0.3);
+  --glass-blur: blur(16px);
+  --glass-shadow: 0 10px 35px rgba(168, 85, 247, 0.25);
+  --accent-primary: #2dd4bf;
+  --accent-secondary: #c084fc;
+  --accent-glow: rgba(45, 212, 191, 0.4);
+}
+
+/* 4. Crystal Glass (Sharp prism edges, ultra-clear refraction) */
+.theme-crystal {
+  --glass-bg: rgba(18, 26, 44, 0.45);
+  --glass-border: rgba(255, 255, 255, 0.35);
+  --glass-blur: blur(8px);
+  --glass-shadow: 0 6px 25px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.4);
+  --accent-primary: #93c5fd;
+  --accent-glow: rgba(147, 197, 253, 0.35);
+}
+
+/* 5. Holographic Glass (Prismatic chromatic rainbow highlights) */
+.theme-holographic {
+  --glass-bg: rgba(23, 20, 48, 0.65);
+  --glass-border: rgba(244, 114, 182, 0.35);
+  --glass-blur: blur(16px);
+  --glass-shadow: 0 8px 32px rgba(236, 72, 153, 0.2);
+  --accent-primary: #f472b6;
+  --accent-secondary: #38bdf8;
+  --accent-glow: rgba(244, 114, 182, 0.4);
+}
+
+/* 6. Layered Translucent Glass (Multi-depth cascading panes) */
+.theme-translucent {
+  --glass-bg: rgba(30, 41, 59, 0.5);
+  --glass-border: rgba(148, 163, 184, 0.2);
+  --glass-blur: blur(14px);
+  --glass-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+  --accent-primary: #a78bfa;
+  --accent-glow: rgba(167, 139, 250, 0.3);
+}
+
+/* 7. Neumorphic Glass Hybrid (Soft extruded depth with glassy face) */
+.theme-neumorphic {
+  --glass-bg: rgba(24, 32, 47, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(12px);
+  --glass-shadow: 8px 8px 16px #070a10, -8px -8px 16px rgba(45, 60, 88, 0.3);
+  --accent-primary: #6366f1;
+  --accent-glow: rgba(99, 102, 241, 0.35);
+}
+
+/* 8. Dark Sci-Fi Laboratory (Deep cyan-glow cybernetic terminal) */
+.theme-scifi {
+  --bg-gradient: radial-gradient(circle at 50% 10%, #031326 0%, #02070f 80%);
+  --glass-bg: rgba(4, 19, 36, 0.75);
+  --glass-border: rgba(6, 182, 212, 0.4);
+  --glass-blur: blur(14px);
+  --glass-shadow: 0 0 25px rgba(6, 182, 212, 0.25);
+  --accent-primary: #06b6d4;
+  --accent-glow: rgba(6, 182, 212, 0.5);
+}
+
+/* 9. Light Academic Glass (Clean, crisp ivory & university blue) */
+.theme-academic {
+  --color-scheme: light;
+  --bg-primary: #f8fafc;
+  --bg-gradient: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(148, 163, 184, 0.4);
+  --glass-blur: blur(12px);
+  --glass-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+  --accent-primary: #1d4ed8;
+  --accent-glow: rgba(29, 78, 216, 0.2);
+}
+
+/* 10. High-Contrast Accessibility Mode (Maximum WCAG contrast ratio) */
+.theme-highcontrast {
+  --bg-primary: #000000;
+  --bg-gradient: #000000;
+  --text-primary: #ffffff;
+  --text-secondary: #ffff00;
+  --text-muted: #00ffff;
+  --glass-bg: #0a0a0a;
+  --glass-border: #ffffff;
+  --glass-blur: none;
+  --glass-shadow: 0 0 0 2px #ffffff;
+  --accent-primary: #ffff00;
+  --accent-glow: none;
+}
+
+/* ===================================================================
+   SHARED GLASS SURFACE UTILITIES
+   =================================================================== */
+
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: var(--card-radius);
+  transition: var(--transition-smooth);
+}
+
+.glass-panel:hover {
+  border-color: var(--accent-primary);
+  box-shadow: var(--glass-shadow), 0 0 15px var(--accent-glow);
+}
+
+.glass-btn {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+  padding: 10px 18px;
+  border-radius: var(--btn-radius);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.92rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+.glass-btn:hover {
+  background: var(--accent-primary);
+  color: #050b14;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 20px var(--accent-glow);
+  transform: translateY(-2px);
+}
+
+.glass-btn-primary {
+  background: var(--accent-primary);
+  color: #050b14;
+  border: 1px solid var(--accent-primary);
+}
+
+.glass-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: rgba(56, 189, 248, 0.15);
+  color: var(--accent-primary);
+  border: 1px solid var(--accent-primary);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

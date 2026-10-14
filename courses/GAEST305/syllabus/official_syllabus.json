@@ -1,0 +1,32 @@
+{
+  "code": "GAEST305",
+  "title": "DIGITAL ELECTRONICS AND LOGIC DESIGN",
+  "semester": "S3",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "--- Page 24 ---",
+      "contact_hours": 2,
+      "topics": "--- Page 24 ---"
+    },
+    {
+      "module_no": 2,
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
+    },
+    {
+      "module_no": 3,
+      "title": "DIGITAL ELECTRONICS AND LOGIC DESIGN  (Common to Group A)  C",
+      "contact_hours": 40,
+      "topics": "DIGITAL ELECTRONICS AND LOGIC DESIGN  (Common to Group A)  Course Code  GAEST305  CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    }
+  ]
+}

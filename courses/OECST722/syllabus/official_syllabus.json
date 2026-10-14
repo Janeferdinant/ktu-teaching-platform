@@ -1,0 +1,32 @@
+{
+  "code": "OECST722",
+  "title": "CLOUD COMPUTING",
+  "semester": "S7",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction - Cloud Computing, Types of Cloud, Working of C",
+      "contact_hours": 8,
+      "topics": "Introduction - Cloud Computing, Types of Cloud, Working of Cloud Computing, Cloud Computing Architecture - Cloud Computing Technology, Cloud Architecture, Cloud Modelling and Design."
+    },
+    {
+      "module_no": 2,
+      "title": "Virtualization - Foundations, Grid, Cloud And Virtualization",
+      "contact_hours": 9,
+      "topics": "Virtualization - Foundations, Grid, Cloud And Virtualization, Virtualization And Cloud Computing; Data Storage And Cloud Computing - Data Storage, Cloud Storage, Cloud Storage from LANs to WANs."
+    },
+    {
+      "module_no": 3,
+      "title": "Cloud Computing Services - Cloud Computing Elements, Underst",
+      "contact_hours": 10,
+      "topics": "Cloud Computing Services - Cloud Computing Elements, Understanding Services and Applications by Type, Cloud Services; Cloud Computing and Security - Risks in Cloud Computing, Data Security in Cloud, Cloud Security Services."
+    },
+    {
+      "module_no": 4,
+      "title": "Cloud Computing Tools - Tools and Technologies for Cloud, Ap",
+      "contact_hours": 9,
+      "topics": "Cloud Computing Tools - Tools and Technologies for Cloud, Apache Hadoop, Cloud Tools; Cloud Applications - Moving Applications to the Cloud, Microsoft Cloud Services, Google Cloud Applications, Amazon Cloud Services."
+    }
+  ]
+}

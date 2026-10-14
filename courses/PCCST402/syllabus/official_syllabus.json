@@ -1,0 +1,32 @@
+{
+  "code": "PCCST402",
+  "title": "DATABASE MANAGEMENT SYSTEMS",
+  "semester": "S4",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Course Assessment Method  (CIE",
+      "contact_hours": 5,
+      "topics": "Course Assessment Method  (CIE: 40 marks, ESE: 60 marks)    Continuous Internal Evaluation Marks (CIE):  Attendance  Assignment/  Micro project  Internal  Examination-1  (Written)  Internal  Examination- 2  (Written )  Total"
+    },
+    {
+      "module_no": 2,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 3,
+      "title": "Course Type  Theory  Course Objectives",
+      "contact_hours": 1,
+      "topics": "Course Type  Theory  Course Objectives:"
+    },
+    {
+      "module_no": 4,
+      "title": "DATABASE MANAGEMENT SYSTEMS  (Common to CS/CD/CA/CR/AD/AI/CB",
+      "contact_hours": 40,
+      "topics": "DATABASE MANAGEMENT SYSTEMS  (Common to CS/CD/CA/CR/AD/AI/CB/CN/CC/CU/CI/CG)  Course Code  PCCST402  CIE Marks"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty Teaching Platform Dashboard | Jane Rose, Asst. Professor, CSE</title>
+  <link rel="stylesheet" href="../shared-components/themes/liquid-glass.css">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body class="theme-liquid">
+
+  <!-- Top Navigation Bar -->
+  <header class="glass-panel" style="margin: 1rem 2rem; padding: 0.8rem 2rem; display: flex; justify-content: space-between; align-items: center; border-radius: 9999px;">
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--accent-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; color: #000; font-size: 1.1rem;">
+        JR
+      </div>
+      <div>
+        <div style="font-family: var(--font-heading); font-weight: 700; font-size: 1.15rem; color: var(--text-primary);">
+          Jane Rose | Asst. Professor | CSE
+        </div>
+        <div style="font-size: 0.8rem; color: var(--text-muted);">
+          Automated Syllabus-to-Teaching-Website Platform &bull; KTU B.Tech 2024 Scheme
+        </div>
+      </div>
+    </div>
+
+    <!-- Theme & Display Controls -->
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <select id="glass-theme-select" class="glass-btn" onchange="setGlassTheme(this.value)" style="font-size: 0.85rem; padding: 6px 12px;">
+        <option value="theme-liquid">Liquid Glass</option>
+        <option value="theme-frosted">Frosted Glass</option>
+        <option value="theme-aurora">Aurora Glass</option>
+        <option value="theme-crystal">Crystal Glass</option>
+        <option value="theme-holographic">Holographic Glass</option>
+        <option value="theme-translucent">Layered Translucent</option>
+        <option value="theme-neumorphic">Neumorphic Hybrid</option>
+        <option value="theme-scifi">Sci-Fi Lab</option>
+        <option value="theme-academic">Light Academic</option>
+        <option value="theme-highcontrast">High-Contrast Mode</option>
+      </select>
+      <button id="dark-mode-toggle-btn" class="glass-btn" onclick="toggleDarkMode()" style="font-size: 0.85rem; padding: 6px 12px;">
+        ☀️ Light
+      </button>
+      <a href="../courses/PCCST303/website/index.html" class="glass-btn glass-btn-primary" style="font-size: 0.85rem; padding: 6px 16px;">
+        🚀 Pilot Course (PCCST303)
+      </a>
+    </div>
+  </header>
+
+  <main class="dashboard-container">
+    
+    <!-- KPI Header Section -->
+    <div style="margin-bottom: 2rem;">
+      <h1 style="font-family: var(--font-heading); font-size: 2.4rem; margin: 0 0 0.5rem; color: var(--text-primary);">
+        Academic Curriculum & Teaching Platform Control Center
+      </h1>
+      <p style="color: var(--text-secondary); margin: 0; font-size: 1.05rem;">
+        Automated syllabus processing, course generation registry, and deployment management across KTU CSE, CSE (AI), and CSE (Cyber Security).
+      </p>
+    </div>
+
+    <!-- KPI Metric Cards Grid -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <span class="kpi-label">Syllabus PDFs Scanned</span>
+        <div class="kpi-num">4</div>
+        <span style="font-size: 0.8rem; color: var(--text-muted);">1,206 Pages Processed</span>
+      </div>
+
+      <div class="kpi-card">
+        <span class="kpi-label">Verified Course Codes</span>
+        <div class="kpi-num">158</div>
+        <span style="font-size: 0.8rem; color: var(--accent-success);">All Semesters (S1 - S8)</span>
+      </div>
+
+      <div class="kpi-card">
+        <span class="kpi-label">Active Pilot Website</span>
+        <div class="kpi-num" style="font-size: 1.8rem; color: var(--accent-secondary);">PCCST303</div>
+        <span style="font-size: 0.8rem; color: var(--text-muted);">Data Structures & Algorithms</span>
+      </div>
+
+      <div class="kpi-card">
+        <span class="kpi-label">Teaching Plan Model</span>
+        <div class="kpi-num">46h</div>
+        <span style="font-size: 0.8rem; color: var(--accent-success);">Reconciled & Granular</span>
+      </div>
+
+      <div class="kpi-card">
+        <span class="kpi-label">Companion PDFs</span>
+        <div class="kpi-num" style="color: var(--accent-warning);">3</div>
+        <span style="font-size: 0.8rem; color: var(--text-muted);">Clickable Links Embedded</span>
+      </div>
+    </div>
+
+    <!-- Active Pilot Course Spotlight Banner -->
+    <div class="pilot-banner">
+      <div>
+        <div style="display: flex; gap: 8px; margin-bottom: 0.5rem;">
+          <span class="glass-badge">Active Production Pilot</span>
+          <span class="glass-badge" style="background: rgba(52,211,153,0.2); color:#34d399; border-color:#34d399;">Ready for Students</span>
+        </div>
+        <h2 style="font-family: var(--font-heading); font-size: 1.8rem; margin: 0 0 0.5rem; color: var(--text-primary);">
+          PCCST303: Data Structures and Algorithms
+        </h2>
+        <p style="color: var(--text-secondary); max-width: 750px; margin: 0; line-height: 1.5; font-size: 0.95rem;">
+          Includes complete 46-hour lecture plan, notes for all 4 official modules, interactive sorting and stack visualizers, canvas 3D tree renderer, solved KTU question papers, IEEE research papers, career salaries, and gamified quizzes.
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="../courses/PCCST303/website/index.html" class="glass-btn glass-btn-primary" style="padding: 10px 20px; font-size: 0.95rem;">
+          🌐 Open Course Website
+        </a>
+        <a href="../courses/PCCST303/slides/lecture_slides.html" target="_blank" class="glass-btn" style="padding: 10px 18px; font-size: 0.95rem;">
+          📊 Presentation Slides
+        </a>
+      </div>
+    </div>
+
+    <!-- Master Course Registry & Search Section -->
+    <div class="glass-panel" style="padding: 2rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+        <div>
+          <h2 style="font-family: var(--font-heading); margin: 0; color: var(--accent-primary);">
+            Master Course Registry (158 Unique Subjects)
+          </h2>
+          <p style="color: var(--text-secondary); margin: 0.3rem 0 0; font-size: 0.92rem;">
+            Extracted from official KTU 2024 syllabus PDFs with verified credits, contact hours, and deployment paths.
+          </p>
+        </div>
+
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <input type="text" id="course-search-input" placeholder="🔍 Search course code or title..." class="glass-btn" style="width: 280px;">
+          <button class="glass-btn glass-btn-primary" onclick="triggerBatchGeneration()">⚡ Batch Generator</button>
+        </div>
+      </div>
+
+      <!-- Semester Filter Buttons -->
+      <div style="display: flex; gap: 8px; margin-bottom: 1.5rem; flex-wrap: wrap;">
+        <button class="glass-btn" onclick="filterSemester('all')">All Semesters</button>
+        <button class="glass-btn" onclick="filterSemester('S1')">S1 / S2</button>
+        <button class="glass-btn" onclick="filterSemester('S3')">Semester S3</button>
+        <button class="glass-btn" onclick="filterSemester('S4')">Semester S4</button>
+        <button class="glass-btn" onclick="filterSemester('S5')">Semester S5</button>
+        <button class="glass-btn" onclick="filterSemester('S6')">Semester S6</button>
+        <button class="glass-btn" onclick="filterSemester('S7')">Semester S7</button>
+        <button class="glass-btn" onclick="filterSemester('S8')">Semester S8</button>
+        <span id="table-course-count" class="glass-badge" style="margin-left: auto; align-self: center;">Loading...</span>
+      </div>
+
+      <!-- Datatable -->
+      <div style="overflow-x: auto; border: 1px solid var(--glass-border); border-radius: 12px;">
+        <table class="course-datatable">
+          <thead>
+            <tr>
+              <th>Course Code</th>
+              <th>Official Course Title</th>
+              <th>Semester</th>
+              <th>Credits</th>
+              <th>L:T:P:R</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="courses-tbody">
+            <!-- Dynamically populated from course_registry.json -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Mandatory Branding Footer -->
+  <footer style="margin-top: 4rem; padding: 2.5rem 2rem; border-top: 1px solid var(--glass-border); background: var(--glass-bg); text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+      <div style="text-align: left;">
+        <div style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: var(--accent-primary);">
+          Jane Rose | Asst. Professor | CSE
+        </div>
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.2rem;">
+          Department of Computer Science & Engineering &bull; APJ Abdul Kalam Technological University
+        </div>
+      </div>
+      <div style="font-size: 0.85rem; color: var(--text-secondary);">
+        Automated Syllabus-to-Teaching-Website Platform &bull; All 158 Course Registries Verified
+      </div>
+    </div>
+  </footer>
+
+  <script src="../shared-components/themes/theme-switcher.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "course_code": "OECST723",
+  "title": "SOFTWARE ENGINEERING",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "SEMESTER S7   SOFTWARE ENGINEERING  Course Code  OECST723  C",
+      "contact_hours": 40,
+      "topics": "SEMESTER S7   SOFTWARE ENGINEERING  Course Code  OECST723  CIE Marks"
+    },
+    {
+      "module_no": 2,
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
+    },
+    {
+      "module_no": 3,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "2  Software Engineering  Ian Sommerville  Addison-Wesley",
+      "contact_hours": 10,
+      "topics": "2  Software Engineering  Ian Sommerville  Addison-Wesley"
+    }
+  ]
+}

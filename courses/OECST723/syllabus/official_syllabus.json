@@ -1,0 +1,32 @@
+{
+  "code": "OECST723",
+  "title": "SOFTWARE ENGINEERING",
+  "semester": "S7",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Software Engineering and Process Models - So",
+      "contact_hours": 9,
+      "topics": "Introduction to Software Engineering and Process Models - Software engineering, Software characteristics and types, Layers of Software Engineering-Process, Methods, Tools and Quality focus. Software Process models \u2013 Waterfall, Prototype, Spiral, Incremental, Agile model \u2013 Values and Principles. Requirement engineering - Functional, Non-functional, System and User requirements. Requirement elicitation techniques, Requirement validation, Feasibility analysis and its types, SRS document characteristics and its structure. Case study: SRS for College Library Management Software"
+    },
+    {
+      "module_no": 2,
+      "title": "Software design - Software architecture and its importance,",
+      "contact_hours": 10,
+      "topics": "Software design - Software architecture and its importance, Software architecture patterns: Component and Connector, Layered, Repository, Client- Server, Publish-Subscribe, Functional independence \u2013 Coupling and Cohesion Case study: Ariane launch failure Object Oriented Software Design - UML diagrams and relationships\u2013 Static and dynamic models, Class diagram, State diagram, Use case diagram,"
+    },
+    {
+      "module_no": 3,
+      "title": "Coding, Testing and Maintenance",
+      "contact_hours": 10,
+      "topics": "Coding, Testing and Maintenance: Coding guidelines - Code review, Code walkthrough and Code inspection, Code debugging and its methods. Testing - Unit testing , Integration testing, System testing and its types, Black box testing and White box testing, Regression testing Overview of DevOps and Code Management - Code management, DevOps automation, Continuous Integration, Delivery, and Deployment (CI/CD/CD), Case study \u2013 Netflix. Software maintenance and its types- Adaptive, Preventive, Corrective and Perfective maintenance. Boehm\u2019s maintenance models (both legacy and non- legacy)"
+    },
+    {
+      "module_no": 4,
+      "title": "Software Project Management - Project size metrics \u2013 LOC, Fu",
+      "contact_hours": 7,
+      "topics": "Software Project Management - Project size metrics \u2013 LOC, Function points and Object points. Cost estimation using Basic COCOMO. Risk management: Risk and its types, Risk monitoring and management model Software Project Management - Planning, Staffing, Organisational structures, Scheduling using Gantt chart. Software Configuration Management and its phases, Software Quality Management \u2013 ISO 9000, CMM, Six Sigma for software engineering."
+    }
+  ]
+}

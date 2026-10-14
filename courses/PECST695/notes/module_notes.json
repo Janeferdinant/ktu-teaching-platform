@@ -1,0 +1,30 @@
+{
+  "course_code": "PECST695",
+  "title": "MOBILE APPLICATION DEVELOPMENT",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Foundational Concepts & Theoretical Principles",
+      "contact_hours": 11,
+      "topics": "Core terminology, definitions, algorithmic abstractions, and foundational mathematical models of MOBILE APPLICATION DEVELOPMENT."
+    },
+    {
+      "module_no": 2,
+      "title": "Core Methodologies, Architecture & Structural Design",
+      "contact_hours": 11,
+      "topics": "Detailed structural mechanisms, operations, data organization, and analytical representations of MOBILE APPLICATION DEVELOPMENT."
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "Modern Applications, Performance & Industry Frontiers",
+      "contact_hours": 11,
+      "topics": "Industry case studies, system scalability, performance evaluation metrics, and emerging trends in MOBILE APPLICATION DEVELOPMENT."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "PBCAT604",
+  "title": "INTRODUCTION TO DEEP LEARNING",
+  "semester": "S6",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Neural Networks Introduction to Human and Artificial Intelli",
+      "contact_hours": 10,
+      "topics": "Neural Networks Introduction to Human and Artificial Intelligence: History of AI, Forms of learning - Supervised and unsupervised learning, Perceptron Learning rule, Bio-inspired learning, Artificial Neural Networks, Backpropagation, Multi-layer Perceptron model, Activation Functions Loss functions, Optimization, Training Neural Networks - gradient descent, stochastic gradient descent, momentum, weight initialization, batch normalization, hyper parameter optimization, parameter updates, model ensembles"
+    },
+    {
+      "module_no": 2,
+      "title": "Overview of deep learning",
+      "contact_hours": 12,
+      "topics": "Overview of deep learning: deep feedforward networks, and training deep models, including optimization techniques such as Gradient Descent (GD), GD with momentum, Stochastic GD, AdaGrad, RMSProp, and Adam. Regularization methods -L1 and L2, early stopping, dataset augmentation, parameter sharing and tying, input noise injection, ensemble methods, dropout, and parameter initialization."
+    },
+    {
+      "module_no": 3,
+      "title": "Convolutional Neural Networks",
+      "contact_hours": 12,
+      "topics": "Convolutional Neural Networks: convolution layer, pooling layer, fully connected layer, Conv Net, Case study of ImageNet challenge: LeNet, AlexNet, VGG, Google Net, ResNet, Inception Net, Efficient Net etc. Regularization Techniques, Data Augmentation: zooming, rotation,"
+    },
+    {
+      "module_no": 4,
+      "title": "Deep Unsupervised Learning and Recent Trends",
+      "contact_hours": 10,
+      "topics": "Deep Unsupervised Learning and Recent Trends: Auto encoders (standard, sparse, denoising, contractive, etc.), Variational Autoencoders, Adversarial Generative Adversarial Networks, Auto encoder and DBM , Multi- task Deep Learning, Multi-view Deep Learning"
+    }
+  ]
+}

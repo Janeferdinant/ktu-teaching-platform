@@ -1,0 +1,32 @@
+{
+  "code": "PECAT746",
+  "title": "PROGRAMMING IN R",
+  "semester": "S7",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to R",
+      "contact_hours": 9,
+      "topics": "Introduction to R:The R Environment \u2013 Overview, Command Line Interface, and Batch processing. R Packages. Basic Data Types \u2013 Vectors, Lists, Data Frames, Matrices, and Arrays. Control Statements \u2013 If-Else, Switch, For loops, While loops. Functions \u2013 Writing and using functions, Scope of variables, Function arguments, Returning values."
+    },
+    {
+      "module_no": 2,
+      "title": "Data Import, Cleaning, and Preprocessing",
+      "contact_hours": 9,
+      "topics": "Data Import, Cleaning, and Preprocessing:Data Import and Export \u2013 Reading and writing data from/to Text files, CSV, Excel, and other software. Database Connections \u2013 Connecting to databases and importing data using packages. Handling Missing Data \u2013 NA, NULL values. Data Cleaning and Preprocessing \u2013 Detecting and removing duplicates, Handling outliers, Data transformation and normalization, combining data sets, Binning Data, Subsets, summarizing functions."
+    },
+    {
+      "module_no": 3,
+      "title": "Statistical Analysis and Data Visualization",
+      "contact_hours": 9,
+      "topics": "Statistical Analysis and Data Visualization:Introduction to Data analytics, Summary statistics, Statistical Tests \u2013 Continuous Data and Discrete Data."
+    },
+    {
+      "module_no": 4,
+      "title": "Machine Learning with R",
+      "contact_hours": 9,
+      "topics": "Machine Learning with R:Basic concepts, Supervised vs. Unsupervised learning, Simple regression, and classification models. Building linear models - model fitting, predict values using models, Analyzing the fit, Refining the model. Regression \u2013 Types, Unusual observation and corrective measures, Comparison of models. Case Studies and Applications \u2013 Real-world applications of R in various fields like finance, healthcare, and social sciences."
+    }
+  ]
+}

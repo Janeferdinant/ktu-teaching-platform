@@ -1,0 +1,32 @@
+{
+  "code": "OECST835",
+  "title": "COMPUTER GRAPHICS",
+  "semester": "S8",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Basics of Computer graphics - Basics of Computer Graphics an",
+      "contact_hours": 10,
+      "topics": "Basics of Computer graphics - Basics of Computer Graphics and its applications. Video Display devices - LED, OLED, LCD, PDP and FED and reflective displays. Random and Raster scan displays and systems. Line and Circle drawing Algorithms - Line drawing algorithms- Bresenham\u2019s algorithm, Liang-Barsky Algorithm, Circle drawing algorithms - Midpoint Circle generation algorithm, Bresenham\u2019s Circle drawing algorithm."
+    },
+    {
+      "module_no": 2,
+      "title": "Geometric transformations - 2D and 3D basic transformations",
+      "contact_hours": 10,
+      "topics": "Geometric transformations - 2D and 3D basic transformations - Translation, Rotation, Scaling, Reflection and Shearing, Matrix representations and homogeneous coordinates. Filled Area Primitives - Scan line polygon filling, Boundary filling and flood filling."
+    },
+    {
+      "module_no": 3,
+      "title": "Transformations and Clipping Algorithms - Window to viewport",
+      "contact_hours": 8,
+      "topics": "Transformations and Clipping Algorithms - Window to viewport transformation. Cohen Sutherland and Midpoint subdivision line clipping algorithms, Sutherland Hodgeman and Weiler Atherton Polygon clipping algorithms."
+    },
+    {
+      "module_no": 4,
+      "title": "Three dimensional graphics - Three dimensional viewing pipel",
+      "contact_hours": 8,
+      "topics": "Three dimensional graphics - Three dimensional viewing pipeline. Projections- Parallel and Perspective projections. Visible surface detection algorithms- Back face detection, Depth buffer algorithm, Scan line algorithm, A buffer algorithm."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "OECST832",
+  "title": "WEB PROGRAMMING",
+  "semester": "S8",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Creating Web Page using HTML5 - Introduction, First HTML5 ex",
+      "contact_hours": 9,
+      "topics": "Creating Web Page using HTML5 - Introduction, First HTML5 example, Headings, Linking, Images, Special Characters and Horizontal Rules, Lists, Tables, Forms, Internal Linking, meta Elements, HTML5 Form input Types, Input and datalist Elements and autocomplete Attribute, Page-Structure Elements; Styling Web Page using CSS - Introduction, Inline Styles, Embedded Style Sheets, Linking External Style Sheets, Positioning Elements:, Absolute Positioning, z-index, Positioning Elements: Relative Positioning, span, Backgrounds, Element Dimensions, Box Model and Text Flow, Media Types and Media Queries, Drop-Down Menus; Extensible Markup Language - Introduction, XML Basics, Structuring Data, XML Namespaces, Document Type Definitions (DTDs), XML Vocabularies"
+    },
+    {
+      "module_no": 2,
+      "title": "Scripting language - Client-Side Scripting, Data Types, Cond",
+      "contact_hours": 9,
+      "topics": "Scripting language - Client-Side Scripting, Data Types, Conditionals, Loops, Arrays , Objects , Function Declarations vs. Function Expressions , Nested Functions , The Document Object Model (DOM) - Nodes and NodeLists, Document Object, Selection Methods, Element Node Object, Event Types Asynchronous JavaScript and XML - AJAX : Making Asynchronous Requests , Complete Control over AJAX , Cross-Origin Resource Sharing"
+    },
+    {
+      "module_no": 3,
+      "title": "JavaScript runtime environment",
+      "contact_hours": 9,
+      "topics": "JavaScript runtime environment : Node.js - The Architecture of Node.js, Working with Node.js, Adding Express to Node.js; Server-side programming language : PHP - What Is Server-Side Development? Quick tour of PHP, Program Control , Functions , Arrays , Classes and Objects in PHP , Object- Oriented Design ; Rendering HTML : React - ReactJS Foundations : The Philosophy of React, What is a component? Built- in components, User- defined components - Types of components, Function Components, Differences between Function and Class Components"
+    },
+    {
+      "module_no": 4,
+      "title": "SPA \u2013 Basics, Angular JS",
+      "contact_hours": 9,
+      "topics": "SPA \u2013 Basics, Angular JS; Working with databases - Databases and Web Development, SQL, Database APIs, Accessing MySQL in PHP; Web Application Design - Real World Web Software Design, Principle of Layering , Software Design Patterns in the Web Context, Testing; Web services - Overview of Web Services - SOAP Services, REST Services, An Example Web Service, Web server - hosting options"
+    }
+  ]
+}

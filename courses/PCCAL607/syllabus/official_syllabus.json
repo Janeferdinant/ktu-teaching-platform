@@ -1,0 +1,32 @@
+{
+  "code": "PCCAL607",
+  "title": "ROBOTICS LAB",
+  "semester": "S6",
+  "credits": "2",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Autonomous Mobile Robots",
+      "contact_hours": 11,
+      "topics": "Introduction to Autonomous Mobile Robots"
+    },
+    {
+      "module_no": 2,
+      "title": "Robotics, Vision and Control",
+      "contact_hours": 11,
+      "topics": "Robotics, Vision and Control: Fundamental Algorithms in MATLAB"
+    },
+    {
+      "module_no": 3,
+      "title": "Introduction to Robotics",
+      "contact_hours": 11,
+      "topics": "Introduction to Robotics"
+    },
+    {
+      "module_no": 4,
+      "title": "Introduction to Robotics",
+      "contact_hours": 11,
+      "topics": "Introduction to Robotics"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "PECCT635",
+  "title": "BIOMETRIC SECURITY",
+  "semester": "S6",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Biometric fundamentals \u2013 Biometric technologies \u2013 Biometrics",
+      "contact_hours": 8,
+      "topics": "Biometric fundamentals \u2013 Biometric technologies \u2013 Biometrics Vs traditional techniques \u2013 Characteristics of a good biometric system \u2013 Benefits of biometrics \u2013 Key biometric processes: verification, identification and biometric matching \u2013 Performance measures in biometric systems, FAR, FRR, FTE rate, EER and ATV rate, Applications of Biometric Systems, Security and Privacy Issues, Physiological Biometrics and Behavioural Biometrics."
+    },
+    {
+      "module_no": 2,
+      "title": "Fingerprint recognition",
+      "contact_hours": 11,
+      "topics": "Fingerprint recognition: Friction ridge patterns, Acquisition, Feature extraction, matching, indexing, synthesis, palm print. Face recognition: Introduction, image acquisition, face detection. Feature extraction of face recognition, matching, heterogeneous face recognition. Signature-scan, Keystroke Scan\u2013 components, working principles."
+    },
+    {
+      "module_no": 3,
+      "title": "Iris recognition, Image acquisition, iris segmentation, norm",
+      "contact_hours": 8,
+      "topics": "Iris recognition, Image acquisition, iris segmentation, normalization. Encoding and matching, quality assessment, performance evaluation Ear detection and recognition \u2013 challenges, gait and hand geometry. Feature extraction and matching"
+    },
+    {
+      "module_no": 4,
+      "title": "Security of bio-metric systems",
+      "contact_hours": 7,
+      "topics": "Security of bio-metric systems: adversary attacks, attacks on user interface, attacks on bio-metric processing, database attacks. Biometric standards, biometric databases"
+    }
+  ]
+}

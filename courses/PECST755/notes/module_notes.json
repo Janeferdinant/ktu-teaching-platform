@@ -1,0 +1,30 @@
+{
+  "course_code": "PECST755",
+  "title": "INTERNET OF THINGS",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Internet of Things",
+      "contact_hours": 2,
+      "topics": "Internet of Things : Architecture and  Design Principles Raj Kamal  McGraw Hill"
+    },
+    {
+      "module_no": 2,
+      "title": "Mastering Internet of Things  Peter Waher  Pact",
+      "contact_hours": 1,
+      "topics": "Mastering Internet of Things  Peter Waher  Pact"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
+    }
+  ]
+}

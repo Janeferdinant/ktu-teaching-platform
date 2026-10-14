@@ -1,0 +1,30 @@
+{
+  "course_code": "PECST526",
+  "title": "DIGITAL SIGNAL PROCESSING",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "(Written)  Internal  Examination- 2  (Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written )  Total"
+    },
+    {
+      "module_no": 2,
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "Digital Signal Processing",
+      "contact_hours": 1,
+      "topics": "Digital Signal Processing :  Fundamentals, Techniques and  Applications  Juan Zhang  Nova Science  Publishers"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "OECST834",
+  "title": "INTERNET OF THINGS",
+  "semester": "S8",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to IoT - Physical Design of IoT, Logical Design",
+      "contact_hours": 9,
+      "topics": "Introduction to IoT - Physical Design of IoT, Logical Design of IoT, IoT levels and Deployment templates, Domain Specific IoT- Home automation, Energy, Agriculture, Health and lifestyle."
+    },
+    {
+      "module_no": 2,
+      "title": "IoT and M2M-M2M, Difference between IoT and M2M, Software De",
+      "contact_hours": 9,
+      "topics": "IoT and M2M-M2M, Difference between IoT and M2M, Software Defined Networking, Network Function virtualization, Need for IoT System Management, Simple Network Management Protocol (SNMP), NETCONF, YANG; LPWAN - LPWAN applications, LPWAN technologies, Cellular (3GPP) and Non 3GPP standards, Comparison of various protocols like Sigfox, LoRA, LoRAWAN, Weightless, NB-IoT, LTE-M."
+    },
+    {
+      "module_no": 3,
+      "title": "Developing IoT - IoT design methodology, Case study on IoT s",
+      "contact_hours": 9,
+      "topics": "Developing IoT - IoT design methodology, Case study on IoT system for weather monitoring, Motivations for using python, IoT-system Logical design using python, Python Packages of Interest for IoT - JSON, XML, HTTPlib & URLLib, SMTPLib"
+    },
+    {
+      "module_no": 4,
+      "title": "Programming Raspberry Pi with Python-Controlling LED with Ra",
+      "contact_hours": 9,
+      "topics": "Programming Raspberry Pi with Python-Controlling LED with Raspberry Pi, Interfacing an LED and switch with Raspberry Pi, Other IoT devices- PcDino, Beagle bone Black, Cubieboard, Data Analytics for IoT"
+    }
+  ]
+}

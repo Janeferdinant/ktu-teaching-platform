@@ -1,0 +1,30 @@
+{
+  "course_code": "PECST795",
+  "title": "TOPICS IN THEORETICAL COMPUTER SCIENCE",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "3  Randomized Algorithms  Rajeev Motwani,  Prabhakar Raghava",
+      "contact_hours": 1,
+      "topics": "3  Randomized Algorithms  Rajeev Motwani,  Prabhakar Raghavan  Cambridge  University Press"
+    },
+    {
+      "module_no": 2,
+      "title": "Course Type  Theory  Course Objectives",
+      "contact_hours": 1,
+      "topics": "Course Type  Theory  Course Objectives:"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "Convex Optimization  Stephen Boyd, Lieven  Vandenberghe  Cam",
+      "contact_hours": 1,
+      "topics": "Convex Optimization  Stephen Boyd, Lieven  Vandenberghe  Cambridge University  Press"
+    }
+  ]
+}

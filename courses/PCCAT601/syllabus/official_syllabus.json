@@ -1,0 +1,32 @@
+{
+  "code": "PCCAT601",
+  "title": "AGENT BASED INTELLIGENT SYSTEMS",
+  "semester": "S6",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction",
+      "contact_hours": 11,
+      "topics": "Introduction: Definitions, Foundations, History, Intelligent Agents, Problem Solving, Searching, Heuristics, Constraint satisfaction Problems, Game Playing. Knowledge representation and reasoning: Logical agents, First order logic, First Order Inference, Unification, Chaining Resolution Strategies, Knowledge Representation, Objects, Actions, Events."
+    },
+    {
+      "module_no": 2,
+      "title": "Planning Agents",
+      "contact_hours": 11,
+      "topics": "Planning Agents: Planning Problem, State Space Search, Partial Order Planning Graphs, No deterministic Domains, Conditional Planning, continuous Planning, Multiagent Planning."
+    },
+    {
+      "module_no": 3,
+      "title": "Agents And Uncertainty",
+      "contact_hours": 11,
+      "topics": "Agents And Uncertainty: Acting under uncertainty, Probability Notation, Bayes Rule and use Bayesian Networks, Other approaches, Time and Uncertainty, Temporal Models, Utility Theory, Decision Network, Complex Decisions."
+    },
+    {
+      "module_no": 4,
+      "title": "Higher Level Agents",
+      "contact_hours": 11,
+      "topics": "Higher Level Agents: Knowledge in Learning, Relevance information, Statistical Learning Methods, Reinforcement Learning, Communication, Formal Grammar, Augmented Grammars Future of AI."
+    }
+  ]
+}

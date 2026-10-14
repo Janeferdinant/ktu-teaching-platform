@@ -1,0 +1,30 @@
+{
+  "course_code": "PCCSL607",
+  "title": "SYSTEMS LAB",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 2,
+      "topics": "PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
+    },
+    {
+      "module_no": 2,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 3,
+      "title": "Note",
+      "contact_hours": 1,
+      "topics": "Note: K1- Remember, K2- Understand, K3- Apply, K4- Analyse, K5- Evaluate, K6- Create  CO- PO Mapping (Mapping of Course Outcomes with Program Outcomes)"
+    },
+    {
+      "module_no": 4,
+      "title": "Implementation of Calculator using LEX and YACC",
+      "contact_hours": 5,
+      "topics": "Implementation of Calculator using LEX and YACC"
+    }
+  ]
+}

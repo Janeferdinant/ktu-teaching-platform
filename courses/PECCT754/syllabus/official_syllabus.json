@@ -1,0 +1,32 @@
+{
+  "code": "PECCT754",
+  "title": "ENGINEERING OF TRUSTWORTHY SECURE SYSTEMS",
+  "semester": "S7",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Define key concepts and principles of Systems Security Engin",
+      "contact_hours": 11,
+      "topics": "Define key concepts and principles of Systems Security Engineering. Summarize the role of policies, standards, procedures, and guidelines in securing systems. Outline the transferable (i.e. soft) and technical skills that effective Systems Security Engineers embody. Define the three system security engineering contexts - problem context, solution context, and trustworthiness context SIE 573 5 - as outlined in the System Security Engineering Framework. Identify the systems security outcomes, tasks, and activities relevant to each process outlined in the System Life Cycle - Technical, Technical Management, Organizational Project- Enabling, and Agreement."
+    },
+    {
+      "module_no": 2,
+      "title": "Supervisory Control and Data Acquisition (SCADA) system. sec",
+      "contact_hours": 9,
+      "topics": "Supervisory Control and Data Acquisition (SCADA) system. security techniques used in Supervisory Control and Data Acquisition (SCADA) systems. Classification of the 16 Critical Infrastructure (CI) Sectors. Overview and Application of the Risk Management Framework; how to use the Risk Management Framework(RMF).Risk Management Framework (RMF) activities, tasks, and outcomes. Development of a risk management assessment utilizing the Risk Management Framework."
+    },
+    {
+      "module_no": 3,
+      "title": "Security and Privacy Controls",
+      "contact_hours": 11,
+      "topics": "Security and Privacy Controls: Utilize the National Institute of Standards and Technology (NIST) Security Control Catalog. Select security control baselines utilizing the guidelines established by the National Institute of Standards and Technology (NIST), Customize and create overlays of security controls, Documentation the control selection process. Overview and Application of the Cybersecurity Framework (CSF) Navigate the Cybersecurity Framework (CSF). Utilize the Cybersecurity Framework (CSF) to manage activities, tasks, and outcomes. Tailor the Cybersecurity Framework (CSF) to create a security plan."
+    },
+    {
+      "module_no": 4,
+      "title": "Cyber Resiliency Considerations",
+      "contact_hours": 9,
+      "topics": "Cyber Resiliency Considerations: Cyber Resiliency Engineering Framework. Interpret Cyber Resiliency Goals and Objectives. Describe Cyber Resiliency Goals and Objectives. Differentiate Cyber resiliency techniques, approaches and design principles. Prioritize Cyber resilience in the System Development Lifecycle (SDLC)."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "PECCT633",
+  "title": "AI AND ML IN CYBER SECURITY DEFENCE",
+  "semester": "S6",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction",
+      "contact_hours": 8,
+      "topics": "Introduction: Role of AI in Cyber Security and Security Framework Review of Artificial Intelligence in Cyber Security: Definition and Importance, Challenges and promises, Security Threats of Artificial Intelligence: Types and Examples Machine Learning in Cyber Security Introduction to Machine Learning: Concepts and Terminology, Applications of Machine Learning in the Cyber Security Domain , Machine Learning Tasks and Approaches: Supervised vs. Unsupervised Learning Anomaly Detection Techniques in Cybersecurity,"
+    },
+    {
+      "module_no": 2,
+      "title": "Fundamentals of Generative AI",
+      "contact_hours": 10,
+      "topics": "Fundamentals of Generative AI: Concepts, Algorithms, and Models; Generative AI Techniques: Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs), Transformer-Based Models Applications of Generative AI in Various Domains: Text Generation, Image Synthesis Case Study: Successful Generative AI Applications and their Impact"
+    },
+    {
+      "module_no": 3,
+      "title": "Generative AI for Cybersecurity Overview of Cybersecurity Ch",
+      "contact_hours": 9,
+      "topics": "Generative AI for Cybersecurity Overview of Cybersecurity Challenges and the Potential of Generative AI: Applications of Generative AI in Cybersecurity; Anomaly Detection, Threat Hunting, Vulnerability Analysis Generative AI for Automated Incident Response and Mitigation Case Study: Generative AI in Real-World Cybersecurity Scenarios Generative AI Security Risks and Challenges Potential Security Risks Associated with Generative AI: Data Poisoning, Model Inversion, Adversarial Attacks"
+    },
+    {
+      "module_no": 4,
+      "title": "Overview of Generative AI Applications in Cybersecurity Defe",
+      "contact_hours": 9,
+      "topics": "Overview of Generative AI Applications in Cybersecurity Defence: Predictive Analytics for Threat Detection Using Generative AI, Automated Security Patch Generation and Vulnerability Management, Strengthening Encryption Protocols Case Study: Real-World Applications of Generative AI in Cybersecurity defence, Best Practices for Securing Generative AI Systems, Future Trends in Generative AI for Cybersecurity defence"
+    }
+  ]
+}

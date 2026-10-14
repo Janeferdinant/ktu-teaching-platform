@@ -1,0 +1,30 @@
+{
+  "course_code": "PCCST403",
+  "title": "OPERATING SYSTEMS",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "--- Page 61 ---     Preemption and Context Switching (Book 2",
+      "contact_hours": 2,
+      "topics": "--- Page 61 ---     Preemption and Context Switching (Book 2, Ch 4)"
+    },
+    {
+      "module_no": 2,
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
+    },
+    {
+      "module_no": 3,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "OPERATING SYSTEMS    (Common to CS/CD/CM/CR/CA/AD/AI/CB/CN/C",
+      "contact_hours": 40,
+      "topics": "OPERATING SYSTEMS    (Common to CS/CD/CM/CR/CA/AD/AI/CB/CN/CC/CU/CI/CG)  Course Code  PCCST403  CIE Marks"
+    }
+  ]
+}

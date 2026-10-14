@@ -1,0 +1,32 @@
+{
+  "code": "OECST613",
+  "title": "FOUNDATIONS OF CRYPTOGRAPHY",
+  "semester": "S6",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "(Written)  Internal  Examination- 2  (Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written )  Total"
+    },
+    {
+      "module_no": 2,
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
+    },
+    {
+      "module_no": 3,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "A Classical Introduction to  Cryptography",
+      "contact_hours": 1,
+      "topics": "A Classical Introduction to  Cryptography: Applications for  Communications Security  Serge Vaudenay  Springer"
+    }
+  ]
+}

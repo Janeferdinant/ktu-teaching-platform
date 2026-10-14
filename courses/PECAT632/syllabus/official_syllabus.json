@@ -1,0 +1,32 @@
+{
+  "code": "PECAT632",
+  "title": "INTRODUCTION TO BUSINESS ANALYTICS",
+  "semester": "S6",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Business Analytics",
+      "contact_hours": 10,
+      "topics": "Introduction to Business Analytics: Evolution, Scope, Models, Problem Solving with Analytics Descriptive Analytics: Data Visualization, Statistical methods for summarizing data \u2013 Frequency distribution for categorical and numerical data, Histogram, Cumulative relative frequency, Percentile and quartiles, Descriptive Statistical Measures- mean, median, mode, range, interquartile range, variance, standard deviation, correlation, covariance"
+    },
+    {
+      "module_no": 2,
+      "title": "Probability Distributions",
+      "contact_hours": 9,
+      "topics": "Probability Distributions: Basic concepts of probability, Random Variables and Probability distribution, Discrete Probability distribution \u2013 binomial, Poisson, Continuous Probability Distribution \u2013 Uniform, Normal. Statistical Inference \u2013 Hypothesis testing procedure, Two-Tailed Test of Hypothesis for the Mean, Two-Sample Tests for Differences in Means"
+    },
+    {
+      "module_no": 3,
+      "title": "Predictive",
+      "contact_hours": 9,
+      "topics": "Predictive: Modelling relationships and trends in data, Modelling Relationships and Trends in Data, Simple Regression and Correlation: Introduction, Estimation using the regression line, Correlation Analysis. Multiple Regression: The k-variable multiple regression model, The F-test of a Multiple Regression model."
+    },
+    {
+      "module_no": 4,
+      "title": "Prescriptive",
+      "contact_hours": 8,
+      "topics": "Prescriptive: - Linear Programming Problem- Formulation, Graphical solutions, Simplex method, Revised Simplex method and Sensitivity Analysis; Transportation Problem- Formulation and solution; Assignment Problem- Formulation and solution"
+    }
+  ]
+}

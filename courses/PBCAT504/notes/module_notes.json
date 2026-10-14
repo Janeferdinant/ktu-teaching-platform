@@ -1,0 +1,30 @@
+{
+  "course_code": "PBCAT504",
+  "title": "ADVANCED GRAPH ALGORITHM",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "ESE Marks",
+      "contact_hours": 40,
+      "topics": "ESE Marks"
+    },
+    {
+      "module_no": 2,
+      "title": "3  Connectivity and Paths",
+      "contact_hours": 10,
+      "topics": "3  Connectivity and Paths: Cuts and Connectivity, k-Connected Graphs,  Network Flow Ford-Fulkerson Labeling Algorithm, Max-Flow Min-cut"
+    },
+    {
+      "module_no": 3,
+      "title": "Connectivity and Paths",
+      "contact_hours": 10,
+      "topics": "Connectivity and Paths: Cuts and Connectivity, k-Connected Graphs,  Network Flow Ford-Fulkerson Labeling Algorithm, Max-Flow Min-cut"
+    },
+    {
+      "module_no": 4,
+      "title": "CIE Marks",
+      "contact_hours": 60,
+      "topics": "CIE Marks"
+    }
+  ]
+}

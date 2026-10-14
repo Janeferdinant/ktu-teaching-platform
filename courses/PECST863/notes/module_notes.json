@@ -1,0 +1,30 @@
+{
+  "course_code": "PECST863",
+  "title": "TOPICS IN SECURITY",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
+    },
+    {
+      "module_no": 2,
+      "title": "Cryptography in Network Security- Network Encryption, Browse",
+      "contact_hours": 9,
+      "topics": "Cryptography in Network Security- Network Encryption, Browser  Encryption, Onion Routing, IPSEC, VPN  Intrusion Detection and Prevention Systems-Types of IDSs, Other  Intrusion Detection Technology, Intrusion Prevention Systems, Intrusion  Response, Goals for Intrusion Detection Systems, IDS Strengths and  Limitations"
+    },
+    {
+      "module_no": 3,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "Network Security and Cryptography  Bernard Menezes  Cengage",
+      "contact_hours": 1,
+      "topics": "Network Security and Cryptography  Bernard Menezes  Cengage  Learning"
+    }
+  ]
+}

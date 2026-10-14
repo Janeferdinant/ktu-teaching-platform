@@ -1,0 +1,32 @@
+{
+  "code": "PCCCL607",
+  "title": "CYBER FORENSICS LAB",
+  "semester": "S6",
+  "credits": "2",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Guide to computer forensics and investigations",
+      "contact_hours": 11,
+      "topics": "Guide to computer forensics and investigations"
+    },
+    {
+      "module_no": 2,
+      "title": "Windows Forensic Analysis DVD Toolkit",
+      "contact_hours": 11,
+      "topics": "Windows Forensic Analysis DVD Toolkit"
+    },
+    {
+      "module_no": 3,
+      "title": "Unix and Linux Forensic Analysis DVD Toolkit",
+      "contact_hours": 11,
+      "topics": "Unix and Linux Forensic Analysis DVD Toolkit"
+    },
+    {
+      "module_no": 4,
+      "title": "Modern Applications, Performance Tuning and Emerging Trends",
+      "contact_hours": 11,
+      "topics": "Industry case studies, scalability, evaluation metrics, and contemporary trends in CYBER FORENSICS LAB."
+    }
+  ]
+}

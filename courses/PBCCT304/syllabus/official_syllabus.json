@@ -1,0 +1,32 @@
+{
+  "code": "PBCCT304",
+  "title": "BASIC CONCEPTS IN COMPUTER NETWORKS",
+  "semester": "S3",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "History of Computer Networks and the Internet , types of net",
+      "contact_hours": 9,
+      "topics": "History of Computer Networks and the Internet , types of networks, Client- server and peer-to-peer architecture. Design issues for the layers \u2013 Interface & Service \u2013 Service Primitives. Reference models \u2013 OSI \u2013 TCP/IP. Concept of Quality of Service metrics - throughput, delay, packet loss, and jitter in packet-switched networks."
+    },
+    {
+      "module_no": 2,
+      "title": "Physical layer design issues - Media, Signal strength and in",
+      "contact_hours": 9,
+      "topics": "Physical layer design issues - Media, Signal strength and interference. Data encoding, Multiplexing (TDM, FDM). Data Link layer Design Issues \u2013 Flow Control and ARQ techniques. Data link Protocols \u2013 HDLC. IEEE 802 FOR LANs IEEE 802.3, 802.5. Wireless LANs - 802.11."
+    },
+    {
+      "module_no": 3,
+      "title": "Networking devices - Bridges, Routers, Gateways, Network Lay",
+      "contact_hours": 9,
+      "topics": "Networking devices - Bridges, Routers, Gateways, Network Layer Protocols - Virtual circuits and datagrams, Principles of routing, internet protocol Ipv4 CIDR, IPv6, Network Address Translation , Firewalls, and VPNs Routing algorithms - Link-state and distance vector routing, Routing on the internet RIP OSPF and BGP."
+    },
+    {
+      "module_no": 4,
+      "title": "Introduction to transport layer, Multiplexing and de-multipl",
+      "contact_hours": 9,
+      "topics": "Introduction to transport layer, Multiplexing and de-multiplexing, Principles of Reliable data transfer \u2013 end-to - end flow control mechanisms, Connection oriented transport TCP, Connectionless transport UDP. Application layer protocols - HTTP and HTTPs, FTP, SMTP- S/MIME, DNS, and Peer-to-peer file sharing networks"
+    }
+  ]
+}

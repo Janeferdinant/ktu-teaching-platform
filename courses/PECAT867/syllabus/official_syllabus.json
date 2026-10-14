@@ -1,0 +1,32 @@
+{
+  "code": "PECAT867",
+  "title": "STOCHASTIC DECISION MAKING",
+  "semester": "S8",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Stochastic process",
+      "contact_hours": 9,
+      "topics": "Introduction to Stochastic process: Overview of stochastic processes and their relevance. Discrete-Time Stochastic Processes: Markov chains: States, transition matrices, steady-state analysis. Examples and practical applications Continuous-Time Stochastic Processes: Poisson processes continuous-time Markov chains. Basic properties and applications"
+    },
+    {
+      "module_no": 2,
+      "title": "Markov Decision Processes (MDPs)",
+      "contact_hours": 9,
+      "topics": "Markov Decision Processes (MDPs): Introduction to MDPs- Components of MDPs: States, actions, rewards, and policies. Bellman equations and value functions. Solution Methods for MDPs- Dynamic programming methods: Value iteration, policy iteration."
+    },
+    {
+      "module_no": 3,
+      "title": "Stochastic Optimization",
+      "contact_hours": 9,
+      "topics": "Stochastic Optimization: Introduction to Stochastic Optimization- Formulations and types of stochastic optimization problems. Basic principles and illustrative examples Stochastic Gradient Descent : Algorithmic details, convergence, practical considerations. Comparison with deterministic optimization methods."
+    },
+    {
+      "module_no": 4,
+      "title": "Applications and Case Studies",
+      "contact_hours": 9,
+      "topics": "Applications and Case Studies: Real-world applications: Finance, AI, robotics. Analysis of practical challenges and case studies Applications in AI and Robotics- Stochastic decision-making in AI: Natural language processing, autonomous systems. Case studies in robotics: Path planning, adaptive control Applications in Finance and Operations Research Financial modeling: Risk management, portfolio optimization Operations research applications: Inventory management, queuing systems."
+    }
+  ]
+}

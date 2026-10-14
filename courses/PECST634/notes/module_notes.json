@@ -1,0 +1,30 @@
+{
+  "course_code": "PECST634",
+  "title": "ADVANCED DATABASE SYSTEMS",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "(Written)  Internal  Examination- 2  (Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written )  Total"
+    },
+    {
+      "module_no": 2,
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    }
+  ]
+}

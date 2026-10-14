@@ -1,0 +1,32 @@
+{
+  "code": "PECCT741",
+  "title": "MALWARE FORENSICS",
+  "semester": "S7",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to malware, malware threats, evolution of malwa",
+      "contact_hours": 8,
+      "topics": "Introduction to malware, malware threats, evolution of malware, malware types. Types of malware Analysis \u2013 Static Analysis, Dynamic Analysis, Malware Analysis Techniques - Obfuscated, Deobfuscated, Malware Analysis Tools - Static Analysis Tools, Dynamic Analysis Tools. Static Analysis"
+    },
+    {
+      "module_no": 2,
+      "title": "Dynamic analysis",
+      "contact_hours": 11,
+      "topics": "Dynamic analysis: Live malware analysis, dead malware analysis, analyzing traces of malware, system-calls, api-calls, registries, network activities. Anti- dynamic analysis techniques anti-vm, runtime-evasion techniques, Malware Sandbox, Monitoring with Process Monitor, Packet Sniffing with Wireshark, Kernel vs. User-Mode, Debugging-OllyDbg, Breakpoints, Tracing, Exception Handling, Patching. Malware Detection Techniques: Signature-based techniques: malware signatures, packed malware signature, metamorphic and polymorphic signature. Non-signature based techniques: similarity-based techniques, machine-learning methods."
+    },
+    {
+      "module_no": 3,
+      "title": "Malware Incident response",
+      "contact_hours": 10,
+      "topics": "Malware Incident response: Volatile Data Collection and Examination on a Live Windows Systems - Volatile Data collection methodology from"
+    },
+    {
+      "module_no": 4,
+      "title": "Post-Mortem Forensics - Malware Discovery and Extraction fro",
+      "contact_hours": 7,
+      "topics": "Post-Mortem Forensics - Malware Discovery and Extraction from a Windows and Linux system, Examine Windows and Linux file system, Examine application traces, Examine Windows registry, keyword searching from Windows and Linux systems, Forensic reconstruction of compromised Linux and Windows system."
+    }
+  ]
+}

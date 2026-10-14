@@ -1,0 +1,32 @@
+{
+  "code": "PBCCT604",
+  "title": "ETHICAL HACKING & IOT SECURITY",
+  "semester": "S6",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Elements of Information Security, Authenticity and Non-Repud",
+      "contact_hours": 11,
+      "topics": "Elements of Information Security, Authenticity and Non-Repudiation, Security Challenges, Effects of Hacking, Hacker \u2013 Types of Hacker, Ethical Hacker, Role of Security and Penetration Tester, Penetration Testing Methodologies:\u2013 OSSTMM, NIST, OWASP, Categories of Penetration Test, Types of Penetration Tests, Vulnerability Assessment. Tools for Foot Printing, Conducting Competitive Intelligence, Google Hacking, Scanning, Enumeration, Trojans & Backdoors, Virus & Worms, Proxy & Packet Filtering, Denial of Service, Sniffer, Social Engineering\u2013 shoulder surfing, Dumpster Diving, Piggybacking."
+    },
+    {
+      "module_no": 2,
+      "title": "Vulnerability Data Resources \u2013 Exploit Databases \u2013 Network S",
+      "contact_hours": 11,
+      "topics": "Vulnerability Data Resources \u2013 Exploit Databases \u2013 Network Sniffing \u2013 Types of Sniffing \u2013 MITM Attacks \u2013 ARP Attacks \u2013 Denial of Service Attacks - Hijacking Session with MITM Attack -DNS Spoofing \u2013 ARP Spoofing Attack Manipulating the DNS Records \u2013 DHCP Spoofing -Remote Exploitation \u2013 Attacking Network Remote Services \u2013 Overview of Brute Force Attacks \u2013 Traditional Brute Force \u2013 Attacking SMTP \u2013 Attacking SQL"
+    },
+    {
+      "module_no": 3,
+      "title": "What is IoT, Genesis of IoT, IoT and Digitization, IoT Impac",
+      "contact_hours": 11,
+      "topics": "What is IoT, Genesis of IoT, IoT and Digitization, IoT Impact, Convergence of IT and IoT, IoT Challenges, IoT Network Architecture and Design, Drivers Behind New Network Architectures, Comparing IoT Architectures, A Simplified IoT Architecture, The Core IoT Functional Stack, IoT Data Management and Compute Stack. Smart Objects: The \u201cThings\u201d in IoT, Sensors, Actuators, and Smart Objects, Sensor Networks, Connecting Smart Objects, Communications Criteria, IoT Access Technologies. IP as the IoT Network Layer, The Business Case for IP, The need for Optimization, Optimizing IP for IoT, Profiles and Compliances, Application Protocols for IoT, The Transport Layer, IoT Application Transport Methods."
+    },
+    {
+      "module_no": 4,
+      "title": "Data and Analytics for IoT, An Introduction to Data Analytic",
+      "contact_hours": 11,
+      "topics": "Data and Analytics for IoT, An Introduction to Data Analytics for IoT, Machine Learning, Big Data Analytics Tools and Technology, Edge Streaming Analytics, Network Analytics, Securing IoT, A Brief History of OT Security, Common Challenges in OT Security, Differences between IT and OT Security Practices and Systems, Formal Risk Analysis Structures: OCTAVE and FAIR."
+    }
+  ]
+}

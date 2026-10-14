@@ -1,0 +1,32 @@
+{
+  "code": "PECST752",
+  "title": "RESPONSIBLE ARTIFICIAL INTELLIGENCE",
+  "semester": "S7",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Foundations of Responsible AI",
+      "contact_hours": 7,
+      "topics": "Foundations of Responsible AI :- Introduction to Responsible AI- Overview of AI and its societal impact; Fairness and Bias - Sources of Biases, Exploratory data analysis, limitation of a dataset, Preprocessing, inprocessing and postprocessing to remove bias."
+    },
+    {
+      "module_no": 2,
+      "title": "Interpretability and explainability",
+      "contact_hours": 10,
+      "topics": "Interpretability and explainability:- Interpretability - Interpretability through simplification and visualization, Intrinsic interpretable methods, Post Hoc interpretability, Explainability through causality, Model agnostic Interpretation. Interpretability Tools - SHAP (SHapley Additive exPlanation), LIME(Local Interpretable Model-agnostic Explanations)"
+    },
+    {
+      "module_no": 3,
+      "title": "Ethics, Privacy and Security",
+      "contact_hours": 10,
+      "topics": "Ethics, Privacy and Security :- Ethics and Accountability -Auditing AI models, fairness assessment, Principles for ethical practices. Privacy preservation - Attack models, Privacy-preserving Learning, Differential privacy- Working, The Laplace Mechanism, Introduction to"
+    },
+    {
+      "module_no": 4,
+      "title": "Future of Responsible AI and Case Studies",
+      "contact_hours": 9,
+      "topics": "Future of Responsible AI and Case Studies : - Future of Responsible AI - Emerging trends and technologies in AI ethics and responsibility. Case Studies - Recommendation systems, Medical diagnosis, Computer Vision, Natural Language Processing."
+    }
+  ]
+}

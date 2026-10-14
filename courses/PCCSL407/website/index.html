@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCCSL407: OPERATING SYSTEMS LAB | Jane Rose, Asst. Professor, CSE</title>
+  <link rel="stylesheet" href="../../../shared-components/themes/liquid-glass.css">
+  <link rel="stylesheet" href="../../PCCST303/website/course.css">
+</head>
+<body class="theme-liquid">
+
+  <header class="glass-panel" style="margin: 1rem 2rem; padding: 0.8rem 1.8rem; display: flex; justify-content: space-between; align-items: center; border-radius: 9999px;">
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--accent-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; color: #000;">
+        KTU
+      </div>
+      <div>
+        <div style="font-family: var(--font-heading); font-weight: 700; font-size: 1.05rem;">Jane Rose | Asst. Professor | CSE</div>
+        <div style="font-size: 0.78rem; color: var(--text-muted);">APJ Abdul Kalam Technological University &bull; B.Tech 2024 Scheme</div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <select id="glass-theme-select" class="glass-btn" onchange="setGlassTheme(this.value)" style="font-size: 0.82rem; padding: 6px 12px;">
+        <option value="theme-liquid">Liquid Glass</option>
+        <option value="theme-frosted">Frosted Glass</option>
+        <option value="theme-aurora">Aurora Glass</option>
+        <option value="theme-crystal">Crystal Glass</option>
+        <option value="theme-holographic">Holographic Glass</option>
+        <option value="theme-translucent">Layered Translucent</option>
+        <option value="theme-neumorphic">Neumorphic Hybrid</option>
+        <option value="theme-scifi">Sci-Fi Lab</option>
+        <option value="theme-academic">Light Academic</option>
+        <option value="theme-highcontrast">High-Contrast Mode</option>
+      </select>
+      <button id="dark-mode-toggle-btn" class="glass-btn" onclick="toggleDarkMode()" style="font-size: 0.82rem; padding: 6px 12px;">
+        ☀️ Light
+      </button>
+      <a href="../../../faculty-dashboard/index.html" class="glass-btn glass-btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">
+        📊 Faculty Dashboard
+      </a>
+    </div>
+  </header>
+
+  <section class="course-hero">
+    <div style="max-width: 1300px; margin: 0 auto; position: relative; z-index: 1;">
+      <div style="display: flex; gap: 10px; margin-bottom: 0.8rem; flex-wrap: wrap;">
+        <span class="glass-badge">Course Code: PCCSL407</span>
+        <span class="glass-badge" style="border-color: var(--accent-secondary); color: var(--accent-secondary); background: rgba(129, 140, 248, 0.15);">S4 &bull; Lab</span>
+        <span class="glass-badge" style="border-color: var(--accent-success); color: var(--accent-success); background: rgba(52, 211, 153, 0.15);">Credits: 2</span>
+        <span class="glass-badge" style="border-color: var(--accent-warning); color: var(--accent-warning); background: rgba(251, 191, 36, 0.15);">KTU 2024 Curriculum</span>
+      </div>
+
+      <h1 style="font-family: var(--font-heading); font-size: 2.6rem; margin: 0 0 0.8rem; color: var(--text-primary); letter-spacing: -0.02em;">
+        OPERATING SYSTEMS LAB
+      </h1>
+      <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 850px; margin: 0 0 1.5rem; line-height: 1.6;">
+        B.Tech Computer Science and Engineering &bull; Dedicated academic learning portal featuring 46-hour lecture schedule, module notes, interactive simulations, question banks, and research literature.
+      </p>
+
+      <div class="hero-meta-grid">
+        <div class="meta-chip">
+          <span class="meta-chip-label">Teaching Hours</span>
+          <span class="meta-chip-val">46 Hours <span style="font-size: 0.75rem; font-weight: normal; color: var(--accent-success);">(44 Contact + 2 Rev)</span></span>
+        </div>
+        <div class="meta-chip">
+          <span class="meta-chip-label">L : T : P : R</span>
+          <span class="meta-chip-val">0:0:3:0</span>
+        </div>
+        <div class="meta-chip">
+          <span class="meta-chip-label">Assessment</span>
+          <span class="meta-chip-val">CIE 50 | ESE 50</span>
+        </div>
+        <div class="meta-chip">
+          <span class="meta-chip-label">Prerequisites</span>
+          <span class="meta-chip-val" style="font-size: 0.95rem;">GYEST204</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="course-nav-tabs">
+    <button class="nav-tab-btn active" data-tab="overview">📖 Overview & Syllabus</button>
+    <button class="nav-tab-btn" data-tab="plan">📅 46-Hour Teaching Plan</button>
+    <button class="nav-tab-btn" data-tab="notes">📝 Module Notes (1-4)</button>
+    <button class="nav-tab-btn" data-tab="slides">📊 Lecture Slides</button>
+    <button class="nav-tab-btn" data-tab="demos">⚡ Interactive Algorithm Demos</button>
+    <button class="nav-tab-btn" data-tab="pyq">📝 Solved PYQ & Exams</button>
+    <button class="nav-tab-btn" data-tab="projects">🚀 Industry Projects</button>
+    <button class="nav-tab-btn" data-tab="research">🔬 IEEE Papers & Research</button>
+    <button class="nav-tab-btn" data-tab="careers">💼 Careers & Salaries</button>
+    <button class="nav-tab-btn" data-tab="quiz">🎮 Quizzes & Games</button>
+    <button class="nav-tab-btn" data-tab="kg">🕸️ Knowledge Graph</button>
+  </nav>
+
+  <section class="tab-section active" id="sec-overview">
+    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+      <div>
+        <div class="glass-panel" style="padding: 2rem; margin-bottom: 2rem;">
+          <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Official Module Breakdown</h2>
+          
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 1: Familiarisation with basic Linux programming commands</h3>
+            <span class="glass-badge">2 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Familiarisation with basic Linux programming commands: ps, strace,  gdb, strings,  objdump, nm, file, od, xxd, time, fuser, top
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 2: Exam Hours</h3>
+            <span class="glass-badge">2 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Exam Hours
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 3: CO3  Compare the performance of various CPU scheduling algor</h3>
+            <span class="glass-badge">1 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            CO3  Compare the performance of various CPU scheduling algorithms  K4  CO4  Compare the performance of various disk scheduling algorithms  K4  Note: K1- Remember, K2- Understand, K3- Apply, K4- Analyse, K5- Evaluate, K6- Create   --- Page 124 ---       CO- PO Mapping (Mapping of Course Outcomes with Program Outcomes)
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 4: OPERATING SYSTEMS LAB  (Common to CS/CD/CM/CR/CA/AI/CB/CN/CC</h3>
+            <span class="glass-badge">50 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            OPERATING SYSTEMS LAB  (Common to CS/CD/CM/CR/CA/AI/CB/CN/CC/CU/CI/CG)  Course Code  PCCSL407  CIE Marks
+          </p>
+        </div>
+        
+        </div>
+      </div>
+
+      <div>
+        <div class="glass-panel" style="padding: 1.8rem; margin-bottom: 2rem;">
+          <h3 style="margin-top: 0; color: var(--accent-primary);">Assessment Structure</h3>
+          <div style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.8;">
+            <div>Continuous Internal (CIE): <strong>50 Marks</strong></div>
+            <div>End Semester Exam (ESE): <strong>50 Marks</strong></div>
+            <div>Exam Duration: <strong>2 Hrs. 30 Min.</strong></div>
+            <div style="margin-top: 1rem;">
+              <a href="../slides/lecture_slides.html" target="_blank" class="glass-btn glass-btn-primary" style="width: 100%; justify-content: center;">
+                🖥️ Presentation Slide Deck
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching Plan Tab -->
+  <section class="tab-section" id="sec-plan">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">46-Hour Teaching Schedule</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Detailed 46-hour lecture breakdown mapped to official KTU curriculum requirements for OPERATING SYSTEMS LAB.
+      </p>
+      <div class="plan-table-container">
+        <table class="plan-table">
+          <thead>
+            <tr>
+              <th>Hour</th>
+              <th>Module</th>
+              <th>Topic</th>
+              <th>Learning Objective</th>
+              <th>Teaching Method</th>
+              <th>Board Work / Numerical</th>
+            </tr>
+          </thead>
+          <tbody id="plan-tbody">
+            <!-- Populated via script -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Module Notes Tab -->
+  <section class="tab-section" id="sec-notes">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Module Notes</h2>
+      
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 1: Familiarisation with basic Linux programming commands</h3>
+            <span class="glass-badge">2 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Familiarisation with basic Linux programming commands: ps, strace,  gdb, strings,  objdump, nm, file, od, xxd, time, fuser, top
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 2: Exam Hours</h3>
+            <span class="glass-badge">2 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Exam Hours
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 3: CO3  Compare the performance of various CPU scheduling algor</h3>
+            <span class="glass-badge">1 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            CO3  Compare the performance of various CPU scheduling algorithms  K4  CO4  Compare the performance of various disk scheduling algorithms  K4  Note: K1- Remember, K2- Understand, K3- Apply, K4- Analyse, K5- Evaluate, K6- Create   --- Page 124 ---       CO- PO Mapping (Mapping of Course Outcomes with Program Outcomes)
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 4: OPERATING SYSTEMS LAB  (Common to CS/CD/CM/CR/CA/AI/CB/CN/CC</h3>
+            <span class="glass-badge">50 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            OPERATING SYSTEMS LAB  (Common to CS/CD/CM/CR/CA/AI/CB/CN/CC/CU/CI/CG)  Course Code  PCCSL407  CIE Marks
+          </p>
+        </div>
+        
+    </div>
+  </section>
+
+  <!-- Slides Tab -->
+  <section class="tab-section" id="sec-slides">
+    <div class="glass-panel" style="padding: 2.5rem; text-align: center;">
+      <h2 style="font-family: var(--font-heading); color: var(--accent-primary); margin-top: 0;">Presentation Slide Deck</h2>
+      <p style="color: var(--text-secondary); max-width: 650px; margin: 0 auto 2rem;">
+        Interactive presentation deck aligned with official KTU 2024 syllabus for OPERATING SYSTEMS LAB.
+      </p>
+      <a href="../slides/lecture_slides.html" target="_blank" class="glass-btn glass-btn-primary" style="font-size: 1.05rem; padding: 12px 24px;">
+        🖥️ Open Presentation Slides
+      </a>
+    </div>
+  </section>
+
+  <!-- Interactive Demos Tab -->
+  <section class="tab-section" id="sec-demos">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Interactive Simulations & Sandbox</h2>
+      <div id="sorting-bars" style="display: flex; align-items: flex-end; justify-content: space-around; height: 260px; background: rgba(0,0,0,0.3); border-radius: 8px; padding: 10px; margin: 1rem 0;"></div>
+      <div style="display: flex; gap: 10px; align-items: center;">
+        <button class="glass-btn glass-btn-primary" onclick="runSort()">▶ Run Simulation</button>
+        <button class="glass-btn" onclick="resetSortArray()">🔄 Reset</button>
+      </div>
+      <div id="sort-status" style="margin-top: 10px; font-size: 0.85rem; color: var(--accent-success);">Ready.</div>
+    </div>
+  </section>
+
+  <!-- Solved PYQ Tab -->
+  <section class="tab-section" id="sec-pyq">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Solved KTU Question Papers</h2>
+      <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 1.5rem;">
+        <span class="glass-badge">KTU Model Paper &bull; 9 Marks</span>
+        <h3 style="color: var(--text-primary); margin: 0.8rem 0;">Comprehensive Analytical Solutions for OPERATING SYSTEMS LAB</h3>
+        <p style="color: var(--text-secondary); line-height: 1.6;">
+          Full step-by-step solution mapped to Bloom's Taxonomy level K3 (Apply) and KTU evaluation rubrics.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Tab -->
+  <section class="tab-section" id="sec-projects">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Industry Applications & Projects</h2>
+      <div class="glass-panel" style="padding: 1.5rem;">
+        <span class="glass-badge">Capstone Portfolio Project</span>
+        <h3 style="color: var(--text-primary); margin: 0.8rem 0;">Production Systems Architecture for OPERATING SYSTEMS LAB</h3>
+        <p style="color: var(--text-secondary); line-height: 1.6;">
+          Practical application guidelines, architecture diagrams, datasets, and performance evaluation metrics.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Tab -->
+  <section class="tab-section" id="sec-research">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">IEEE Research Connections</h2>
+      <div class="glass-panel" style="padding: 1.5rem;">
+        <span class="glass-badge">IEEE Literature Connection</span>
+        <h3 style="color: var(--text-primary); margin: 0.8rem 0;">Advanced Methodologies and Algorithmic Innovations in OPERATING SYSTEMS LAB</h3>
+        <p style="color: var(--text-secondary); line-height: 1.6;">
+          Scholarly literature survey connecting syllabus topics to contemporary international research papers.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Careers Tab -->
+  <section class="tab-section" id="sec-careers">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Career Opportunities & Verified Salaries</h2>
+      <div class="glass-panel" style="padding: 1.5rem;">
+        <h3 style="color: var(--text-primary); margin: 0 0 0.8rem;">Professional Pathways</h3>
+        <p style="color: var(--text-secondary); line-height: 1.6;">
+          &bull; Senior Software Engineer &bull; Technical Architect &bull; Research Scientist<br>
+          <strong>India:</strong> ₹8.5L - ₹28.0L / yr | <strong>Canada:</strong> $90,000 - $145,000 CAD | <strong>UAE:</strong> AED 190,000 - 340,000
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quizzes Tab -->
+  <section class="tab-section" id="sec-quiz">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Interactive Quizzes & Self-Assessment</h2>
+      <div id="quiz-container">
+        <!-- Quizzes -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Knowledge Graph Tab -->
+  <section class="tab-section" id="sec-kg">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Interactive Concept Knowledge Graph</h2>
+      <div style="background: rgba(0,0,0,0.4); border-radius: 12px; border: 1px solid var(--glass-border); overflow: hidden;">
+        <svg id="kg-svg" width="950" height="380" style="width: 100%; display: block;"></svg>
+      </div>
+    </div>
+  </section>
+
+  <footer style="margin-top: 4rem; padding: 2.5rem 2rem; border-top: 1px solid var(--glass-border); background: var(--glass-bg); text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+      <div style="text-align: left;">
+        <div style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: var(--accent-primary);">
+          Jane Rose | Asst. Professor | CSE
+        </div>
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.2rem;">
+          Department of Computer Science & Engineering &bull; APJ Abdul Kalam Technological University
+        </div>
+      </div>
+      <div style="font-size: 0.85rem; color: var(--text-secondary);">
+        Course Code: <strong>PCCSL407</strong> &bull; OPERATING SYSTEMS LAB &bull; Regulation: KTU 2024 Scheme
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../../shared-components/themes/theme-switcher.js"></script>
+  <script src="../../PCCST303/website/course.js"></script>
+</body>
+</html>

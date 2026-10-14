@@ -1,0 +1,32 @@
+{
+  "code": "PCCST303",
+  "title": "DATA STRUCTURES AND ALGORITHMS",
+  "semester": "S3",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Basic Concepts of Data Structures Definitions",
+      "contact_hours": 11,
+      "topics": "Basic Concepts of Data Structures Definitions; Data Abstraction; Performance Analysis - Time & Space Complexity, Asymptotic Notations; Polynomial representation using Arrays, Sparse matrix (Tuple representation); Stacks and Queues - Stacks, Multi-Stacks, Queues, Circular Queues, Double Ended Queues; Evaluation of Expressions- Infix to Postfix, Evaluating Postfix Expressions."
+    },
+    {
+      "module_no": 2,
+      "title": "Linked List and Memory Management Singly Linked List - Opera",
+      "contact_hours": 11,
+      "topics": "Linked List and Memory Management Singly Linked List - Operations on Linked List, Stacks and Queues using Linked List, Polynomial representation using Linked List; Doubly Linked List; Circular Linked List; Memory allocation - First-fit, Best-fit, and Worst-fit allocation schemes; Garbage collection and compaction."
+    },
+    {
+      "module_no": 3,
+      "title": "Trees and Graphs Trees",
+      "contact_hours": 11,
+      "topics": "Trees and Graphs Trees :- Representation Of Trees; Binary Trees - Types and Properties, Binary Tree Representation, Tree Operations, Tree Traversals; Expression Trees; Binary Search Trees - Binary Search Tree Operations; Binary Heaps - Binary Heap Operations, Priority Queue. Graphs :- Definitions; Representation of Graphs; Depth First Search and"
+    },
+    {
+      "module_no": 4,
+      "title": "Sorting and Searching Sorting Techniques",
+      "contact_hours": 11,
+      "topics": "Sorting and Searching Sorting Techniques :- Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Heap Sort, Radix Sort. Searching Techniques :- Linear Search, Binary Search, Hashing - Hashing functions : Mid square, Division, Folding, Digit Analysis; Collision Resolution : Linear probing, Quadratic Probing, Double hashing, Open hashing."
+    }
+  ]
+}

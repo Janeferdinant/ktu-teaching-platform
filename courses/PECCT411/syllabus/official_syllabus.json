@@ -1,0 +1,32 @@
+{
+  "code": "PECCT411",
+  "title": "INTRODUCTION TO PARALLEL & DISTRIBUTED PROGRAMMING",
+  "semester": "S4",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Distributed System",
+      "contact_hours": 9,
+      "topics": "Distributed System: Definition, Relation to computer system components, Motivation, Primitives for distributed communication, Design issues, Challenges and applications. Leader election algorithm- Bully algorithm, Ring algorithm. Termination detection- Spanning tree-based algorithm."
+    },
+    {
+      "module_no": 2,
+      "title": "Distributed mutual exclusion algorithms- System model, Requi",
+      "contact_hours": 9,
+      "topics": "Distributed mutual exclusion algorithms- System model, Requirements of mutual exclusion algorithm. Lamport\u2019s algorithm, Ricart- Agrawala algorithm, Quorum based mutual exclusion algorithms- Maekawa\u2019s algorithm. Token based algorithm- Suzuki-Kasami\u2019s broadcast algorithm."
+    },
+    {
+      "module_no": 3,
+      "title": "Parallel Computing",
+      "contact_hours": 11,
+      "topics": "Parallel Computing: Principles of Parallel Algorithm Design Decomposition Techniques, Characteristics of Tasks and interactions, Mapping techniques for load balancing. Basic Communication operations: One to All Broadcast and All to One Reduction, All to All Broadcast and Reduction, All Reduce"
+    },
+    {
+      "module_no": 4,
+      "title": "Principles of Message Passing Programming, The building bloc",
+      "contact_hours": 7,
+      "topics": "Principles of Message Passing Programming, The building blocks: Send and Receive Operations, MPI: The Message Passing Interface, Overlapping Communication with Computation, Collective Communication and Computation Operations, Groups and Communicators."
+    }
+  ]
+}

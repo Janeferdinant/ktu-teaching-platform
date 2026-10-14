@@ -1,0 +1,32 @@
+{
+  "code": "OECST831",
+  "title": "INTRODUCTION TO ALGORITHM",
+  "semester": "S8",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Algorithm Analysis Time and Space Complexity",
+      "contact_hours": 9,
+      "topics": "Introduction to Algorithm Analysis Time and Space Complexity- Asymptotic notation, Elementary operations and Computation of Time Complexity-Best, worst and Average Case Complexities- Complexity Calculation of simple algorithms Recurrence Equations: Solution of Recurrence Equations \u2013 Iteration Method and Recursion Tree Methods"
+    },
+    {
+      "module_no": 2,
+      "title": "Trees - Binary Trees \u2013 level and height of the tree, complet",
+      "contact_hours": 9,
+      "topics": "Trees - Binary Trees \u2013 level and height of the tree, complete-binary tree representation using array, tree traversals (Recursive and non-recursive), applications. Binary search tree \u2013 creation, insertion and deletion and search operations, applications; Graphs \u2013 representation of graphs, BFS and DFS (analysis not required), Topological Sorting."
+    },
+    {
+      "module_no": 3,
+      "title": "The Algorithm Design Manual",
+      "contact_hours": 11,
+      "topics": "The Algorithm Design Manual"
+    },
+    {
+      "module_no": 4,
+      "title": "Dynamic Programming - The Control Abstraction- The Optimalit",
+      "contact_hours": 9,
+      "topics": "Dynamic Programming - The Control Abstraction- The Optimality Principle"
+    }
+  ]
+}

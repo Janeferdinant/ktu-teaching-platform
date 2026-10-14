@@ -1,0 +1,30 @@
+{
+  "course_code": "PECST743",
+  "title": "BIOINFORMATICS",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Molecular Biology Primer (3 hours)  Genes,  DNAs,  RNAs,  Pr",
+      "contact_hours": 9,
+      "topics": "Molecular Biology Primer (3 hours)  Genes,  DNAs,  RNAs,  Proteins,  Genomics,  Sequencing techniques,  Bioinformatics overview and scope  Sequence Alignment (6 hours)  Global and local sequence alignment-dynamic programming algorithms, edit  distance, similarity, Needleman Wunsch Algorithm, Smith Waterman  Algorithm"
+    },
+    {
+      "module_no": 2,
+      "title": "Biological Databases and Data Formats (3 hours)  Genomic and",
+      "contact_hours": 9,
+      "topics": "Biological Databases and Data Formats (3 hours)  Genomic and Sequence Data Formats, GenBank, EMBL-Bank, and DDBJ,  PROSITE, NCBI- Database Searching: BLAST, FASTA  Phylogenetics (6 hours)  Phylogenetic Tree basics and Construction Methods, UPGMA, Neighbour  joining, Parsimonous trees, Additive trees, Bootstrapping"
+    },
+    {
+      "module_no": 3,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "1/e, 2004",
+      "contact_hours": 2,
+      "topics": "1/e, 2004"
+    }
+  ]
+}

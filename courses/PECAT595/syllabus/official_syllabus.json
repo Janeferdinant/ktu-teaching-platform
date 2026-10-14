@@ -1,0 +1,32 @@
+{
+  "code": "PECAT595",
+  "title": "FOUNDATIONS OF SECURITY IN COMPUTING",
+  "semester": "S5",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Modular Arithmetic",
+      "contact_hours": 9,
+      "topics": "Modular Arithmetic:- Integer arithmetic - Integer division, Divisibility, Greatest Common Divisor (GCD), Euclid's algorithm for GCD, Extended Euclid\u2019s algorithm[Text 1/Text 2] Prime Numbers and Factorization:-Prime numbers - Prime numbers and prime-power factorization, Fermat and Mersenne primes, Fermat\u2019s theorem, Applications, Euler\u2019s theorem, Euler\u2019s totient function, Applications. Factorization - Fermat\u2019s factorization, Pollard p-1 method. [Text 2]"
+    },
+    {
+      "module_no": 2,
+      "title": "Symmetric Cipher Models",
+      "contact_hours": 9,
+      "topics": "Symmetric Cipher Models:- Substitution techniques - Caesar Cipher, Monoalphabetic Cipher, Playfair Cipher, Hill Cipher, Polyalphabetic Cipher, One Time Pad. Transposition techniques, Block Cipher principles- The Data Encryption Standard(DES), Strength of DES, Block Cipher Operation- Electronic Code Book, Cipher Block Chaining Mode, Cipher Feedback Mode, Output Feedback Mode, Counter Mode. Advanced Encryption Standard (AES)- Basic Structure, Transformation Functions, Key Expansion [Text 1]"
+    },
+    {
+      "module_no": 3,
+      "title": "Public key Cryptography",
+      "contact_hours": 9,
+      "topics": "Public key Cryptography: - Principles of Public key Cryptosystems, RSA Algorithms- Description of the Algorithm, Computational Aspects, The security of RSA, Diffie Hellman Key Exchange-The Algorithm, Key Exchange Protocols, Man-in \u2013the- Middle Attack, Elliptic Curve Cryptography-Analog of Diffie Hellman Key Exchange, Elliptic Curve Encryption/Decryption, Security of Elliptic Curve Cryptography[Text 1]"
+    },
+    {
+      "module_no": 4,
+      "title": "Operating system security",
+      "contact_hours": 9,
+      "topics": "Operating system security: \u2013 security in the operating system, Security in the design of the operating system. Database security: \u2013 Security requirements of databases, Reliability, and integrity, Database disclosure. Cloud Security:-Clod Computing Concepts, Moving to the Cloud, Cloud Security Tools and Techniques, Cloud Identity Management.[Text 3]"
+    }
+  ]
+}

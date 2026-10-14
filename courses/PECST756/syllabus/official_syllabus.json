@@ -1,0 +1,32 @@
+{
+  "code": "PECST756",
+  "title": "GAME THEORY AND MECHANISM DESIGN",
+  "semester": "S7",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Game Theory - Competitive equilibrium, Ratio",
+      "contact_hours": 8,
+      "topics": "Introduction to Game Theory - Competitive equilibrium, Rationality; Strategic Games - Dominance, Nash equilibrium, Maxmin strategies, elimination of dominated strategies, preservation of pure Nash equilibrium (PSNE), matrix games, relation between maxmin and PSNE in matrix games Mixed strategies, mixed strategy Nash equilibrium (MSNE), finding MSNE, MSNE characterization theorem, algorithm to find MSNE"
+    },
+    {
+      "module_no": 2,
+      "title": "Correlated equilibrium (CE) - Computing CE, extensive form g",
+      "contact_hours": 11,
+      "topics": "Correlated equilibrium (CE) - Computing CE, extensive form games, subgame perfection, limitations of subgame perfect Nash equilibrium; Imperfect information extensive form games (IIEFG) - strategies in IIEFGs, equivalence of strategies in IIEFGs, perfect recall, Equilibrium in IIEFG; Game theory application - P2P file sharing; Bayesian games - strategy and utility in Bayesian games, equilibrium in Bayesian games."
+    },
+    {
+      "module_no": 3,
+      "title": "Introduction to mechanism design - revelation principle, int",
+      "contact_hours": 9,
+      "topics": "Introduction to mechanism design - revelation principle, introduction and proof of Arrow\u2019s impossibility result, introduction to social choice setup; Introduction and proof of Gibbard-Satterthwaite theorem, domain restriction, median voter theorem; Task sharing domain, uniform rule, mechanism design with transfers, examples of quasi-linear preferences, Pareto optimality and Groves payments"
+    },
+    {
+      "module_no": 4,
+      "title": "Introduction to VCG mechanism, VCG in Combinatorial allocati",
+      "contact_hours": 8,
+      "topics": "Introduction to VCG mechanism, VCG in Combinatorial allocations,"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "PECST759",
+  "title": "PARALLEL ALGORITHMS",
+  "semester": "S7",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Parallel Computing - Overview of parallel co",
+      "contact_hours": 9,
+      "topics": "Introduction to Parallel Computing - Overview of parallel computing and its importance, Types of parallelism: data parallelism, task parallelism, Parallel computing architectures: SIMD, MIMD, shared memory, distributed memory. Parallel Programming Models - Parallel programming models: Parallel Random Access Machine (PRAM), bulk synchronous parallel (BSP), LogP, Shared memory vs. distributed memory models; Performance Metrics - Performance metrics for parallel algorithms: speedup, efficiency, scalability, Amdahl's Law and Gustafson's Law."
+    },
+    {
+      "module_no": 2,
+      "title": "Parallel Algorithms for Basic Operations - Parallel algorith",
+      "contact_hours": 9,
+      "topics": "Parallel Algorithms for Basic Operations - Parallel algorithms for matrix addition, matrix multiplication, and reduction, Parallel prefix sum (Parallel scan) algorithms. Case Studies of Parallel Addition, Multiplication, Reduction, and Prefix Sum in Modern Computing Systems; Parallel Sorting Algorithms - Parallel sorting algorithms: parallel merge sort, parallel quicksort, bitonic merge sort, Comparison of parallel sorting techniques."
+    },
+    {
+      "module_no": 3,
+      "title": "Parallel Graph Algorithms - Parallel algorithms for graph tr",
+      "contact_hours": 9,
+      "topics": "Parallel Graph Algorithms - Parallel algorithms for graph traversal: BFS, DFS, Parallel algorithms for minimum spanning tree (MST) and shortest path."
+    },
+    {
+      "module_no": 4,
+      "title": "Parallel Programming with OpenMP - Introduction to OpenMP, P",
+      "contact_hours": 9,
+      "topics": "Parallel Programming with OpenMP - Introduction to OpenMP, Parallel programming constructs in OpenMP, Performance tuning and optimization Parallel Programming with MPI - Introduction to MPI, Message passing model and MPI basics, Advanced MPI features and applications Parallel Numerical Algorithms - Solving linear systems: parallel Gaussian elimination, parallel LU decomposition, Parallel algorithms for eigenvalue problems, Applications and analysis."
+    }
+  ]
+}

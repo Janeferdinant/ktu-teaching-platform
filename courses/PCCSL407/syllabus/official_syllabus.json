@@ -1,0 +1,32 @@
+{
+  "code": "PCCSL407",
+  "title": "OPERATING SYSTEMS LAB",
+  "semester": "S4",
+  "credits": "2",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Familiarisation with basic Linux programming commands",
+      "contact_hours": 2,
+      "topics": "Familiarisation with basic Linux programming commands: ps, strace,  gdb, strings,  objdump, nm, file, od, xxd, time, fuser, top"
+    },
+    {
+      "module_no": 2,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 3,
+      "title": "CO3  Compare the performance of various CPU scheduling algor",
+      "contact_hours": 1,
+      "topics": "CO3  Compare the performance of various CPU scheduling algorithms  K4  CO4  Compare the performance of various disk scheduling algorithms  K4  Note: K1- Remember, K2- Understand, K3- Apply, K4- Analyse, K5- Evaluate, K6- Create   --- Page 124 ---       CO- PO Mapping (Mapping of Course Outcomes with Program Outcomes)"
+    },
+    {
+      "module_no": 4,
+      "title": "OPERATING SYSTEMS LAB  (Common to CS/CD/CM/CR/CA/AI/CB/CN/CC",
+      "contact_hours": 50,
+      "topics": "OPERATING SYSTEMS LAB  (Common to CS/CD/CM/CR/CA/AI/CB/CN/CC/CU/CI/CG)  Course Code  PCCSL407  CIE Marks"
+    }
+  ]
+}

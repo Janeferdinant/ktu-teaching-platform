@@ -1,0 +1,30 @@
+{
+  "course_code": "PECCT414",
+  "title": "FUNDAMENTALS OF INDUSTRIAL CONTROL SYSTEM SECURITY",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
+    },
+    {
+      "module_no": 2,
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "FUNDAMENTALS OF INDUSTRIAL CONTROL SYSTEM SECURITY  Course C",
+      "contact_hours": 40,
+      "topics": "FUNDAMENTALS OF INDUSTRIAL CONTROL SYSTEM SECURITY  Course Code  PECCT414 CIE Marks"
+    }
+  ]
+}

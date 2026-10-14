@@ -1,0 +1,30 @@
+{
+  "course_code": "OECST724",
+  "title": "COMPUTER NETWORKS",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "SEMESTER S7    COMPUTER NETWORKS   Course Code  OECST724   C",
+      "contact_hours": 40,
+      "topics": "SEMESTER S7    COMPUTER NETWORKS   Course Code  OECST724   CIE Marks"
+    },
+    {
+      "module_no": 2,
+      "title": "Course Assessment Method  (CIE",
+      "contact_hours": 5,
+      "topics": "Course Assessment Method  (CIE: 40 marks, ESE: 60 marks)    Continuous Internal Evaluation Marks (CIE):    Attendance  Assignment/  Microproject  Internal  Examination-1  (Written) Internal  Examination- 2  (Written ) Total"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    }
+  ]
+}

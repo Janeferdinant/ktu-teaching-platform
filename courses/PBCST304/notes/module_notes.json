@@ -1,0 +1,30 @@
+{
+  "course_code": "PBCST304",
+  "title": "OBJECT ORIENTED PROGRAMMING",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "ESE Marks",
+      "contact_hours": 40,
+      "topics": "ESE Marks"
+    },
+    {
+      "module_no": 2,
+      "title": "Total",
+      "contact_hours": 5,
+      "topics": "Total"
+    },
+    {
+      "module_no": 3,
+      "title": "OBJECT ORIENTED PROGRAMMING  (Common to CS/CA/CD/AM/CB/CN/CU",
+      "contact_hours": 60,
+      "topics": "OBJECT ORIENTED PROGRAMMING  (Common to CS/CA/CD/AM/CB/CN/CU/CG)  Course Code  PBCST304  CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "CIE Marks",
+      "contact_hours": 60,
+      "topics": "CIE Marks"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "code": "PECCT862",
+  "title": "SECURITY IN WIRELESS NETWORKS",
+  "semester": "S8",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Overview of Wireless Networks Introduction to wireless LANs",
+      "contact_hours": 11,
+      "topics": "Overview of Wireless Networks Introduction to wireless LANs - IEEE 802.11 WLANs - Physical Layer- MAC sublayer-MAC Management SublayerWireless ATM - HIPERLAN - HIPERLAN 2, WiMax, Wireless Local Loop (WLL). Migration path to UMTS, UMTS Basics, Air Interface, 3GPP Network Architecture, CDMA2000 overview- Radio and Network components, Network structure. 4G features and challenges, Technology path, IMS Architecture, Convergent Devices, 4G technologies, Advanced Broadband Wireless Access and Services."
+    },
+    {
+      "module_no": 2,
+      "title": "Foundation Introduction to security of existing and emerging",
+      "contact_hours": 9,
+      "topics": "Foundation Introduction to security of existing and emerging wireless networks, Introduction to cryptographic algorithms and protocols, Introduction to game theory, Case studies: cellular, WiFi, Bluetooth, MANET, VANET et"
+    },
+    {
+      "module_no": 3,
+      "title": "Security in Wireless LANs Authentication methods, Cross Doma",
+      "contact_hours": 5,
+      "topics": "Security in Wireless LANs Authentication methods, Cross Domain Mobility Adaptive Authentication, AAA Architecture and Authentication for wireless LAN Roaming, Experimental Study on Security Protocols in WLANs"
+    },
+    {
+      "module_no": 4,
+      "title": "Security of wireless networks GSM, UMTS, WEP, IEEE 802.11i,",
+      "contact_hours": 7,
+      "topics": "Security of wireless networks GSM, UMTS, WEP, IEEE 802.11i, Public Wifi hotspots, Bluetooth; Vehicular Ad-hoc Networks: vulnerabilities, challenges, Security architecture"
+    }
+  ]
+}

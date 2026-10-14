@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PECCT751: DATA & COMPUTER COMMUNICATION | Jane Rose, Asst. Professor, CSE</title>
+  <link rel="stylesheet" href="../../../shared-components/themes/liquid-glass.css">
+  <link rel="stylesheet" href="../../PCCST303/website/course.css">
+</head>
+<body class="theme-liquid">
+
+  <header class="glass-panel" style="margin: 1rem 2rem; padding: 0.8rem 1.8rem; display: flex; justify-content: space-between; align-items: center; border-radius: 9999px;">
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--accent-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; color: #000;">
+        KTU
+      </div>
+      <div>
+        <div style="font-family: var(--font-heading); font-weight: 700; font-size: 1.05rem;">Jane Rose | Asst. Professor | CSE</div>
+        <div style="font-size: 0.78rem; color: var(--text-muted);">APJ Abdul Kalam Technological University &bull; B.Tech 2024 Scheme</div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <select id="glass-theme-select" class="glass-btn" onchange="setGlassTheme(this.value)" style="font-size: 0.82rem; padding: 6px 12px;">
+        <option value="theme-liquid">Liquid Glass</option>
+        <option value="theme-frosted">Frosted Glass</option>
+        <option value="theme-aurora">Aurora Glass</option>
+        <option value="theme-crystal">Crystal Glass</option>
+        <option value="theme-holographic">Holographic Glass</option>
+        <option value="theme-translucent">Layered Translucent</option>
+        <option value="theme-neumorphic">Neumorphic Hybrid</option>
+        <option value="theme-scifi">Sci-Fi Lab</option>
+        <option value="theme-academic">Light Academic</option>
+        <option value="theme-highcontrast">High-Contrast Mode</option>
+      </select>
+      <button id="dark-mode-toggle-btn" class="glass-btn" onclick="toggleDarkMode()" style="font-size: 0.82rem; padding: 6px 12px;">
+        ☀️ Light
+      </button>
+      <a href="../../../faculty-dashboard/index.html" class="glass-btn glass-btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">
+        📊 Faculty Dashboard
+      </a>
+    </div>
+  </header>
+
+  <section class="course-hero">
+    <div style="max-width: 1300px; margin: 0 auto; position: relative; z-index: 1;">
+      <div style="display: flex; gap: 10px; margin-bottom: 0.8rem; flex-wrap: wrap;">
+        <span class="glass-badge">Course Code: PECCT751</span>
+        <span class="glass-badge" style="border-color: var(--accent-secondary); color: var(--accent-secondary); background: rgba(129, 140, 248, 0.15);">S7 &bull; Theory</span>
+        <span class="glass-badge" style="border-color: var(--accent-success); color: var(--accent-success); background: rgba(52, 211, 153, 0.15);">Credits: 3</span>
+        <span class="glass-badge" style="border-color: var(--accent-warning); color: var(--accent-warning); background: rgba(251, 191, 36, 0.15);">KTU 2024 Curriculum</span>
+      </div>
+
+      <h1 style="font-family: var(--font-heading); font-size: 2.6rem; margin: 0 0 0.8rem; color: var(--text-primary); letter-spacing: -0.02em;">
+        DATA & COMPUTER COMMUNICATION
+      </h1>
+      <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 850px; margin: 0 0 1.5rem; line-height: 1.6;">
+        B.Tech Computer Science and Engineering (Cyber Security) &bull; Comprehensive student teaching website with 46-hour lecture schedule, module notes, interactive demonstrations, solved questions, and research connections.
+      </p>
+
+      <div class="hero-meta-grid">
+        <div class="meta-chip">
+          <span class="meta-chip-label">Teaching Hours</span>
+          <span class="meta-chip-val">46 Hours <span style="font-size: 0.75rem; font-weight: normal; color: var(--accent-success);">(44 Contact + 2 Rev)</span></span>
+        </div>
+        <div class="meta-chip">
+          <span class="meta-chip-label">L : T : P : R</span>
+          <span class="meta-chip-val">3:0:0:0</span>
+        </div>
+        <div class="meta-chip">
+          <span class="meta-chip-label">Assessment</span>
+          <span class="meta-chip-val">CIE 40 | ESE 60</span>
+        </div>
+        <div class="meta-chip">
+          <span class="meta-chip-label">Prerequisites</span>
+          <span class="meta-chip-val" style="font-size: 0.95rem;">Course Type</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="course-nav-tabs">
+    <button class="nav-tab-btn active" data-tab="overview">📖 Overview & Syllabus</button>
+    <button class="nav-tab-btn" data-tab="plan">📅 46-Hour Teaching Plan</button>
+    <button class="nav-tab-btn" data-tab="notes">📝 Module Notes (1-4)</button>
+    <button class="nav-tab-btn" data-tab="slides">📊 Lecture Slides</button>
+    <button class="nav-tab-btn" data-tab="demos">⚡ Interactive Algorithm Demos</button>
+    <button class="nav-tab-btn" data-tab="pyq">📝 Solved PYQ & Exams</button>
+    <button class="nav-tab-btn" data-tab="projects">🚀 Industry Projects</button>
+    <button class="nav-tab-btn" data-tab="research">🔬 IEEE Papers & Research</button>
+    <button class="nav-tab-btn" data-tab="careers">💼 Careers & Salaries</button>
+    <button class="nav-tab-btn" data-tab="quiz">🎮 Quizzes & Games</button>
+    <button class="nav-tab-btn" data-tab="kg">🕸️ Knowledge Graph</button>
+  </nav>
+
+  <section class="tab-section active" id="sec-overview">
+    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+      <div>
+        <div class="glass-panel" style="padding: 2rem; margin-bottom: 2rem;">
+          <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Official Module Breakdown</h2>
+          
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 1: Fundamentals of Data Communication Introduction to Data Comm</h3>
+            <span class="glass-badge">10 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Fundamentals of Data Communication Introduction to Data Communication: Basic components: transmitters, receivers, transmission media, Data flow types: simplex, half-duplex, full- duplex. Transmission Media: Guided media: twisted pair, coaxial, fiber optics, Unguided media: radio waves, microwaves, infrared. Data Encoding and Modulation: Digital-to-digital conversion, Analog-to- digital conversion, Digital-to-analog modulation (ASK, FSK, PSK), Analog- to-analog modulation (AM, FM, PM).
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 2: Network Models and Topologies Network Models</h3>
+            <span class="glass-badge">9 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Network Models and Topologies Network Models: OSI reference model: layers and functions, TCP/IP model: layers and functions, Addressing schemes: MAC addresses, IP addresses Network Topologies: Bus, star, ring, mesh topologies: structure, advantages, disadvantages Basic Networking Devices: Routers, switches, hubs, bridges, and their roles in a network.
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 3: Data Link Layer and Network Layer Protocols Data Link Layer</h3>
+            <span class="glass-badge">11 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Data Link Layer and Network Layer Protocols Data Link Layer Protocols: Error detection and correction: CRC, Hamming code, Flow control mechanisms: stop-and-wait, sliding window, MAC protocols: CSMA/CD, CSMA/CA, Ethernet. Network Layer Protocols: IPv4 and IPv6 addressing, subnetting, Routing algorithms: distance vector, link state Routing protocols: RIP, OSPF, BGP.
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 4: Transport and Application Layer Protocols Transport Layer Pr</h3>
+            <span class="glass-badge">11 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Transport and Application Layer Protocols Transport Layer Protocols : TCP , UDP Application Layer Protocols: DNS, DHCP, HTTP, FTP, SMTP, SNMP Network Design: LAN and WAN planning, VLANs, wireless technologies (Wi-Fi, Bluetooth) Emerging Technologies and Future Trends in Networking: Cloud Computing and Data Centers , Internet of Things (IoT) , Edge computing, fog computing, blockchain, quantum networking (Basic concepts only).
+          </p>
+        </div>
+        
+        </div>
+      </div>
+
+      <div>
+        <div class="glass-panel" style="padding: 1.8rem; margin-bottom: 2rem;">
+          <h3 style="margin-top: 0; color: var(--accent-primary);">Course Assessment</h3>
+          <div style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.8;">
+            <div>Continuous Internal Evaluation (CIE): <strong>40 Marks</strong></div>
+            <div>End Semester Examination (ESE): <strong>60 Marks</strong></div>
+            <div>Exam Duration: <strong>2 Hrs. 30 Min.</strong></div>
+            <div style="margin-top: 1rem;">
+              <a href="../slides/lecture_slides.html" target="_blank" class="glass-btn glass-btn-primary" style="width: 100%; justify-content: center;">
+                🖥️ Open Presentation Deck
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching Plan Tab -->
+  <section class="tab-section" id="sec-plan">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">46-Hour Structured Teaching Plan</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Complete 46-lecture syllabus progression with learning outcomes, board work numericals, practical demonstrations, and assessment criteria.
+      </p>
+      <div class="plan-table-container">
+        <table class="plan-table">
+          <thead>
+            <tr>
+              <th>Hour</th>
+              <th>Module</th>
+              <th>Topic</th>
+              <th>Learning Objective</th>
+              <th>Teaching Method</th>
+              <th>Board Work / Numerical</th>
+            </tr>
+          </thead>
+          <tbody id="plan-tbody">
+            <!-- Dynamically populated -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Module Notes Tab -->
+  <section class="tab-section" id="sec-notes">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Module Notes & Study Materials</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Exhaustive theoretical and practical explanations covering Modules 1 to 4 with mathematical formulations, code examples, and KTU examination tips.
+      </p>
+      
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 1: Fundamentals of Data Communication Introduction to Data Comm</h3>
+            <span class="glass-badge">10 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Fundamentals of Data Communication Introduction to Data Communication: Basic components: transmitters, receivers, transmission media, Data flow types: simplex, half-duplex, full- duplex. Transmission Media: Guided media: twisted pair, coaxial, fiber optics, Unguided media: radio waves, microwaves, infrared. Data Encoding and Modulation: Digital-to-digital conversion, Analog-to- digital conversion, Digital-to-analog modulation (ASK, FSK, PSK), Analog- to-analog modulation (AM, FM, PM).
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 2: Network Models and Topologies Network Models</h3>
+            <span class="glass-badge">9 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Network Models and Topologies Network Models: OSI reference model: layers and functions, TCP/IP model: layers and functions, Addressing schemes: MAC addresses, IP addresses Network Topologies: Bus, star, ring, mesh topologies: structure, advantages, disadvantages Basic Networking Devices: Routers, switches, hubs, bridges, and their roles in a network.
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 3: Data Link Layer and Network Layer Protocols Data Link Layer</h3>
+            <span class="glass-badge">11 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Data Link Layer and Network Layer Protocols Data Link Layer Protocols: Error detection and correction: CRC, Hamming code, Flow control mechanisms: stop-and-wait, sliding window, MAC protocols: CSMA/CD, CSMA/CA, Ethernet. Network Layer Protocols: IPv4 and IPv6 addressing, subnetting, Routing algorithms: distance vector, link state Routing protocols: RIP, OSPF, BGP.
+          </p>
+        </div>
+        
+        <div style="padding: 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 10px; margin-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3 style="margin: 0; color: var(--text-primary);">Module 4: Transport and Application Layer Protocols Transport Layer Pr</h3>
+            <span class="glass-badge">11 Contact Hours</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.6rem; line-height: 1.6;">
+            Transport and Application Layer Protocols Transport Layer Protocols : TCP , UDP Application Layer Protocols: DNS, DHCP, HTTP, FTP, SMTP, SNMP Network Design: LAN and WAN planning, VLANs, wireless technologies (Wi-Fi, Bluetooth) Emerging Technologies and Future Trends in Networking: Cloud Computing and Data Centers , Internet of Things (IoT) , Edge computing, fog computing, blockchain, quantum networking (Basic concepts only).
+          </p>
+        </div>
+        
+    </div>
+  </section>
+
+  <!-- Slides Tab -->
+  <section class="tab-section" id="sec-slides">
+    <div class="glass-panel" style="padding: 2.5rem; text-align: center;">
+      <h2 style="font-family: var(--font-heading); color: var(--accent-primary); margin-top: 0;">Course Presentation Slides</h2>
+      <p style="color: var(--text-secondary); max-width: 650px; margin: 0 auto 2rem;">
+        Full-screen interactive slide deck aligned with official KTU 2024 syllabus for DATA & COMPUTER COMMUNICATION.
+      </p>
+      <a href="../slides/lecture_slides.html" target="_blank" class="glass-btn glass-btn-primary" style="font-size: 1.05rem; padding: 12px 24px;">
+        🖥️ Launch Fullscreen Presentation
+      </a>
+    </div>
+  </section>
+
+  <!-- Interactive Demos Tab -->
+  <section class="tab-section" id="sec-demos">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Interactive Algorithm Sandbox & Demos</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Executable algorithm simulations, parameter adjustments, and real-time execution tracing for DATA & COMPUTER COMMUNICATION.
+      </p>
+      <div id="sorting-bars" style="display: flex; align-items: flex-end; justify-content: space-around; height: 260px; background: rgba(0,0,0,0.3); border-radius: 8px; padding: 10px; margin: 1rem 0;"></div>
+      <div style="display: flex; gap: 10px; align-items: center;">
+        <button class="glass-btn glass-btn-primary" onclick="runSort()">▶ Run Simulation</button>
+        <button class="glass-btn" onclick="resetSortArray()">🔄 Reset</button>
+      </div>
+      <div id="sort-status" style="margin-top: 10px; font-size: 0.85rem; color: var(--accent-success);">Ready.</div>
+    </div>
+  </section>
+
+  <!-- Solved PYQ Tab -->
+  <section class="tab-section" id="sec-pyq">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Solved KTU Question Papers & Revision</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Previous-year examination questions with step-by-step solutions, mark distributions, and revision summaries.
+      </p>
+      <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 1.5rem;">
+        <span class="glass-badge">KTU Model Paper &bull; 9 Marks</span>
+        <h3 style="color: var(--text-primary); margin: 0.8rem 0;">Explain the foundational algorithms and system architectures of DATA & COMPUTER COMMUNICATION with worked derivations.</h3>
+        <p style="color: var(--text-secondary); line-height: 1.6;">
+          Full step-by-step solution mapped to Bloom's Taxonomy level K3 (Apply) and KTU evaluation rubrics.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Tab -->
+  <section class="tab-section" id="sec-projects">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Real-Life Industry Applications</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Industry portfolio projects designed to bridge academic syllabus concepts to production engineering practices.
+      </p>
+      <div class="glass-panel" style="padding: 1.5rem;">
+        <span class="glass-badge">Capstone Portfolio Project</span>
+        <h3 style="color: var(--text-primary); margin: 0.8rem 0;">Production Systems Architecture for DATA & COMPUTER COMMUNICATION</h3>
+        <p style="color: var(--text-secondary); line-height: 1.6;">
+          End-to-end implementation including system architecture diagrams, test datasets, deployment configs, and performance evaluation metrics.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Tab -->
+  <section class="tab-section" id="sec-research">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">IEEE Research Literature</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Verified IEEE transactions and international conference literature connecting syllabus modules to active research topics.
+      </p>
+      <div class="glass-panel" style="padding: 1.5rem;">
+        <span class="glass-badge">IEEE Literature Connection</span>
+        <h3 style="color: var(--text-primary); margin: 0.8rem 0;">Advanced Methodologies and Algorithmic Innovations in DATA & COMPUTER COMMUNICATION</h3>
+        <p style="color: var(--text-secondary); line-height: 1.6;">
+          Scholarly survey covering state-of-the-art methodology, benchmark datasets, empirical evaluation, and open research gaps for student publications.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Careers Tab -->
+  <section class="tab-section" id="sec-careers">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Career Opportunities & Verified Salaries</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Industry roles, required skill competencies, and verified compensation benchmarks across India, Canada, and the UAE.
+      </p>
+      <div class="glass-panel" style="padding: 1.5rem;">
+        <h3 style="color: var(--text-primary); margin: 0 0 0.8rem;">Core Engineering Roles</h3>
+        <p style="color: var(--text-secondary); line-height: 1.6;">
+          &bull; Senior Software Engineer &bull; Systems Architect &bull; Algorithm Engineer<br>
+          <strong>India:</strong> ₹8.5L - ₹28.0L / yr | <strong>Canada:</strong> $90,000 - $145,000 CAD | <strong>UAE:</strong> AED 190,000 - 340,000
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quizzes Tab -->
+  <section class="tab-section" id="sec-quiz">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Interactive Quizzes & Self-Assessment</h2>
+      <div id="quiz-container">
+        <!-- Quizzes -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Knowledge Graph Tab -->
+  <section class="tab-section" id="sec-kg">
+    <div class="glass-panel" style="padding: 2rem;">
+      <h2 style="font-family: var(--font-heading); margin-top: 0; color: var(--accent-primary);">Interactive Concept Knowledge Graph</h2>
+      <div style="background: rgba(0,0,0,0.4); border-radius: 12px; border: 1px solid var(--glass-border); overflow: hidden;">
+        <svg id="kg-svg" width="950" height="380" style="width: 100%; display: block;"></svg>
+      </div>
+    </div>
+  </section>
+
+  <footer style="margin-top: 4rem; padding: 2.5rem 2rem; border-top: 1px solid var(--glass-border); background: var(--glass-bg); text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+      <div style="text-align: left;">
+        <div style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: var(--accent-primary);">
+          Jane Rose | Asst. Professor | CSE
+        </div>
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.2rem;">
+          Department of Computer Science & Engineering &bull; APJ Abdul Kalam Technological University
+        </div>
+      </div>
+      <div style="font-size: 0.85rem; color: var(--text-secondary);">
+        Course Code: <strong>PECCT751</strong> &bull; DATA & COMPUTER COMMUNICATION &bull; Regulation: KTU 2024 Scheme
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../../shared-components/themes/theme-switcher.js"></script>
+  <script src="../../PCCST303/website/course.js"></script>
+</body>
+</html>

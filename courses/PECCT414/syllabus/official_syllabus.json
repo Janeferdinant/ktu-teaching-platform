@@ -1,0 +1,32 @@
+{
+  "code": "PECCT414",
+  "title": "FUNDAMENTALS OF INDUSTRIAL CONTROL SYSTEM SECURITY",
+  "semester": "S4",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Module 1",
+      "contact_hours": 11,
+      "topics": ""
+    },
+    {
+      "module_no": 2,
+      "title": "Module 2",
+      "contact_hours": 11,
+      "topics": ""
+    },
+    {
+      "module_no": 3,
+      "title": "Module 3",
+      "contact_hours": 11,
+      "topics": ""
+    },
+    {
+      "module_no": 4,
+      "title": "Module 4",
+      "contact_hours": 11,
+      "topics": ""
+    }
+  ]
+}

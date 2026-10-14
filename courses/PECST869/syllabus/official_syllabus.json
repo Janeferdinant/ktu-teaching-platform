@@ -1,0 +1,32 @@
+{
+  "code": "PECST869",
+  "title": "COMPUTATIONAL NUMBER THEORY",
+  "semester": "S8",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Number Theory - Basic concepts and definitio",
+      "contact_hours": 9,
+      "topics": "Introduction to Number Theory - Basic concepts and definitions, Greatest common divisor (GCD) and Euclidean algorithm; Modular Arithmetic - Congruences and modular arithmetic, Applications of modular arithmetic; Integer Factorization - Prime numbers and factorization, Algorithms for integer factorization; Basic Algorithms - Algorithms for modular arithmetic, Fast exponentiation techniques"
+    },
+    {
+      "module_no": 2,
+      "title": "Advanced Factorization Algorithms - Pollard\u2019s rho algorithm,",
+      "contact_hours": 9,
+      "topics": "Advanced Factorization Algorithms - Pollard\u2019s rho algorithm, Elliptic curve factorization; Public-Key Cryptography - RSA algorithm, Security analysis of RSA; Elliptic Curve Cryptography - Introduction to elliptic curves, Algorithms for elliptic curve cryptosystems"
+    },
+    {
+      "module_no": 3,
+      "title": "Public Key Cryptography - RSA algorithm and its implementati",
+      "contact_hours": 9,
+      "topics": "Public Key Cryptography - RSA algorithm and its implementation, Security aspects and cryptanalysis; Elliptic Curve Cryptography - Basics of elliptic curves, Elliptic curve cryptosystems; Cryptographic Protocols - Key"
+    },
+    {
+      "module_no": 4,
+      "title": "Algebraic Number Theory - Algebraic integers and number fiel",
+      "contact_hours": 9,
+      "topics": "Algebraic Number Theory - Algebraic integers and number fields, Factorization in number fields; Computational Methods - Algorithms for solving Diophantine equations, Applications in computational algebra; Recent Developments and Applications - Applications in modern cryptography and coding theory"
+    }
+  ]
+}

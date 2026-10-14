@@ -1,0 +1,30 @@
+{
+  "course_code": "PECST595",
+  "title": "ADVANCED GRAPH ALGORITHMS",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "PCCST303  PCCST502  Course Type  Theory    Course Objectives",
+      "contact_hours": 1,
+      "topics": "PCCST303  PCCST502  Course Type  Theory    Course Objectives:"
+    },
+    {
+      "module_no": 2,
+      "title": "Course Type  Theory    Course Objectives",
+      "contact_hours": 1,
+      "topics": "Course Type  Theory    Course Objectives:"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
+    }
+  ]
+}

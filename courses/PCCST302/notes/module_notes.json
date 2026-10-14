@@ -1,0 +1,30 @@
+{
+  "course_code": "PCCST302",
+  "title": "THEORY OF COMPUTATION",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "--- Page 8 ---     Course Assessment Method  (CIE",
+      "contact_hours": 5,
+      "topics": "--- Page 8 ---     Course Assessment Method  (CIE: 40 marks, ESE: 60 marks)  Continuous Internal Evaluation Marks (CIE):    Attendance  Assignment/  Microproject  Internal  Examination-1  (Written)  Internal  Examination- 2  (Written )  Total"
+    },
+    {
+      "module_no": 2,
+      "title": "CIE Marks",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
+    },
+    {
+      "module_no": 3,
+      "title": "THEORY OF COMPUTATION  (Common to CS/CA/CM/CD/CN/CC)    Cour",
+      "contact_hours": 40,
+      "topics": "THEORY OF COMPUTATION  (Common to CS/CA/CM/CD/CN/CC)    Course Code  PCCST302 CIE Marks"
+    },
+    {
+      "module_no": 4,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    }
+  ]
+}

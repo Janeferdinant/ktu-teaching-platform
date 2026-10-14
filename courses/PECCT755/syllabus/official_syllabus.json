@@ -1,0 +1,32 @@
+{
+  "code": "PECCT755",
+  "title": "CYBER THREAT INTELLIGENCE",
+  "semester": "S7",
+  "credits": "4",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Threat intelligence overview Definition, Strategy and extern",
+      "contact_hours": 11,
+      "topics": "Threat intelligence overview Definition, Strategy and external sources, How organisation use CTI, Role of CTI analyst, Threat intelligence platforms, Threat intelligence frameworks, Security intelligence. Data security and protection Data security challenges, common pitfalls, Industry specific data security challenges, Data protection capabilities"
+    },
+    {
+      "module_no": 2,
+      "title": "Threat vectors and scanning Threat vector, types of threat v",
+      "contact_hours": 8,
+      "topics": "Threat vectors and scanning Threat vector, types of threat vector, mitigate risk from threat vector, scanning, types of scanning, port scanning, network protocol analyser, vulnerability assessment tools."
+    },
+    {
+      "module_no": 3,
+      "title": "Application security and testing Characteristic of security",
+      "contact_hours": 10,
+      "topics": "Application security and testing Characteristic of security architecture, High level architectural models, security patterns, Application security overview, Application security standards and regulations, DevsecOps overview, DevsecOps Deployment, Application security Defects, Effective defenses."
+    },
+    {
+      "module_no": 4,
+      "title": "SIEM platforms and Threat Hunting SIEM concepts and Benefits",
+      "contact_hours": 10,
+      "topics": "SIEM platforms and Threat Hunting SIEM concepts and Benefits, SIEM Deployment, SIEM Solutions, vendors, User behaviour analytics, AI and SIEM, Apply AI concepts, Apply user behaviour analytics,AI and Cyber security, Apply AI to SIEM, Mitigate upcoming future attacks with Cyber threat Hunting."
+    }
+  ]
+}

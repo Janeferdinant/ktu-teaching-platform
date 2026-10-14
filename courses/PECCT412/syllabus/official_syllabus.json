@@ -1,0 +1,32 @@
+{
+  "code": "PECCT412",
+  "title": "INTRODUCTION TO BLOCK-CHAIN TECHNOLOGIES",
+  "semester": "S4",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Cryptography",
+      "contact_hours": 9,
+      "topics": "Cryptography: Concepts and Techniques-Introduction, plaintext and cipher text, substitution techniques, transposition techniques, encryption and decryption, symmetric and asymmetric key cryptography. Introduction to block-chain \u2013 basic ideas behind blockchain, generic elements of a blockchain. Types -private, public, hybrid blockchain. Applications of Blockchain in E-Governance, Land Registration, Medical Information Systems, and others. Benefits & Limitations of blockchain."
+    },
+    {
+      "module_no": 2,
+      "title": "Blockchain",
+      "contact_hours": 9,
+      "topics": "Blockchain: Versions, variants, usecases, life-usecases of blockchain, Blockchain vs shared database. The real need for mining \u2013 Consensus \u2013 definition, types, consensus in blockchain, Byzantine Generals Problem, and Consensus as a distributed coordination problem. Decentralization \u2013 Decentralization using blockchain, Methods of decentralization, Routes to decentralization, Blockchain and full ecosystem decentralization."
+    },
+    {
+      "module_no": 3,
+      "title": "Introduction to crypto-currency",
+      "contact_hours": 9,
+      "topics": "Introduction to crypto-currency: definition, types, applications. Introduction to Bitcoins: Definition, Bitcoin Digital Keys & Addresses, Transactions, Limitations of Bitcoins. Introduction to Blockchain platforms: Ethereum, Hyperledger, IOTA, EOS, Multichain, Bigchain etc. Advantages & disadvantages."
+    },
+    {
+      "module_no": 4,
+      "title": "Smart Contracts \u2013 Definition, Smart contract templates, Orac",
+      "contact_hours": 9,
+      "topics": "Smart Contracts \u2013 Definition, Smart contract templates, Oracles, Types of oracles, Deploying smart contracts. Ethereum \u2013 The Ethereum network. Components of the Ethereum ecosystem \u2013 Keys and addresses, Accounts, Transactions and messages."
+    }
+  ]
+}

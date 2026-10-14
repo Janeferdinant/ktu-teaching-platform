@@ -1,0 +1,30 @@
+{
+  "course_code": "PECAT415",
+  "title": "ALGORITHM ANALYSIS AND DESIGN",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "3  Algorithm Design  Jon Kleinberg, Eva Tardos  Pearson",
+      "contact_hours": 1,
+      "topics": "3  Algorithm Design  Jon Kleinberg, Eva Tardos  Pearson"
+    },
+    {
+      "module_no": 2,
+      "title": "Fundamentals of Computer  Algorithms  Ellis Horowitz, Sartaj",
+      "contact_hours": 2,
+      "topics": "Fundamentals of Computer  Algorithms  Ellis Horowitz, Sartaj Sahni,  Sanguthevar Rajasekaran  Orient Longman  Universities Press"
+    },
+    {
+      "module_no": 3,
+      "title": "Exam Hours",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
+    },
+    {
+      "module_no": 4,
+      "title": "ALGORITHM ANALYSIS AND DESIGN  Course Code  PECAT415  CIE Ma",
+      "contact_hours": 40,
+      "topics": "ALGORITHM ANALYSIS AND DESIGN  Course Code  PECAT415  CIE Marks"
+    }
+  ]
+}

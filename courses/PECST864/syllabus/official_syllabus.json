@@ -1,0 +1,32 @@
+{
+  "code": "PECST864",
+  "title": "COMPUTATIONAL COMPLEXITY",
+  "semester": "S8",
+  "credits": "3",
+  "modules": [
+    {
+      "module_no": 1,
+      "title": "Introduction to Complexity Theory - Basic concepts and motiv",
+      "contact_hours": 9,
+      "topics": "Introduction to Complexity Theory - Basic concepts and motivations, Deterministic and nondeterministic models, Turing machines, and computational models. (Text 2 - Ch 7) Complexity Classes P and NP - Definitions and examples of P and NP, Polynomial-time algorithms, NP-completeness and the Cook-Levin theorem. (Text 2 - Ch 7, 8) Reductions and Completeness - Polynomial-time reductions, NP-complete problems, and their significance, Examples of NP-complete problems (Text 1 - Ch 2)"
+    },
+    {
+      "module_no": 2,
+      "title": "Space Complexity - Space complexity classes",
+      "contact_hours": 9,
+      "topics": "Space Complexity - Space complexity classes: L, NL, PSPACE, Savitch's theorem and NL-completeness, PSPACE-completeness. (Text 2 - Ch 8) Polynomial Hierarchy and Alternation - Definition of the polynomial hierarchy (PH), Complete problems for each level of PH, Relationship between PH and other classes. (Text 1 - Ch 5)"
+    },
+    {
+      "module_no": 3,
+      "title": "Interactive Proofs - Definition and examples of interactive",
+      "contact_hours": 9,
+      "topics": "Interactive Proofs - Definition and examples of interactive proofs, IP ="
+    },
+    {
+      "module_no": 4,
+      "title": "Circuit Complexity - Boolean circuits and circuit complexity",
+      "contact_hours": 9,
+      "topics": "Circuit Complexity - Boolean circuits and circuit complexity, Circuit lower bounds, Complexity of specific functions. (Text 2 - Ch 9) Quantum Complexity - Basics of quantum computation, Quantum complexity classes: BQP, QMA, Quantum algorithms and their complexity. (Text 3 - Ch 10, 11)"
+    }
+  ]
+}

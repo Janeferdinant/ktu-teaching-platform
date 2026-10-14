@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "ktu-teaching-platform",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/faculty-dashboard/index.html" },
+    { "source": "/faculty-dashboard", "destination": "/faculty-dashboard/index.html" },
+    { "source": "/faculty-dashboard/", "destination": "/faculty-dashboard/index.html" },
+    { "source": "/courses/:code/slides", "destination": "/courses/:code/slides/lecture_slides.html" },
+    { "source": "/courses/:code/slides/", "destination": "/courses/:code/slides/lecture_slides.html" },
+    { "source": "/courses/:code/slides/lecture_slides.html", "destination": "/courses/:code/slides/lecture_slides.html" },
+    { "source": "/courses/:code", "destination": "/courses/:code/website/index.html" },
+    { "source": "/courses/:code/", "destination": "/courses/:code/website/index.html" },
+    { "source": "/courses/:code/website/index.html", "destination": "/courses/:code/website/index.html" },
+    { "source": "/courses/slides/lecture_slides.html", "destination": "/courses/PCCST303/slides/lecture_slides.html" },
+    { "source": "/PCCST303/website/:path*", "destination": "/courses/PCCST303/website/:path*" }
+  ]
+}

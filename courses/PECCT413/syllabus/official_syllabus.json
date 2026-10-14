@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Module 1",
-      "contact_hours": 11,
-      "topics": ""
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "Module 2",
-      "contact_hours": 11,
-      "topics": ""
+      "title": "Supervised Learning",
+      "contact_hours": 9,
+      "topics": "Supervised Learning: Linear Regression, Decision Trees, K-Nearest  Neighbors(KNN)  Unsupervised Learning: Principal Component Analysis (PCA), K-means  clustering"
     },
     {
       "module_no": 3,
-      "title": "Module 3",
-      "contact_hours": 11,
-      "topics": ""
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 4,
-      "title": "Module 4",
-      "contact_hours": 11,
-      "topics": ""
+      "title": "Industry Applications & Optimization",
+      "contact_hours": 40,
+      "topics": "INTRODUCTION TO AI AND ML  Course Code  PECCT413  CIE Marks"
     }
   ]
 }

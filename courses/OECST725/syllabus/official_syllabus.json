@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Fundamentals of Mobile Application Development",
-      "contact_hours": 9,
-      "topics": "Fundamentals of Mobile Application Development: Introduction to Mobile Application Development, Overview of Mobile Platforms: iOS and Android, Introduction to Flutter: History, Features, and Benefits, Setting Up the Flutter Development Environment*, Mobile App Architectures (MVC, MVVM, and BLoC), Basics of Dart Programming Language."
+      "title": "SEMESTER S7  MOBILE APPLICATION DEVELOPMENT  (Common to CS/C",
+      "contact_hours": 40,
+      "topics": "SEMESTER S7  MOBILE APPLICATION DEVELOPMENT  (Common to CS/CA/CM/CD/CR/AI/AM/AD)  Course Code  OECST725  CIE Marks"
     },
     {
       "module_no": 2,
-      "title": "User Interface Design and User Experience",
-      "contact_hours": 9,
-      "topics": "User Interface Design and User Experience: Principles of Mobile UI/UX Design, Designing Responsive UIs with Flutter, Using Flutter Widgets: StatelessWidget and StatefulWidget, Layouts in Flutter: Container, Column, Row, Stack, Navigation and Routing in Flutter, Customizing UI with Themes and Styles."
+      "title": "Networking in Flutter",
+      "contact_hours": 4,
+      "topics": "Networking in Flutter: HTTP Requests, JSON Parsing, RESTful APIs  Data Persistence: SQLite, SharedPreferences, Hive  Asynchronous Programming with Dart: Futures, async/await, and Streams"
     },
     {
       "module_no": 3,
       "title": "Advanced Flutter Development",
       "contact_hours": 9,
-      "topics": "Advanced Flutter Development: State Management in Flutter: Provider, Riverpod, and BLoC"
+      "topics": "Advanced Flutter Development:  State Management in Flutter: Provider, Riverpod, and BLoC"
     },
     {
       "module_no": 4,
       "title": "Industry Practices and App Deployment",
       "contact_hours": 9,
-      "topics": "Industry Practices and App Deployment: Advanced UI Components and Animations, App Security Best Practices, Testing and Debugging Flutter Applications, Publishing Apps to Google Play Store and Apple App Store, Industry Trends and Future of Mobile Development with Flutter"
+      "topics": "Industry Practices and App Deployment:  Advanced UI Components and Animations, App Security Best Practices,  Testing and Debugging Flutter Applications, Publishing Apps to Google Play  Store and Apple App Store, Industry Trends and Future of Mobile  Development with Flutter"
     }
   ]
 }

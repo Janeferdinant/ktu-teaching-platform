@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to Graphs & its Applications, Basics of Paths,",
-      "contact_hours": 12,
-      "topics": "Introduction to Graphs & its Applications, Basics of Paths, Cycles, and Trails, Connection, Bipartite Graphs, Eulerian Circuits, Vertex Degrees and Counting, Degree-sum formula, The Chinese Postman Problem and Graphic Sequences. Trees and Distance, Properties of Trees, Spanning Trees and Enumeration, Matrix-tree computation, Cayley's Formula, Prufer code"
+      "title": "ESE Marks",
+      "contact_hours": 40,
+      "topics": "ESE Marks"
     },
     {
       "module_no": 2,
-      "title": "Matchings and Covers, Hall's Condition, Min-Max Theorem, Ind",
-      "contact_hours": 12,
-      "topics": "Matchings and Covers, Hall's Condition, Min-Max Theorem, Independent Sets, Covers and Maximum Bipartite Matching, Augmenting Path Algorithm, Weighted Bipartite Matching, Hungarian Algorithm. Stable Matchings and Faster Bipartite Matching, Factors & Perfect Matching in General Graphs, Matching in General Graphs: Edmonds\u2019 Blossom Algorithm"
+      "title": "3  Connectivity and Paths",
+      "contact_hours": 10,
+      "topics": "3  Connectivity and Paths: Cuts and Connectivity, k-Connected Graphs,  Network Flow Ford-Fulkerson Labeling Algorithm, Max-Flow Min-cut"
     },
     {
       "module_no": 3,
       "title": "Connectivity and Paths",
       "contact_hours": 10,
-      "topics": "Connectivity and Paths: Cuts and Connectivity, k-Connected Graphs, Network Flow Ford-Fulkerson Labeling Algorithm, Max-Flow Min-cut"
+      "topics": "Connectivity and Paths: Cuts and Connectivity, k-Connected Graphs,  Network Flow Ford-Fulkerson Labeling Algorithm, Max-Flow Min-cut"
     },
     {
       "module_no": 4,
-      "title": "Planar Graphs, Characterization of Planar Graphs, Kuratowski",
-      "contact_hours": 10,
-      "topics": "Planar Graphs, Characterization of Planar Graphs, Kuratowski's Theorem, Wagner's Theorem Line Graphs and Edge-coloring, Hamiltonian Graph, Traveling Salesman Problem and NP-Completeness, Dominating Sets."
+      "title": "Industry Applications & Optimization",
+      "contact_hours": 60,
+      "topics": "CIE Marks"
     }
   ]
 }

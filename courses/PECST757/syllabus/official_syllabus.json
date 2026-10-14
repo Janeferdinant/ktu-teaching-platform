@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Modern processors",
-      "contact_hours": 9,
-      "topics": "Modern processors: Stored-program computer architecture- General- purpose cache-based microprocessor architecture - Performance metrics and benchmarks -Moore\u2019s Law - Pipelining - Super scalarity - SIMD - Memory hierarchies - Cache , Cache mapping, Prefetch, Multicore processors - Multithreaded processors - Vector processors - Design principles - Maximum performance estimates - Programming for vector architectures."
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "Parallel computers - Taxonomy of parallel computing paradigm",
-      "contact_hours": 9,
-      "topics": "Parallel computers - Taxonomy of parallel computing paradigms - Shared-memory computers - Cache coherence - UMA, ccNUMA, Distributed-memory computers - Hierarchical (hybrid) systems - Networks - Basic performance characteristics of networks, Buses, Switched and fat- tree networks - Mesh networks - Hybrids."
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Shared-memory parallel programming with OpenMP",
-      "contact_hours": 9,
-      "topics": "Shared-memory parallel programming with OpenMP:- Short introduction to OpenMP - Parallel execution - Data scoping - OpenMP worksharing for loops - Synchronization, Reductions, Loop scheduling, Tasking,Miscellaneous, Case study: OpenMP-parallel Jacobi algorithm"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Distributed-memory parallel programming with MPI",
-      "contact_hours": 9,
-      "topics": "Distributed-memory parallel programming with MPI:- Message passing - A short introduction to MPI, A simple example, Messages and point-to-point communication, Collective communication, Nonblocking point-to-point communication, Virtual topologies. Example- MPI parallelization of a Jacobi solver - MPI implementation - Performance properties."
+      "title": "PO1  PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12",
+      "contact_hours": 3,
+      "topics": "PO1  PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

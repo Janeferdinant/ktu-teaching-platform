@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Digital investigation foundation",
-      "contact_hours": 9,
-      "topics": "Digital investigation foundation: Digital investigations and evidence, Digital crime scene investigation process, Data analysis, overview of toolkits. Computer foundations- Data organizations-booting process-Hard disk technology- Hard disk data acquisition-introduction- reading the source data-writing the output data."
+      "title": "(Written)  Internal  Examination- 2  (Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written )  Total"
     },
     {
       "module_no": 2,
-      "title": "Live Response",
-      "contact_hours": 7,
-      "topics": "Live Response: Data Collection Introduction, Live Response- Locard\u2019s Exchange Principle, Order of Volatility, When to Perform Live Response, What Data to Collect, System Time, Logged-on Users, Open Files, Network Information, Network Connections Process Information-, Process-to-Port Mapping, Process Memory, Network Status, Nonvolatile Information, Live Response Methodologies."
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
     },
     {
       "module_no": 3,
-      "title": "Collecting Process Memory, Dumping Physical Memory, Analyzin",
-      "contact_hours": 9,
-      "topics": "Collecting Process Memory, Dumping Physical Memory, Analyzing a Physical Memory Dump File Metadata, File Signature Analysis, NTFS Alternate Data Streams, Executable File Analysis: Static Analysis, Dynamic Analysis. Registry Analysis: System Information, Auto Start Locations, USB Removable Storage Devices, Mounted Devices, Portable Devices. Finding Users, Tracking User Activity."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Linux Overview, Modern Linux Systems, Forensic Analysis of L",
-      "contact_hours": 9,
-      "topics": "Linux Overview, Modern Linux Systems, Forensic Analysis of Linux Systems, Linux File Types and Identification. Linux File Analysis, Crash and Core Dumps, Investigating Evidences From Linux Logs, Network Configuration Analysis, Network Security Artifacts."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

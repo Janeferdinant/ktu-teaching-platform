@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Review of Computer Networking Fundamentals - OSI and TCP/IP",
-      "contact_hours": 8,
-      "topics": "Review of Computer Networking Fundamentals - OSI and TCP/IP Models, Layers and Protocols, IP Addressing and Subnetting, Routing Protocols - RIP, OSPF, BGP; QoS in IP networks - Random Early Detection, Protocols for QoS support - RSVP, RTP, Multiprotocol Label Switching (MPLS): Overview and Use Cases; Network Security Basics - Firewalls, ACLs, and NAT; Working of NAT; Virtual Private Networks (VPNs) - Types and Architectures; Overview of Data Center Networks: Key Components and Topologies;"
+      "title": "Foundational Principles & Theoretical Models",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 2,
-      "title": "DLL switching - Overview, VLANs, Inter-VLAN Routing",
-      "contact_hours": 9,
-      "topics": "DLL switching - Overview, VLANs, Inter-VLAN Routing; Spanning Tree Protocol (STP) - IEEE 802.1D, Rapid Spanning Tree Protocol (RSTP) - IEEE 802.1w, Multiple Spanning Tree Protocol (MSTP) - IEEE 802.1s, STP Enhancements - BPDU Guard, Root Guard, and Loop Guard; Data Center Network Architectures - Traditional vs. Modern Data Center Designs (Spine-Leaf, Clos Networks), Ethernet Fabrics and TRILL; Data Center Design Considerations - Scalability, Redundancy, and Latency."
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "SDN Architecture and Components - Control Plane, Data Plane,",
-      "contact_hours": 9,
-      "topics": "SDN Architecture and Components - Control Plane, Data Plane, and Application Plane; OpenFlow Protocol and its Role in SDN; SDN Controllers - Ryu, OpenDaylight, and ONOS; SDN Use Cases - Traffic"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Data Center Interconnect (DCI) - Technologies for Data Cente",
-      "contact_hours": 10,
-      "topics": "Data Center Interconnect (DCI) - Technologies for Data Center Interconnection(VPLS, OTV, and VXLAN), DCI Design and Deployment Considerations; Intent-Based Networking (IBN) - Introduction to Intent- Based Networking; Content Distribution on the Internet - Architectures for Information-Centric Networking; Content Naming, Routing and Caching, Security in Named Data Networking; Network Automation and Orchestration; Automation Tools - Ansible, Terraform; Orchestration Frameworks - Kubernetes."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

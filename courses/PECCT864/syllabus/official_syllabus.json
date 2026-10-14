@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Basics of Computer Networks- Definition of Network, Need of",
-      "contact_hours": 9,
-      "topics": "Basics of Computer Networks- Definition of Network, Need of Networks, Protocol, Types of Networks- LAN, MAN, WAN. Network Components- Twisted Pair Cable, Coaxial cable, Fiber Optic Cables, Network Interface Card, HUB, Switch, Router. OSI model and TCP/IP protocol suite, Introduction Network Protocols- IP, TCP, UDP, DHCP, DNS. Types of Topologies- RING, STAR, BUS, MESH (features, advantages, disadvantages). Classification by Component: Peer to Peer, Client/ Server."
+      "title": "(Written)  Internal  Examination- 2  (Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written )  Total"
     },
     {
       "module_no": 2,
-      "title": "Overview of Network Forensics",
-      "contact_hours": 9,
-      "topics": "Overview of Network Forensics: Definition, Process of Network Forensics, Importance, Advantages and Disadvantages, Application of Network Forensics. Network threats and vulnerabilities: Types of network attacks- eavesdropping, spoofing, modification, Cross-site scripting, DNS Spoofing, Routing Table Page Poisoning, ARP Poisoning,"
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
     },
     {
       "module_no": 3,
-      "title": "Identifying sources of evidence- Digital devices, Network tr",
-      "contact_hours": 9,
-      "topics": "Identifying sources of evidence- Digital devices, Network traffic, Cloud environments, Steps for handling evidence. Data acquisition methods- Network traffic capture, Log file analysis, Memory acquisition, List Packet capture tools. Introduction to Data Preservation Technique- Write-blocking, Data encryption, Data hashing, Metadata preservation. Network Traffic Analysis Methods- Flow analysis, Packet analysis, Deep packet inspection (DPI), and Network behavior analysis. Identifying sources of evidence, learning to handle the evidence, collecting network traffic using tcpdump, Collecting network traffic using Wireshark, Collecting network logs, Acquiring memory using FTK Imager, Tapping into network traffic: Packet sniffing and analysis using Wireshark, Packet sniffing and analysis using NetworkMiner."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Introduction to Wireless Networks",
-      "contact_hours": 9,
-      "topics": "Introduction to Wireless Networks: Basics of wireless (IEEE 802.11) communication and security challenges. Types of Authentications: WEP, WPA and WPA-2 Encryption. Attacks on Wireless networks: Man-in-the middle (MITM), Brute-Force, Evil Twin, Rogue access points, Phishing, Wireless Jamming (Denial-of-Service Attacks), Wireless Eavesdropping. Legal challenges in network forensics: Authorization, Privacy, Data Preservation, Disclosure, Cross-Border Investigations. Digital Personal Data Protection Act,2023: Introduction, Data, Data Fiduciary, Data Principal, Data Processor, Personal Data Breach, Need of DPDP, Key Features of DPDP"
+      "title": "Industry Applications & Optimization",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     }
   ]
 }

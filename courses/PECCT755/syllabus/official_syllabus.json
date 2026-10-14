@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Threat intelligence overview Definition, Strategy and extern",
-      "contact_hours": 11,
-      "topics": "Threat intelligence overview Definition, Strategy and external sources, How organisation use CTI, Role of CTI analyst, Threat intelligence platforms, Threat intelligence frameworks, Security intelligence. Data security and protection Data security challenges, common pitfalls, Industry specific data security challenges, Data protection capabilities"
+      "title": "The  Threat  Intelligence  Handbook",
+      "contact_hours": 2,
+      "topics": "The  Threat  Intelligence  Handbook: A Practical Guide  for  Security  Teams  to  Unlocking the Power of Threat  Intelligence  Recorded Future  (Company)  Recorded Future  Ist Edition,  2020"
     },
     {
       "module_no": 2,
-      "title": "Threat vectors and scanning Threat vector, types of threat v",
-      "contact_hours": 8,
-      "topics": "Threat vectors and scanning Threat vector, types of threat vector, mitigate risk from threat vector, scanning, types of scanning, port scanning, network protocol analyser, vulnerability assessment tools."
+      "title": "Network Security Essentials  William Stallings  Pearson  6th",
+      "contact_hours": 3,
+      "topics": "Network Security Essentials  William Stallings  Pearson  6th Edition,  2019"
     },
     {
       "module_no": 3,
-      "title": "Application security and testing Characteristic of security",
-      "contact_hours": 10,
-      "topics": "Application security and testing Characteristic of security architecture, High level architectural models, security patterns, Application security overview, Application security standards and regulations, DevsecOps overview, DevsecOps Deployment, Application security Defects, Effective defenses."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "SIEM platforms and Threat Hunting SIEM concepts and Benefits",
-      "contact_hours": 10,
-      "topics": "SIEM platforms and Threat Hunting SIEM concepts and Benefits, SIEM Deployment, SIEM Solutions, vendors, User behaviour analytics, AI and SIEM, Apply AI concepts, Apply user behaviour analytics,AI and Cyber security, Apply AI to SIEM, Mitigate upcoming future attacks with Cyber threat Hunting."
+      "title": "Security Information and Event  Management(SIEM)  Implementa",
+      "contact_hours": 3,
+      "topics": "Security Information and Event  Management(SIEM)  Implementation  David Miller  Packt Publishing  Ist edition,  2019      PO1  PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

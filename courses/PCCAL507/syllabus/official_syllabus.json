@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to AI and ES",
-      "contact_hours": 11,
-      "topics": "Introduction to AI and ES"
+      "title": "PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     },
     {
       "module_no": 2,
-      "title": "Artificial Intelligence",
-      "contact_hours": 11,
-      "topics": "Artificial Intelligence"
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 3,
-      "title": "Artificial Intelligence by Example",
-      "contact_hours": 11,
-      "topics": "Artificial Intelligence by Example"
+      "title": "CO5  Utilize Advanced Optimization Techniques  K3  Note",
+      "contact_hours": 1,
+      "topics": "CO5  Utilize Advanced Optimization Techniques  K3  Note: K1- Remember, K2- Understand, K3- Apply, K4- Analyse, K5- Evaluate, K6- Create  CO- PO Mapping (Mapping of Course Outcomes with Program Outcomes)"
     },
     {
       "module_no": 4,
-      "title": "Artificial Intelligence",
-      "contact_hours": 11,
-      "topics": "Artificial Intelligence"
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to Knowledge Engineering Definition of knowledg",
-      "contact_hours": 9,
-      "topics": "Introduction to Knowledge Engineering Definition of knowledge engineering, Role of knowledge in AI, Knowledge representation languages (e.g., semantic networks, ontologies, production rules), Knowledge acquisition techniques (e.g., expert interviews, knowledge elicitation), Applications of Knowledge Engineering Expert systems: Development, applications, and limitations."
+      "title": "Foundational Principles & Theoretical Models",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 2,
-      "title": "Natural language processing",
-      "contact_hours": 9,
-      "topics": "Natural language processing: Knowledge-based approaches Semantic Networks and Ontologies Semantic networks: Structure, properties, and applications, Ontologies: Definition, components, and benefits, Ontology development methodologies (e.g., ontology engineering, ontology-based systems)"
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
     },
     {
       "module_no": 3,
-      "title": "Production Rules and Rule-Based Systems",
-      "contact_hours": 9,
-      "topics": "Production Rules and Rule-Based Systems"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Uncertainty and Reasoning under Uncertainty Uncertainty in k",
-      "contact_hours": 9,
-      "topics": "Uncertainty and Reasoning under Uncertainty Uncertainty in knowledge representation: Probability theory, fuzzy logic, possibility theory, Reasoning under uncertainty: Bayesian networks, probabilistic reasoning, fuzzy inference, Applications of uncertainty reasoning (e.g., medical diagnosis, risk assessment)"
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

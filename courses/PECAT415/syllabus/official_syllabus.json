@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to Algorithm Analysis",
-      "contact_hours": 9,
-      "topics": "Introduction to Algorithm Analysis :- Characteristics of Algorithms, Criteria for Analysing Algorithms, Time and Space Complexity - Best, Worst and Average Case Complexities, Asymptotic Notations - Big-Oh (O), Big - Omega (\u03a9), Big-Theta (\u0398), Little-oh (o) and Little- Omega (\u03c9) and their properties. Classifying functions by their asymptotic growth rate, Time and Space Complexity Calculation of simple algorithms. Analysis of Recursive Algorithms: Recurrence Equations, Solving Recurrence Equations \u2013 Iteration Method, Recursion Tree Method, Substitution method and Master\u2019s Theorem (Proof not required)."
+      "title": "3  Algorithm Design  Jon Kleinberg, Eva Tardos  Pearson",
+      "contact_hours": 1,
+      "topics": "3  Algorithm Design  Jon Kleinberg, Eva Tardos  Pearson"
     },
     {
       "module_no": 2,
-      "title": "Divide & Conquer and Greedy Strategy",
-      "contact_hours": 9,
-      "topics": "Divide & Conquer and Greedy Strategy:- General method, Binary search, Recurrence equation for divide and conquer, Finding the maximum and minimum, Merge sort, Strassen\u2019s matrix multiplication, Advantages and Disadvantages of divide and conquer; Decrease and Conquer Approach - Topological Sort;"
+      "title": "Fundamentals of Computer  Algorithms  Ellis Horowitz, Sartaj",
+      "contact_hours": 2,
+      "topics": "Fundamentals of Computer  Algorithms  Ellis Horowitz, Sartaj Sahni,  Sanguthevar Rajasekaran  Orient Longman  Universities Press"
     },
     {
       "module_no": 3,
-      "title": "Dynamic Programming - General method with Examples, Multista",
-      "contact_hours": 9,
-      "topics": "Dynamic Programming - General method with Examples, Multistage Graphs; Transitive Closure - Warshall\u2019s Algorithm; All Pairs Shortest Paths - Floyd's Algorithm, Optimal Binary Search Trees; Knapsack problem; Bellman-Ford Algorithm; Travelling Salesperson Problem; Reliability design."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Backtracking and Branch & Bound",
-      "contact_hours": 9,
-      "topics": "Backtracking and Branch & Bound:- Backtracking - General method, N-queen problem, Sum of subsets problem, Graph coloring, Hamiltonian cycles. Branch and Bound - General method, Travelling Salesperson Problem, 0/1 knapsack problem, LC branch and bound solution, FIFO branch and bound solution."
+      "title": "ALGORITHM ANALYSIS AND DESIGN  Course Code  PECAT415  CIE Ma",
+      "contact_hours": 40,
+      "topics": "ALGORITHM ANALYSIS AND DESIGN  Course Code  PECAT415  CIE Marks"
     }
   ]
 }

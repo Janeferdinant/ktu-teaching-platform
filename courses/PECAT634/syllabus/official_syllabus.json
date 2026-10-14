@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Wireless Sensor Networks",
-      "contact_hours": 9,
-      "topics": "Wireless Sensor Networks: Introduction to wireless sensor networks (WSN), Network architecture and protocol stack, MAC access control \u2013 fundamental MAC protocols, MAC design for WSNs, MAC protocols for WSN (Contention based, Contention free, and Hybrid protocols), IEEE 802.15.4, Zigbee"
+      "title": "Course Type Theory    Course Objectives",
+      "contact_hours": 1,
+      "topics": "Course Type Theory    Course Objectives:"
     },
     {
       "module_no": 2,
-      "title": "Routing and Transport Layer",
-      "contact_hours": 10,
-      "topics": "Routing and Transport Layer: Routing and data dissemination \u2013 Fundamentals and challenges, taxonomy of routing and data dissemination protocols, Overview of routing and data dissemination protocols \u2013 geographic adaptive fidelity, LEACH, Sensor protocols for information via negotiation, joint mobility and routing protocol. Transport protocols for WSNs, Operating systems for sensor networks \u2013 TinyOs, Contiki"
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Security in WSNs",
-      "contact_hours": 10,
-      "topics": "Security in WSNs: Security requirements in WSNs, Security vulnerabilities in WSNs \u2013 DoS attacks, physical layer attacks, link layer, network layer, transport layer attacks, Attacks on secrecy and authentication, Security mechanisms for WSNs \u2013 cryptography in WSNs, Key management protocols, Defence against DoS attacks, Defence against routing attacks - TESLA, SPINS, Intrusion detection in WSNs."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Infrastructure Establishment",
-      "contact_hours": 7,
-      "topics": "Infrastructure Establishment: Topology Control, Clustering, Time Synchronization, Localization and Positioning, Sensor Tasking and Control."
+      "title": "Industry Applications & Optimization",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     }
   ]
 }

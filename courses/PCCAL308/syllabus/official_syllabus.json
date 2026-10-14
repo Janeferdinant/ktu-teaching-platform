@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Learning Python",
-      "contact_hours": 11,
-      "topics": "Learning Python"
+      "title": "PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     },
     {
       "module_no": 2,
-      "title": "Python Crash Course",
-      "contact_hours": 11,
-      "topics": "Python Crash Course: A Hands-On, Project-Based Introduction to Programming"
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 3,
-      "title": "Python for Everyone",
-      "contact_hours": 11,
-      "topics": "Python for Everyone"
+      "title": "PYTHON PROGRAMMING LAB  (Common to CA / AI)  Course Code  PC",
+      "contact_hours": 50,
+      "topics": "PYTHON PROGRAMMING LAB  (Common to CA / AI)  Course Code  PCCAL308  CIE Marks"
     },
     {
       "module_no": 4,
-      "title": "Modern Applications, Performance Tuning and Emerging Trends",
-      "contact_hours": 11,
-      "topics": "Industry case studies, scalability, evaluation metrics, and contemporary trends in PYTHON PROGRAMMING LAB."
+      "title": "PO1  PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12",
+      "contact_hours": 3,
+      "topics": "PO1  PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

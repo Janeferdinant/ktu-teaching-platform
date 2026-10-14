@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to Autonomous Mobile Robots",
-      "contact_hours": 11,
-      "topics": "Introduction to Autonomous Mobile Robots"
+      "title": "Familiarisation of Arduino IDE,Arduino microcontroller I/O i",
+      "contact_hours": 2,
+      "topics": "Familiarisation of Arduino IDE,Arduino microcontroller I/O interfacing( LED,  LCD,Serial Monitor)"
     },
     {
       "module_no": 2,
-      "title": "Robotics, Vision and Control",
-      "contact_hours": 11,
-      "topics": "Robotics, Vision and Control: Fundamental Algorithms in MATLAB"
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 3,
-      "title": "Introduction to Robotics",
-      "contact_hours": 11,
-      "topics": "Introduction to Robotics"
+      "title": "Interfacing DC motors with arduino - speed and direction con",
+      "contact_hours": 4,
+      "topics": "Interfacing DC motors with arduino - speed and direction control"
     },
     {
       "module_no": 4,
-      "title": "Introduction to Robotics",
-      "contact_hours": 11,
-      "topics": "Introduction to Robotics"
+      "title": "Interfacing Servo Motors with Arduino - angle of rotation",
+      "contact_hours": 5,
+      "topics": "Interfacing Servo Motors with Arduino - angle of rotation"
     }
   ]
 }

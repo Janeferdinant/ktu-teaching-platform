@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Fundamentals of Embedded Systems- complex systems and microp",
-      "contact_hours": 8,
-      "topics": "Fundamentals of Embedded Systems- complex systems and microprocessors- The Embedded System Design Process-Requirements, Specification, Architecture Design, Designing Hardware and Software Components design of hardware and software components- structural and behavioural description."
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "Hardware Software Co-Design and Program Modelling \u2013 Fundamen",
-      "contact_hours": 9,
-      "topics": "Hardware Software Co-Design and Program Modelling \u2013 Fundamental Issues. Design and Development of Embedded Product \u2013 Firmware Design and Development \u2013 Design Approaches, Firmware Development Languages."
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Integration and Testing of Embedded Hardware and Firmware- I",
-      "contact_hours": 9,
-      "topics": "Integration and Testing of Embedded Hardware and Firmware- Integration of Hardware and Firmware. Embedded System Development Environment \u2013 IDEs, Cross Compilers, Disassemblers, Decompilers, Simulators, Emulators and Debuggers. Embedded product development cycle (EDLC)-Different phases of EDLC, EDLC."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "RTOS based Design \u2013 Basic operating system services. Interru",
-      "contact_hours": 10,
-      "topics": "RTOS based Design \u2013 Basic operating system services. Interrupt handling in RTOS environment. Design Principles. Task scheduling models. How to Choose an RTOS. Recent Trends in Embedded Computing. Introduction to Embedded Systems in IT. IoT and Smart Devices"
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

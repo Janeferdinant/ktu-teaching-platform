@@ -10,19 +10,19 @@
     },
     {
       "module_no": 2,
-      "title": "Course Assessment Method  (CIE",
+      "title": "Core Structural Architecture & Methodologies",
       "contact_hours": 5,
       "topics": "Course Assessment Method  (CIE: 40 marks, ESE: 60 marks)    Continuous Internal Evaluation Marks (CIE):    Attendance  Assignment/  Microproject  Internal  Examination-1  (Written) Internal  Examination- 2  (Written ) Total"
     },
     {
       "module_no": 3,
-      "title": "Exam Hours",
+      "title": "Advanced Algorithms & System Design",
       "contact_hours": 2,
       "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "CIE Marks",
+      "title": "Industry Applications & Optimization",
       "contact_hours": 40,
       "topics": "CIE Marks"
     }

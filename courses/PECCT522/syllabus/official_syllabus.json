@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "INTRODUCTION TO BLOCKCHAIN Block chain- Public Ledgers, Bloc",
-      "contact_hours": 9,
-      "topics": "INTRODUCTION TO BLOCKCHAIN Block chain- Public Ledgers, Blockchain as Public Ledgers \u2013 Block in a Blockchain, Transactions-The Chain and the Longest Chain \u2013 Permissioned Model of Blockchain, Cryptographic -Hash Function, Properties of a hash function-Hash pointer and Merkle tree"
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "BITCOIN AND CRYPTOCURRENCY A basic crypto currency, Creation",
-      "contact_hours": 9,
-      "topics": "BITCOIN AND CRYPTOCURRENCY A basic crypto currency, Creation of coins, Payments and double spending, FORTH \u2013 the precursor for Bitcoin scripting, Bitcoin Scripts , Bitcoin P2P Network, Transaction in Bitcoin Network, Block Mining, Block propagation and block relay"
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 3,
-      "title": "BITCOIN CONSENSUS Bitcoin Consensus, Proof of Work (PoW)- Ha",
-      "contact_hours": 9,
-      "topics": "BITCOIN CONSENSUS Bitcoin Consensus, Proof of Work (PoW)- Hashcash PoW , Bitcoin PoW, Attacks on PoW ,monopoly problem- Proof of Stake- Proof of Burn -"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "HYPERLEDGER FABRIC & ETHEREUM Architecture of Hyperledger fa",
-      "contact_hours": 9,
-      "topics": "HYPERLEDGER FABRIC & ETHEREUM Architecture of Hyperledger fabric v1.1- chain code- Ethereum: Ethereum network, EVM, Transaction fee, Mist Browser, Ether, Gas, Solidity. BLOCKCHAINAPPLICATIONS. Blockchain Applications in Supply Chain Management, Logistics, Smart Cities, Finance and Banking, Insurance, etc- Case Study."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

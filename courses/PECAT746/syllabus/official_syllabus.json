@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to R",
-      "contact_hours": 9,
-      "topics": "Introduction to R:The R Environment \u2013 Overview, Command Line Interface, and Batch processing. R Packages. Basic Data Types \u2013 Vectors, Lists, Data Frames, Matrices, and Arrays. Control Statements \u2013 If-Else, Switch, For loops, While loops. Functions \u2013 Writing and using functions, Scope of variables, Function arguments, Returning values."
+      "title": "(Written)  Internal Examination-",
+      "contact_hours": 2,
+      "topics": "(Written)  Internal Examination-"
     },
     {
       "module_no": 2,
-      "title": "Data Import, Cleaning, and Preprocessing",
-      "contact_hours": 9,
-      "topics": "Data Import, Cleaning, and Preprocessing:Data Import and Export \u2013 Reading and writing data from/to Text files, CSV, Excel, and other software. Database Connections \u2013 Connecting to databases and importing data using packages. Handling Missing Data \u2013 NA, NULL values. Data Cleaning and Preprocessing \u2013 Detecting and removing duplicates, Handling outliers, Data transformation and normalization, combining data sets, Binning Data, Subsets, summarizing functions."
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
     },
     {
       "module_no": 3,
-      "title": "Statistical Analysis and Data Visualization",
-      "contact_hours": 9,
-      "topics": "Statistical Analysis and Data Visualization:Introduction to Data analytics, Summary statistics, Statistical Tests \u2013 Continuous Data and Discrete Data."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Machine Learning with R",
-      "contact_hours": 9,
-      "topics": "Machine Learning with R:Basic concepts, Supervised vs. Unsupervised learning, Simple regression, and classification models. Building linear models - model fitting, predict values using models, Analyzing the fit, Refining the model. Regression \u2013 Types, Unusual observation and corrective measures, Comparison of models. Case Studies and Applications \u2013 Real-world applications of R in various fields like finance, healthcare, and social sciences."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12  CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12  CO1"
     }
   ]
 }

@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Module 1",
-      "contact_hours": 11,
-      "topics": ""
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "Module 2",
-      "contact_hours": 11,
-      "topics": ""
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Module 3",
-      "contact_hours": 11,
-      "topics": ""
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Module 4",
-      "contact_hours": 11,
-      "topics": ""
+      "title": "FUNDAMENTALS OF INDUSTRIAL CONTROL SYSTEM SECURITY  Course C",
+      "contact_hours": 40,
+      "topics": "FUNDAMENTALS OF INDUSTRIAL CONTROL SYSTEM SECURITY  Course Code  PECCT414 CIE Marks"
     }
   ]
 }

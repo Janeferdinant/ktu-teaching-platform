@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction - Cloud Computing, Types of Cloud, Working of C",
-      "contact_hours": 8,
-      "topics": "Introduction - Cloud Computing, Types of Cloud, Working of Cloud Computing, Cloud Computing Architecture - Cloud Computing Technology, Cloud Architecture, Cloud Modelling and Design."
+      "title": "Foundational Principles & Theoretical Models",
+      "contact_hours": 5,
+      "topics": "Course Assessment Method  (CIE: 40 marks, ESE: 60 marks)    Continuous Internal Evaluation Marks (CIE):  Attendance  Assignment/  Microproject  Internal  Examination-1  (Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "Virtualization - Foundations, Grid, Cloud And Virtualization",
-      "contact_hours": 9,
-      "topics": "Virtualization - Foundations, Grid, Cloud And Virtualization, Virtualization And Cloud Computing; Data Storage And Cloud Computing - Data Storage, Cloud Storage, Cloud Storage from LANs to WANs."
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 3,
-      "title": "Cloud Computing Services - Cloud Computing Elements, Underst",
-      "contact_hours": 10,
-      "topics": "Cloud Computing Services - Cloud Computing Elements, Understanding Services and Applications by Type, Cloud Services; Cloud Computing and Security - Risks in Cloud Computing, Data Security in Cloud, Cloud Security Services."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Cloud Computing Tools - Tools and Technologies for Cloud, Ap",
-      "contact_hours": 9,
-      "topics": "Cloud Computing Tools - Tools and Technologies for Cloud, Apache Hadoop, Cloud Tools; Cloud Applications - Moving Applications to the Cloud, Microsoft Cloud Services, Google Cloud Applications, Amazon Cloud Services."
+      "title": "PO 5  PO6  PO7 PO8 PO9  PO10  PO11  PO12  CO1",
+      "contact_hours": 2,
+      "topics": "PO 5  PO6  PO7 PO8 PO9  PO10  PO11  PO12  CO1"
     }
   ]
 }

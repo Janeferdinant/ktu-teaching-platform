@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Network Security Controls",
-      "contact_hours": 9,
-      "topics": "Network Security Controls : Firewalls - Types of Firewalls, Configuration of Firewalls, Intrusion Detection and Prevention Systems (IDPS), Virtual Private Networks (VPNs), Network Segmentation."
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "Application Security Controls",
-      "contact_hours": 9,
-      "topics": "Application Security Controls: Secure Software Development Lifecycle (SDLC), Code Review And Static Analysis, Web Application Firewalls (WAF), Database Security. Data Protection Controls: Data Classification and Handling, Data Loss Prevention (DLP), Encryption (At Rest, In Transit),Backup and Recovery."
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Identity and Access Management (IAM)",
-      "contact_hours": 9,
-      "topics": "Identity and Access Management (IAM) : Identity Lifecycle Management, Single Sign-On (SSO),Federation and Trust Models, Privileged Access Management (PAM). Security Monitoring and Incident Response: Security Information and Event Management (SIEM),Threat Intelligence, Incident Response Planning,Forensics and Post-Incident Analysis"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Compliance and Regulatory Controls",
-      "contact_hours": 10,
-      "topics": "Compliance and Regulatory Controls: General Data Protection Regulation (GDPR), Health Insurance Portability and Accountability Act (HIPAA), Sarbanes-Oxley Act (SOX), Payment Card Industry Data Security Standard (PCI DSS). Emerging Trends and Technologies: Zero Trust Architecture, Artificial Intelligence in Cyber Security, Block chain for Security, Quantum Computing Implications. Case Study: Analysis of Real-World Cyber security Incidents"
+      "title": "Industry Applications & Optimization",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     }
   ]
 }

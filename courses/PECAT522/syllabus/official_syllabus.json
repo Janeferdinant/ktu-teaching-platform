@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Artificial Neural Networks",
-      "contact_hours": 8,
-      "topics": "Artificial Neural Networks: Human Brain, Model of an artificial Neuron, Basic concepts of Neural Networks, Fundamentals of Biological Neural Network and Artificial Neural Network, Types of activation functions, Applications of Neural Networks. Learning Methods - Supervised, Unsupervised and reinforcement, Taxonomy of Neural Network Architectures, Terminologies \u2013 weights, bias, threshold, learning rate, Applications of Neural Networks."
+      "title": "(Written)  Internal  Examination- 2  (Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written )  Total"
     },
     {
       "module_no": 2,
-      "title": "Basic of ANN Model",
-      "contact_hours": 9,
-      "topics": "Basic of ANN Model : McCulloch-Pitts Neuron, Architecture, Algorithm and Applications. Biases and Thresholds, Linear Separability. Hebb Net - Algorithm, Applications. Perceptron - Architecture, Algorithm, Applications. Perceptron Learning Rule Convergence Theorem. Adaline - Architecture, Algorithm, Applications."
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 3,
-      "title": "Multilayer Perceptrons",
-      "contact_hours": 10,
-      "topics": "Multilayer Perceptrons: Multi-Layered network architecture, Back propagation Algorithm, Applications, XOR problem, Replacing and Modifying Back propagation Algorithms Using Heuristics."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "SOMs and ART Networks",
-      "contact_hours": 9,
-      "topics": "SOMs and ART Networks : Self-organizing maps - Building, Training, Evaluating, Interpreting and Visualizing a Self- organizing Map. Applications of Self Organizing Maps. Adaptive Resonance Theory -Stability Plasticity Dilemma, ART-1- Architecture, Algorithm, Applications. ART-2 \u2013 Architecture, Algorithms, Applications."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 2,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

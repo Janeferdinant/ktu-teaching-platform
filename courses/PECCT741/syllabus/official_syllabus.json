@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to malware, malware threats, evolution of malwa",
-      "contact_hours": 8,
-      "topics": "Introduction to malware, malware threats, evolution of malware, malware types. Types of malware Analysis \u2013 Static Analysis, Dynamic Analysis, Malware Analysis Techniques - Obfuscated, Deobfuscated, Malware Analysis Tools - Static Analysis Tools, Dynamic Analysis Tools. Static Analysis"
+      "title": "Foundational Principles & Theoretical Models",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 2,
-      "title": "Dynamic analysis",
-      "contact_hours": 11,
-      "topics": "Dynamic analysis: Live malware analysis, dead malware analysis, analyzing traces of malware, system-calls, api-calls, registries, network activities. Anti- dynamic analysis techniques anti-vm, runtime-evasion techniques, Malware Sandbox, Monitoring with Process Monitor, Packet Sniffing with Wireshark, Kernel vs. User-Mode, Debugging-OllyDbg, Breakpoints, Tracing, Exception Handling, Patching. Malware Detection Techniques: Signature-based techniques: malware signatures, packed malware signature, metamorphic and polymorphic signature. Non-signature based techniques: similarity-based techniques, machine-learning methods."
+      "title": "Course Type  Theory    Course Objectives",
+      "contact_hours": 1,
+      "topics": "Course Type  Theory    Course Objectives:"
     },
     {
       "module_no": 3,
-      "title": "Malware Incident response",
-      "contact_hours": 10,
-      "topics": "Malware Incident response: Volatile Data Collection and Examination on a Live Windows Systems - Volatile Data collection methodology from"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Post-Mortem Forensics - Malware Discovery and Extraction fro",
-      "contact_hours": 7,
-      "topics": "Post-Mortem Forensics - Malware Discovery and Extraction from a Windows and Linux system, Examine Windows and Linux file system, Examine application traces, Examine Windows registry, keyword searching from Windows and Linux systems, Forensic reconstruction of compromised Linux and Windows system."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

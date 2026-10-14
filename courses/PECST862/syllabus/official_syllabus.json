@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to NLP",
-      "contact_hours": 7,
-      "topics": "Introduction to NLP: Introduction to Natural Language Processing - Various stages of traditional NLP \u2013 Challenges - Basic Text Processing techniques - Common NLP Tasks. N-gram Language Models - Naive Bayes for Text Classification, and Sentiment Analysis \u2013 Evaluation-Precision, Recall and F-measure-Test sets and cross validation."
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "Traditional NLP Techniques",
-      "contact_hours": 7,
-      "topics": "Traditional NLP Techniques: Annotating Linguistic Structures - Context-Free Grammars, Constituency Parsing, Ambiguity, CYK Parsing, Dependency Parsing - Transition-Based Dependency Parsing, Graph-Based Dependency Parsing, Evaluation."
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 3,
-      "title": "Neural Networks for NLP",
-      "contact_hours": 10,
-      "topics": "Neural Networks for NLP: Word representations - Lexical Semantics, Vector Semantics, TF-IDF, Pointwise Mutual Information (PMI), Neural Word embeddings - Word2vec, GloVe, Contextual Word Embeddings. Evaluating Vector Models - Feedforward Neural Networks for Text Classification"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Advanced NLP and Applications",
-      "contact_hours": 12,
-      "topics": "Advanced NLP and Applications: Sequence Modelling - Recurrent Neural Networks, RNNs as Language Models, RNNs for NLP tasks, Stacked and Bidirectional RNN architectures, Recursive Neural Networks, LSTM & GRU, Common RNN NLP Architectures, Encoder-Decoder Model with RNNs, Attention models, Transformers. NLP Applications - Machine Translation, Question Answering and Information Retrieval, Introduction to Large Language Models."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

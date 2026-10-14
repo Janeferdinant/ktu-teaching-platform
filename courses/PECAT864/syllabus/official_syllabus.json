@@ -8,25 +8,25 @@
       "module_no": 1,
       "title": "Mathematics for Data Analytics -Descriptive statistics - Mea",
       "contact_hours": 9,
-      "topics": "Mathematics for Data Analytics -Descriptive statistics - Measures of central tendency and dispersion, Association of two variables -Discrete variables, Ordinal and Continuous variable, Probability calculus - probability distributions, Inductive statistics - Point estimation, Interval estimation, Hypothesis Testing - Basic definitions, t- test"
+      "topics": "Mathematics for Data Analytics -Descriptive statistics - Measures of central  tendency and dispersion, Association of two variables -Discrete variables,  Ordinal and Continuous variable, Probability calculus - probability  distributions, Inductive statistics - Point estimation, Interval estimation,  Hypothesis Testing - Basic definitions, t- test"
     },
     {
       "module_no": 2,
-      "title": "Introduction to Data Analytics and Big Data Analytics- Analy",
-      "contact_hours": 8,
-      "topics": "Introduction to Data Analytics and Big Data Analytics- Analytics Process Model, Analytical Model Requirements. Data Analytics Life Cycle overview. Basics of data collection, sampling, preprocessing and dimensionality reduction. Big Data Overview \u2013 State of the practice in analytics, Example Applications - Credit Risk Modeling, Business Process Analytics."
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
     },
     {
       "module_no": 3,
-      "title": "Predictive and Descriptive Analytics",
-      "contact_hours": 9,
-      "topics": "Predictive and Descriptive Analytics :-Supervised Learning - Classification, Naive Bayes, KNN, Linear Regression. UnsupervisedLearning - Clustering, Hierarchical algorithms \u2013 Agglomerative algorithm, Partitional algorithms - K- Means. Association Rule Mining - Apriori algorithm"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "R programming for Data Analysis \u2013 Data Analysis Using R - In",
-      "contact_hours": 10,
-      "topics": "R programming for Data Analysis \u2013 Data Analysis Using R - Introduction to R - R Graphical User Interfaces, Data Import and Export, Attribute and Data Types, Descriptive Statistics, Exploratory Data Analysis - Visualization Before Analysis, Dirty Data, Visualizing a Single Variable, Examining Multiple Variables, Data Exploration Versus Presentation, Statistical Methods for Evaluation"
+      "title": "Industry Applications & Optimization",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     }
   ]
 }

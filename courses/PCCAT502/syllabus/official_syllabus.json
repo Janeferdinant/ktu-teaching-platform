@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Foundations of AI and Intelligent Agents Introduction to AI",
-      "contact_hours": 10,
-      "topics": "Foundations of AI and Intelligent Agents Introduction to AI and its History: Definitions and scope, Historical milestones in AI development Intelligent Agents: Concepts of agents and environments, Rationality and the nature of environments, Structures of agents: Simple reflex, model-based, goal-based, utility-based Problem-Solving Agents: Problem formulation and agent-based problem solving, Examples of problem-solving scenarios"
+      "title": "(Written)  Internal  Examination- 2  (Written )  Internal  E",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written )  Internal  Examination- 3  (Lab  Examination)   Total"
     },
     {
       "module_no": 2,
-      "title": "Search Strategies and Game Playing Search Strategies for Sol",
-      "contact_hours": 10,
-      "topics": "Search Strategies and Game Playing Search Strategies for Solutions: Uninformed search strategies: Breadth-first search (BFS), Depth-first search (DFS), Heuristic search: Hill climbing, A* algorithm, Problem reduction techniques Game Playing and Adversarial Search: Concepts of adversarial search and game theory, Mini-max algorithm for optimal decision-making, Challenges in game playing and problem-solving in multiplayer games, Alpha-Beta pruning for efficient game tree exploration, Evaluation functions and heuristics in game playing"
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 3,
-      "title": "Knowledge Representation and Reasoning Knowledge Representat",
-      "contact_hours": 10,
-      "topics": "Knowledge Representation and Reasoning Knowledge Representation Techniques: Predicate logic and logic programming, Semantic networks, frames, and inheritance systems, Rule- based systems and constraint propagation Reasoning Under Uncertainty: Basics of probability theory and Bayesian reasoning, Dempster-Shafer theory for managing uncertainty, Applications of reasoning under uncertainty in AI systems"
+      "title": "(Lab  Examination)   Total",
+      "contact_hours": 5,
+      "topics": "(Lab  Examination)   Total"
     },
     {
       "module_no": 4,
-      "title": "Learning Methods and Expert Systems Learning from Observatio",
-      "contact_hours": 10,
-      "topics": "Learning Methods and Expert Systems Learning from Observations: Inductive learning and decision trees, Explanation-based learning, Statistical learning methods and reinforcement learning Expert Systems: Introduction and basic concepts of expert systems, Structure and functioning of expert systems, Knowledge engineering and acquisition methods, Societal impacts and ethical considerations in AI, Reasoning techniques: Rule-based, frame-based, model-based, case-based, Handling uncertainty in expert systems"
+      "title": "Industry Applications & Optimization",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     }
   ]
 }

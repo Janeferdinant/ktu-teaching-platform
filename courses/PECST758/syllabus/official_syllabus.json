@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction - The Origins of Programming Languages, Abstrac",
-      "contact_hours": 9,
-      "topics": "Introduction - The Origins of Programming Languages, Abstractions in Programming Languages, Computational Paradigms, Language Definition, Language Translation, The Future of Programming Languages; Language Design Criteria - Historical Overview, Efficiency, Regularity, Security, Extensibility, C++: An Object-Oriented Extension of C, Python: A General- Purpose Scripting Language; Syntax and Analysis Parsing: Lexical Structure of Programming Languages, Context-Free Grammars and BNFs, Parse Trees and Abstract Syntax Trees, Ambiguity, Associativity, and Precedence, EBNFs and Syntax Diagrams, Parsing Techniques and Tools, Lexics vs. Syntax vs. Semantics, Case Study: Building a Syntax Analyzer for TinyAda;"
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "Basic Semantics- Attributes, Binding, and Semantic Functions",
-      "contact_hours": 9,
-      "topics": "Basic Semantics- Attributes, Binding, and Semantic Functions, Declarations, Blocks, and Scope, The Symbol Table, Name Resolution and Overloading, Allocation, Lifetimes, and the Environment, Variables and Constants, Aliases, Dangling References, and Garbage, Case Study: Initial Static Semantic Analysis of TinyAda. Data Types - Data Types and Type Information, Simple Types, Type Constructors, Type Nomenclature in Sample Languages, Type Equivalence,"
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Expressions and Statements - Expressions, Conditional Statem",
-      "contact_hours": 9,
-      "topics": "Expressions and Statements - Expressions, Conditional Statements and Guards, Loops and Variations on WHILE, The GOTO Controversy and Loop Exits, Exception Handling, Case Study: Computing the Values of Static Expressions in TinyAda. Procedures and Environments- Procedure Definition and Activation, Procedure Semantics, Parameter-Passing Mechanisms, Procedure Environments, Activations, and Allocation, Dynamic Memory Management, Exception Handling and Environments, Case Study: Processing Parameter Modes in TinyAda."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Abstract Data Types and Modules- The Algebraic Specification",
-      "contact_hours": 9,
-      "topics": "Abstract Data Types and Modules- The Algebraic Specification of Abstract Data Types, Abstract Data Type Mechanisms and Modules, Separate Compilation in C, C++ Namespaces, and Java Packages, Ada Packages, Modules in ML, Modules in Earlier Languages, Problems with Abstract Data Type Mechanisms, The Mathematics of Abstract Data Types."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 2,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

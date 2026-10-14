@@ -36,18 +36,53 @@ const server = http.createServer((req, res) => {
     reqPath = '/faculty-dashboard/index.html';
   }
 
-  // Dynamic route for any course code: /courses/:courseCode/ -> /courses/:courseCode/website/index.html
-  const courseMatch = reqPath.match(/^\/courses\/([A-Za-z0-9_-]+)\/?$/);
-  if (courseMatch) {
+  // Trailing slash redirect for course routes: /courses/:code -> /courses/:code/
+  const noSlashCourse = reqPath.match(/^\/courses\/([A-Za-z0-9_-]+)$/);
+  if (noSlashCourse && noSlashCourse[1] !== 'slides') {
+    res.writeHead(301, { 'Location': `/courses/${noSlashCourse[1]}/` });
+    return res.end();
+  }
+
+  // Trailing slash redirect for slides routes: /courses/:code/slides -> /courses/:code/slides/
+  const noSlashSlides = reqPath.match(/^\/courses\/([A-Za-z0-9_-]+)\/slides$/);
+  if (noSlashSlides) {
+    res.writeHead(301, { 'Location': `/courses/${noSlashSlides[1]}/slides/` });
+    return res.end();
+  }
+
+  // Legacy/accidental relative slide requests: /courses/slides/lecture_slides.html
+  if (reqPath === '/courses/slides/lecture_slides.html' || reqPath === '/slides/lecture_slides.html') {
+    const referer = req.headers['referer'] || '';
+    const refMatch = referer.match(/\/courses\/([A-Za-z0-9_-]+)/);
+    const targetCode = (refMatch && refMatch[1] !== 'slides') ? refMatch[1] : 'PCCST303';
+    reqPath = `/courses/${targetCode}/slides/lecture_slides.html`;
+  }
+
+  // Legacy/accidental relative teaching plan requests
+  if (reqPath === '/courses/teaching-plan/teaching_plan_46h.json' || reqPath === '/teaching-plan/teaching_plan_46h.json') {
+    const referer = req.headers['referer'] || '';
+    const refMatch = referer.match(/\/courses\/([A-Za-z0-9_-]+)/);
+    const targetCode = (refMatch && refMatch[1] !== 'slides') ? refMatch[1] : 'PCCST303';
+    reqPath = `/courses/${targetCode}/teaching-plan/teaching_plan_46h.json`;
+  }
+
+  // Dynamic route for direct slides: /courses/:code/slides/ or /courses/:code/slides/lecture_slides.html
+  const slidesMatch = reqPath.match(/^\/courses\/([A-Za-z0-9_-]+)\/slides\/?(?:lecture_slides\.html)?$/);
+  if (slidesMatch && slidesMatch[1] !== 'slides') {
+    const code = slidesMatch[1];
+    reqPath = `/courses/${code}/slides/lecture_slides.html`;
+  }
+
+  // Dynamic route for course home: /courses/:code/ -> /courses/:code/website/index.html
+  const courseMatch = reqPath.match(/^\/courses\/([A-Za-z0-9_-]+)\/$/);
+  if (courseMatch && courseMatch[1] !== 'slides') {
     const code = courseMatch[1];
     reqPath = `/courses/${code}/website/index.html`;
   }
 
-  // Dynamic route for slides: /courses/:courseCode/slides/? -> /courses/:courseCode/slides/lecture_slides.html
-  const slidesMatch = reqPath.match(/^\/courses\/([A-Za-z0-9_-]+)\/slides\/?$/);
-  if (slidesMatch) {
-    const code = slidesMatch[1];
-    reqPath = `/courses/${code}/slides/lecture_slides.html`;
+  // Map legacy /PCCST303/website/* -> /courses/PCCST303/website/*
+  if (reqPath.startsWith('/PCCST303/website/')) {
+    reqPath = '/courses' + reqPath;
   }
 
   // Map to local file system

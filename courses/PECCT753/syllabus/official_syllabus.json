@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Security Problem in Computing",
-      "contact_hours": 9,
-      "topics": "Security Problem in Computing: The meaning of computer Security, Computer Criminals, Methods of Defense, Elementary Cryptography: Substitution Ciphers, Transpositions, Making \u201cGood\u201d Encryption algorithms, The Data Encryption Standard, The AES Encryption Algorithms, Public Key Encryptions, Uses of Encryption."
+      "title": "(Written)  Internal  Examination- 2  (Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written )  Total"
     },
     {
       "module_no": 2,
-      "title": "Program Security",
-      "contact_hours": 9,
-      "topics": "Program Security: Secure Programs, Non malicious Program Errors, viruses and other malicious code, Targeted Malicious code, controls Against Program Threats, Protection in General- Purpose operating system protected objects and methods of protection memory and add mens protection, File protection Mechanisms, User Authentication Designing Trusted O.S: Security polices, models of security, trusted O.S design, Assurance in trusted O.S. Implementation examples."
+      "title": "(Written )  Total",
+      "contact_hours": 5,
+      "topics": "(Written )  Total"
     },
     {
       "module_no": 3,
-      "title": "Data base Security",
-      "contact_hours": 9,
-      "topics": "Data base Security: Security requirements, Reliability and integrity, Sensitive data, Inference, multilevel database, proposals for multilevel security. Security in Network:"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 4,
-      "title": "Administering Security",
-      "contact_hours": 9,
-      "topics": "Administering Security: Security Planning, Risk Analysis, Organizational Security policies, Physical Security. Legal Privacy and Ethical Issues in Computer Security: Protecting Programs and data, Information and the law, Rights of Employees and Employers, Software failures, Computer Crime, Praia, Ethical issues in Computer Security, case studies of Ethics.."
+      "title": "Practical Linux Forensics",
+      "contact_hours": 3,
+      "topics": "Practical Linux Forensics: A  Guide For Digital  Investigators  Bruce Nikkel      2021    PO1  PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

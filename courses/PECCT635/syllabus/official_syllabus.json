@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Biometric fundamentals \u2013 Biometric technologies \u2013 Biometrics",
-      "contact_hours": 8,
-      "topics": "Biometric fundamentals \u2013 Biometric technologies \u2013 Biometrics Vs traditional techniques \u2013 Characteristics of a good biometric system \u2013 Benefits of biometrics \u2013 Key biometric processes: verification, identification and biometric matching \u2013 Performance measures in biometric systems, FAR, FRR, FTE rate, EER and ATV rate, Applications of Biometric Systems, Security and Privacy Issues, Physiological Biometrics and Behavioural Biometrics."
+      "title": "Foundational Principles & Theoretical Models",
+      "contact_hours": 3,
+      "topics": "--- Page 204 ---"
     },
     {
       "module_no": 2,
-      "title": "Fingerprint recognition",
-      "contact_hours": 11,
-      "topics": "Fingerprint recognition: Friction ridge patterns, Acquisition, Feature extraction, matching, indexing, synthesis, palm print. Face recognition: Introduction, image acquisition, face detection. Feature extraction of face recognition, matching, heterogeneous face recognition. Signature-scan, Keystroke Scan\u2013 components, working principles."
+      "title": "Note",
+      "contact_hours": 2,
+      "topics": "Note: K1- Remember, K2- Understand, K3- Apply, K4- Analyse, K5- Evaluate, K6- Create  CO-PO Mapping Table (Mapping of Course Outcomes to Program Outcomes)  Note: 1: Slight (Low), 2: Moderate (Medium), 3: Substantial (High), -: No Correlation        PO1  PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     },
     {
       "module_no": 3,
-      "title": "Iris recognition, Image acquisition, iris segmentation, norm",
-      "contact_hours": 8,
-      "topics": "Iris recognition, Image acquisition, iris segmentation, normalization. Encoding and matching, quality assessment, performance evaluation Ear detection and recognition \u2013 challenges, gait and hand geometry. Feature extraction and matching"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Security of bio-metric systems",
-      "contact_hours": 7,
-      "topics": "Security of bio-metric systems: adversary attacks, attacks on user interface, attacks on bio-metric processing, database attacks. Biometric standards, biometric databases"
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 2,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

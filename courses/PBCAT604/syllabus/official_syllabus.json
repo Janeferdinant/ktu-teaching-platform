@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Neural Networks Introduction to Human and Artificial Intelli",
-      "contact_hours": 10,
-      "topics": "Neural Networks Introduction to Human and Artificial Intelligence: History of AI, Forms of learning - Supervised and unsupervised learning, Perceptron Learning rule, Bio-inspired learning, Artificial Neural Networks, Backpropagation, Multi-layer Perceptron model, Activation Functions Loss functions, Optimization, Training Neural Networks - gradient descent, stochastic gradient descent, momentum, weight initialization, batch normalization, hyper parameter optimization, parameter updates, model ensembles"
+      "title": "ESE Marks",
+      "contact_hours": 40,
+      "topics": "ESE Marks"
     },
     {
       "module_no": 2,
-      "title": "Overview of deep learning",
-      "contact_hours": 12,
-      "topics": "Overview of deep learning: deep feedforward networks, and training deep models, including optimization techniques such as Gradient Descent (GD), GD with momentum, Stochastic GD, AdaGrad, RMSProp, and Adam. Regularization methods -L1 and L2, early stopping, dataset augmentation, parameter sharing and tying, input noise injection, ensemble methods, dropout, and parameter initialization."
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 4,
+      "topics": "--- Page 243 ---     cropping, blurring, noise addition, self-supervision techniques, semi- supervised and weakly supervised learning, adversarial training Transfer  Learning, freezing the input layers, fine tuning output layers"
     },
     {
       "module_no": 3,
-      "title": "Convolutional Neural Networks",
-      "contact_hours": 12,
-      "topics": "Convolutional Neural Networks: convolution layer, pooling layer, fully connected layer, Conv Net, Case study of ImageNet challenge: LeNet, AlexNet, VGG, Google Net, ResNet, Inception Net, Efficient Net etc. Regularization Techniques, Data Augmentation: zooming, rotation,"
+      "title": "Course Type Theory    Course Objectives",
+      "contact_hours": 1,
+      "topics": "Course Type Theory    Course Objectives:"
     },
     {
       "module_no": 4,
-      "title": "Deep Unsupervised Learning and Recent Trends",
-      "contact_hours": 10,
-      "topics": "Deep Unsupervised Learning and Recent Trends: Auto encoders (standard, sparse, denoising, contractive, etc.), Variational Autoencoders, Adversarial Generative Adversarial Networks, Auto encoder and DBM , Multi- task Deep Learning, Multi-view Deep Learning"
+      "title": "Industry Applications & Optimization",
+      "contact_hours": 60,
+      "topics": "CIE Marks"
     }
   ]
 }

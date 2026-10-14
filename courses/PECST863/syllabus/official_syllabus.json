@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Fundamentals of Security and Threat Management",
-      "contact_hours": 9,
-      "topics": "Fundamentals of Security and Threat Management: Computer Security, Threats, Harm, Vulnerabilities, Authentication, Access Control Web Security- Browser Attacks, Web Attacks Targeting Users, Obtaining User or Website Data Privacy- Privacy Concepts, Principles and Policies, Privacy on the Web, Privacy Principles and Policies, Email Security."
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
       "title": "Cryptography in Network Security- Network Encryption, Browse",
       "contact_hours": 9,
-      "topics": "Cryptography in Network Security- Network Encryption, Browser Encryption, Onion Routing, IPSEC, VPN Intrusion Detection and Prevention Systems-Types of IDSs, Other Intrusion Detection Technology, Intrusion Prevention Systems, Intrusion Response, Goals for Intrusion Detection Systems, IDS Strengths and Limitations"
+      "topics": "Cryptography in Network Security- Network Encryption, Browser  Encryption, Onion Routing, IPSEC, VPN  Intrusion Detection and Prevention Systems-Types of IDSs, Other  Intrusion Detection Technology, Intrusion Prevention Systems, Intrusion  Response, Goals for Intrusion Detection Systems, IDS Strengths and  Limitations"
     },
     {
       "module_no": 3,
-      "title": "Database Security",
-      "contact_hours": 10,
-      "topics": "Database Security: -Machine Learning for Malware detection, Supervised Learning for Misuse/Signature Detection, Anomaly Detection using ML, Spam detection based on Machine Learning approach, Adversarial Machine Learning Security Requirements of Databases, Reliability and Integrity of Databases, Database Disclosure"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 4,
-      "title": "Security policies and models",
-      "contact_hours": 8,
-      "topics": "Security policies and models: Confidentiality Policies, Bell- LaPadula model, Integrity policies, Biba model, Clark-Wilson models, Chinese wall model, waterfall model. Management and Incidents- Security Planning, Business Continuity Planning, Handling Incidents, Risk Analysis, Dealing with Disaster"
+      "title": "Network Security and Cryptography  Bernard Menezes  Cengage",
+      "contact_hours": 1,
+      "topics": "Network Security and Cryptography  Bernard Menezes  Cengage  Learning"
     }
   ]
 }

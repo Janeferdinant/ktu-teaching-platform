@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to Networking Concepts and Cloud Computing",
-      "contact_hours": 9,
-      "topics": "Introduction to Networking Concepts and Cloud Computing:- Basics of Computer Networks: Overview of Network Types: LAN, WAN, Pan, OSI and TCP/IP Models.IP Addressing and Subnetting: IPv4 vs. IPv6 Addressing, Subnetting Concepts and Techniques. Introduction to Cloud Computing: Cloud Computing Models: IaaS, PaaS, SaaS. Cloud Architecture Overview. Networking in Cloud Environments: Importance of Networking in Cloud, Interaction Between Traditional Networks and Cloud Infrastructures."
+      "title": "CIE  Marks",
+      "contact_hours": 40,
+      "topics": "CIE  Marks"
     },
     {
       "module_no": 2,
-      "title": "Networking Protocols and Cloud Connectivity",
-      "contact_hours": 9,
-      "topics": "Networking Protocols and Cloud Connectivity :- TCP/IP Protocol Suite: Deep Dive into TCP/IP Protocols, Role of TCP/IP in Cloud Environments."
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Cloud Networking Components, Architectures, and Security",
-      "contact_hours": 9,
-      "topics": "Cloud Networking Components, Architectures, and Security: Virtual Networking and SDN: Virtual Networks(VNet) Configuration, Principles of SDN and Implementation in Cloud, Network Function. Virtualization (NFV) and Microservices: NFV Components and Architecture, Networking for Containers (Docker, Kubernetes). Cloud Network Design Principles: Designing for Scalability and Flexibility, Redundancy and Disaster Recovery Planning. Security in Cloud Networks: Cloud-Native Security Controls, Intrusion Detection and Prevention Systems (IDPS), Identity and Access Management (IAM), Encryption Techniques and Zero-Trust Architecture."
+      "title": "Exam  Hours",
+      "contact_hours": 2,
+      "topics": "Exam  Hours"
     },
     {
       "module_no": 4,
-      "title": "Monitoring, Troubleshooting, and Optimizing Cloud Networks",
-      "contact_hours": 9,
-      "topics": "Monitoring, Troubleshooting, and Optimizing Cloud Networks :- Network Monitoring in Cloud: Tools for Cloud Network Monitoring, Setting Up Alerts and Dashboards. Troubleshooting Cloud Networks: Common Cloud Networking Issues and Solutions, Using Diagnostic Tools (e.g., Traceroute, Ping). Network Traffic Analysis and Optimization: Analyzing Traffic Patterns in Cloud Networks, Performance Tuning and Cost- Effective Network Configuration. Automation in Cloud Network Management: Automating Network Configuration and Management, Using Infrastructure as Code (IaC) Tools."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

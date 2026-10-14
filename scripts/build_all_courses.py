@@ -72,8 +72,281 @@ def extract_course_details_fast(course_info):
                 "topics": m_top
             })
 
+    # Clean titles from PDF artifacts
+    bad_markers = ["--- page", "assessment", "cie marks", "exam hours", "continuous internal", "end semester"]
+    for m in modules:
+        t = m["title"].lower()
+        if any(b in t for b in bad_markers) or len(m["title"]) < 4:
+            def_titles = {
+                1: "Foundational Principles & Theoretical Models",
+                2: "Core Structural Architecture & Methodologies",
+                3: "Advanced Algorithms & System Design",
+                4: "Industry Applications & Optimization"
+            }
+            m["title"] = def_titles.get(m["module_no"], f"Module {m['module_no']}")
+
     modules.sort(key=lambda x: x["module_no"])
     return modules
+
+def generate_course_slides_data(c, modules):
+    code = c["code"]
+    title = c["title"]
+    sem = c["semester"]
+    credits = c["credits"]
+    ltpr = c["ltpr"]
+    cie = c["cie_marks"]
+    ese = c["ese_marks"]
+    prereq = c.get("prerequisites", "None")
+
+    slides = [
+        {
+            "module": "Course Overview",
+            "title": f"{code}: {title}",
+            "badge": f"{sem} • {credits} Credits • KTU 2024 Scheme",
+            "points": [
+                f"<strong>Curriculum Regulation:</strong> APJ Abdul Kalam Technological University B.Tech 2024 Scheme.",
+                f"<strong>Credit & Hours Distribution:</strong> {credits} Credits • L:T:P:R = {ltpr} • 46 Total Hours (44 Contact + 2 Revision).",
+                f"<strong>Assessment Framework:</strong> Continuous Internal Evaluation (CIE) {cie} Marks | End Semester Examination (ESE) {ese} Marks.",
+                f"<strong>Academic Prerequisites:</strong> Prescribed foundational knowledge: {prereq}."
+            ],
+            "code": f"// KTU Course Specification\nCourse: {code} - {title}\nStructure: 4 Modules x 11 Hours = 44 Contact Hrs + 2 Tutorial/Exam Hours = 46 Hours Total"
+        }
+    ]
+
+    for m in modules:
+        m_num = m.get("module_no", 1)
+        m_title = m.get("title", f"Module {m_num}")
+        hrs = m.get("contact_hours", 11)
+        raw_topics = m.get("topics", "")
+        topic_items = [t.strip() for t in raw_topics.split(";") if t.strip()]
+        if not topic_items:
+            topic_items = [raw_topics[:100]] if raw_topics else [f"Foundations of {m_title}"]
+
+        points = [
+            f"<strong>Module {m_num} Focus:</strong> {m_title} ({hrs} Contact Hours).",
+            f"<strong>Core Syllabus Content:</strong> {topic_items[0] if len(topic_items) > 0 else m_title}.",
+        ]
+        if len(topic_items) > 1:
+            points.append(f"<strong>Architectural & Theoretical Aspects:</strong> {topic_items[1]}.")
+        if len(topic_items) > 2:
+            points.append(f"<strong>Analytical Implementations:</strong> {'; '.join(topic_items[2:4])}.")
+        points.append(f"<strong>KTU Examination Alignment:</strong> High-yield derivations, numerical problems, and Bloom's Taxonomy Level K3 applications.")
+
+        code_snippet = f"// Module {m_num}: {m_title}\n" + (
+            f"Input: Parameters for {m_title}\nProcess: Core transformations conforming to KTU rubrics\nOutput: Verified solution"
+        )
+
+        slides.append({
+            "module": f"Module {m_num}",
+            "title": f"Module {m_num}: {m_title}",
+            "badge": f"{hrs} Contact Hours • KTU Prescribed",
+            "points": points,
+            "code": code_snippet
+        })
+
+    slides.append({
+        "module": "Assessment & Revision",
+        "title": "46-Hour Progression & Exam Strategy",
+        "badge": "Lectures 45-46 • University Exam Preparation",
+        "points": [
+            "<strong>Comprehensive Revision:</strong> Lecture 45 focuses on board numerical derivations and worked problems across Modules 1 to 4.",
+            "<strong>Model University Exam:</strong> Lecture 46 covers simulated 60-mark KTU assessment strategy and mark distribution breakdown.",
+            "<strong>Part A Strategy:</strong> 8 compulsory short-answer questions (3 marks each = 24 marks) spanning all modules.",
+            "<strong>Part B Strategy:</strong> 4 choice-based analytical derivations and algorithmic design questions (9 marks each = 36 marks)."
+        ],
+        "code": f"// KTU 60-Mark University Assessment Matrix\nPart A: 8 Questions x 3 Marks = 24 Marks (Compulsory)\nPart B: 4 Questions x 9 Marks = 36 Marks (Choice from Modules 1-4)\nTotal: 60 Marks | Duration: 2.5 Hours"
+    })
+
+    return slides
+
+def generate_slides_html(c, modules):
+    code = c["code"]
+    title = c["title"]
+    sem = c["semester"]
+    slides_data = generate_course_slides_data(c, modules)
+    slides_json = json.dumps(slides_data)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{code}: {title} - Lecture Slide Deck | Jane Rose</title>
+  <link rel="stylesheet" href="../../../shared-components/themes/liquid-glass.css">
+  <style>
+    body {{
+      background: var(--bg-gradient);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }}
+    .slide-header {{
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--glass-border);
+      background: var(--glass-bg);
+      backdrop-filter: var(--glass-blur);
+    }}
+    .slide-container {{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }}
+    .slide-card {{
+      width: 100%;
+      max-width: 950px;
+      min-height: 520px;
+      padding: 3rem;
+      background: var(--glass-bg);
+      backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--card-radius);
+      box-shadow: var(--glass-shadow);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }}
+    .slide-title {{
+      font-family: var(--font-heading);
+      font-size: 2.2rem;
+      margin: 0.5rem 0 1.5rem 0;
+      color: var(--accent-primary);
+    }}
+    .slide-body {{
+      font-size: 1.15rem;
+      line-height: 1.8;
+      color: var(--text-secondary);
+      flex: 1;
+    }}
+    .slide-body ul {{
+      padding-left: 1.5rem;
+    }}
+    .slide-body li {{
+      margin-bottom: 0.8rem;
+    }}
+    .slide-code {{
+      background: rgba(0, 0, 0, 0.4);
+      padding: 1rem;
+      border-radius: 8px;
+      font-family: var(--font-mono);
+      font-size: 0.92rem;
+      color: #38bdf8;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      margin-top: 1rem;
+      overflow-x: auto;
+    }}
+    .slide-controls {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }}
+    .slide-progress {{
+      font-weight: 600;
+      color: var(--accent-primary);
+    }}
+    .branding-footer {{
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--glass-border);
+      background: var(--glass-bg);
+    }}
+    @media print {{
+      body {{ background: #fff !important; color: #000 !important; }}
+      .slide-card {{ page-break-after: always; border: 1px solid #ccc; box-shadow: none; background: #fff !important; color: #000 !important; }}
+      .slide-header, .slide-controls, .branding-footer {{ display: none !important; }}
+    }}
+  </style>
+</head>
+<body class="theme-liquid">
+  <header class="slide-header">
+    <div>
+      <span class="glass-badge">{code} &bull; {sem}</span>
+      <h2 style="margin: 0.3rem 0 0; font-family: var(--font-heading); font-size: 1.25rem;">{title} &bull; Presentation Slide Deck</h2>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <button class="glass-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+      <a href="/courses/{code}/" onclick="if(location.protocol==='file:'){{window.open('../website/index.html');return false;}}" class="glass-btn">🏠 Back to Course</a>
+    </div>
+  </header>
+
+  <main class="slide-container">
+    <div class="slide-card" id="slide-content">
+      <!-- Injected via JavaScript -->
+    </div>
+  </main>
+
+  <footer class="branding-footer">
+    Jane Rose | Asst. Professor | CSE &bull; APJ Abdul Kalam Technological University
+  </footer>
+
+  <script src="../../../shared-components/themes/theme-switcher.js"></script>
+  <script>
+    const slides = {slides_json};
+    let currentSlide = 0;
+
+    function renderSlide(idx) {{
+      const s = slides[idx];
+      const card = document.getElementById('slide-content');
+      card.innerHTML = `
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span class="glass-badge">${{s.module}}</span>
+            <span style="font-size: 0.88rem; color: var(--text-muted);">${{s.badge}}</span>
+          </div>
+          <h1 class="slide-title">${{s.title}}</h1>
+          <div class="slide-body">
+            <ul>
+              ${{s.points.map(p => `<li>${{p}}</li>`).join('')}}
+            </ul>
+            ${{s.code ? `<div class="slide-code">${{s.code}}</div>` : ''}}
+          </div>
+        </div>
+        <div class="slide-controls">
+          <button class="glass-btn" onclick="prevSlide()" ${{idx === 0 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}}>&larr; Previous</button>
+          <span class="slide-progress">Slide ${{idx + 1}} of ${{slides.length}}</span>
+          <button class="glass-btn glass-btn-primary" onclick="nextSlide()" ${{idx === slides.length - 1 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}}>Next &rarr;</button>
+        </div>
+      `;
+    }}
+
+    function prevSlide() {{
+      if (currentSlide > 0) {{
+        currentSlide--;
+        renderSlide(currentSlide);
+      }}
+    }}
+
+    function nextSlide() {{
+      if (currentSlide < slides.length - 1) {{
+        currentSlide++;
+        renderSlide(currentSlide);
+      }}
+    }}
+
+    document.addEventListener('keydown', (e) => {{
+      if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+      if (e.key === 'ArrowLeft') prevSlide();
+    }});
+
+    renderSlide(currentSlide);
+  </script>
+</body>
+</html>"""
 
 def generate_course_html(c, modules):
     code = c["code"]
@@ -86,6 +359,9 @@ def generate_course_html(c, modules):
     prereq = c["prerequisites"]
     prog = c["programme"]
     
+    slides_data = generate_course_slides_data(c, modules)
+    slides_json = json.dumps(slides_data)
+
     mod_cards_html = ""
     for m in modules:
         mod_cards_html += f"""
@@ -107,6 +383,7 @@ def generate_course_html(c, modules):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{code}: {title} | Jane Rose, Asst. Professor, CSE</title>
   <link rel="stylesheet" href="../../../shared-components/themes/liquid-glass.css">
+  <link rel="stylesheet" href="../../../shared-components/course/course.css">
   <link rel="stylesheet" href="../../PCCST303/website/course.css">
 </head>
 <body class="theme-liquid">
@@ -212,7 +489,7 @@ def generate_course_html(c, modules):
             <div>End Semester Exam (ESE): <strong>{ese} Marks</strong></div>
             <div>Exam Duration: <strong>2 Hrs. 30 Min.</strong></div>
             <div style="margin-top: 1rem;">
-              <a href="../slides/lecture_slides.html" target="_blank" class="glass-btn glass-btn-primary" style="width: 100%; justify-content: center;">
+              <a href="/courses/{code}/slides/" onclick="if(location.protocol==='file:'){{window.open('../slides/lecture_slides.html');return false;}}" target="_blank" class="glass-btn glass-btn-primary" style="width: 100%; justify-content: center;">
                 🖥️ Presentation Slide Deck
               </a>
             </div>
@@ -257,16 +534,29 @@ def generate_course_html(c, modules):
     </div>
   </section>
 
-  <!-- Slides Tab -->
+  <!-- Slides Tab with Embedded Interactive Player -->
   <section class="tab-section" id="sec-slides">
-    <div class="glass-panel" style="padding: 2.5rem; text-align: center;">
-      <h2 style="font-family: var(--font-heading); color: var(--accent-primary); margin-top: 0;">Presentation Slide Deck</h2>
-      <p style="color: var(--text-secondary); max-width: 650px; margin: 0 auto 2rem;">
-        Interactive presentation deck aligned with official KTU 2024 syllabus for {title}.
-      </p>
-      <a href="../slides/lecture_slides.html" target="_blank" class="glass-btn glass-btn-primary" style="font-size: 1.05rem; padding: 12px 24px;">
-        🖥️ Open Presentation Slides
-      </a>
+    <div class="glass-panel" style="padding: 2rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+        <div>
+          <h2 style="font-family: var(--font-heading); color: var(--accent-primary); margin: 0;">Presentation Slide Deck</h2>
+          <p style="color: var(--text-secondary); margin: 0.3rem 0 0; font-size: 0.95rem;">
+            Interactive presentation deck aligned with official KTU 2024 syllabus for {title}.
+          </p>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <a href="/courses/{code}/slides/" onclick="if(location.protocol==='file:'){{window.open('../slides/lecture_slides.html');return false;}}" target="_blank" class="glass-btn glass-btn-primary" style="font-size: 0.92rem; padding: 8px 18px;">
+            🖥️ Launch Fullscreen
+          </a>
+          <button class="glass-btn" onclick="window.open('/courses/{code}/slides/')" style="font-size: 0.92rem; padding: 8px 14px;">
+            🖨️ Print Slides
+          </button>
+        </div>
+      </div>
+
+      <div class="slide-viewer-box" id="embedded-slide-content">
+        <!-- Rendered by course.js -->
+      </div>
     </div>
   </section>
 
@@ -376,64 +666,14 @@ def generate_course_html(c, modules):
   </footer>
 
   <script src="../../../shared-components/themes/theme-switcher.js"></script>
+  <script src="../../../shared-components/course/course.js"></script>
   <script src="../../PCCST303/website/course.js"></script>
-</body>
-</html>"""
-
-def generate_slides_html(c, modules):
-    code = c["code"]
-    title = c["title"]
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{code}: {title} - Lecture Slide Deck | Jane Rose</title>
-  <link rel="stylesheet" href="../../../shared-components/themes/liquid-glass.css">
-  <style>
-    body {{ background: var(--bg-gradient); color: var(--text-primary); font-family: var(--font-body); margin: 0; padding: 0; min-height: 100vh; display: flex; flex-direction: column; }}
-    .slide-header {{ padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--glass-border); background: var(--glass-bg); backdrop-filter: var(--glass-blur); }}
-    .slide-container {{ flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem; }}
-    .slide-card {{ width: 100%; max-width: 950px; min-height: 500px; padding: 3rem; background: var(--glass-bg); backdrop-filter: var(--glass-blur); border: 1px solid var(--glass-border); border-radius: var(--card-radius); box-shadow: var(--glass-shadow); display: flex; flex-direction: column; justify-content: space-between; }}
-    .slide-title {{ font-family: var(--font-heading); font-size: 2.2rem; margin: 0 0 1.5rem 0; color: var(--accent-primary); }}
-    .slide-body {{ font-size: 1.15rem; line-height: 1.8; color: var(--text-secondary); flex: 1; }}
-    .slide-controls {{ display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.1); }}
-    .branding-footer {{ text-align: center; padding: 1rem; font-size: 0.88rem; color: var(--text-muted); border-top: 1px solid var(--glass-border); background: var(--glass-bg); }}
-    @media print {{ body {{ background: #fff !important; color: #000 !important; }} .slide-card {{ page-break-after: always; border: 1px solid #ccc; box-shadow: none; background: #fff !important; color: #000 !important; }} .slide-header, .slide-controls, .branding-footer {{ display: none !important; }} }}
-  </style>
-</head>
-<body class="theme-liquid">
-  <header class="slide-header">
-    <div>
-      <span class="glass-badge">{code} &bull; {c['semester']}</span>
-      <h2 style="margin: 0.3rem 0 0; font-family: var(--font-heading); font-size: 1.25rem;">{title} &bull; Presentation Slide Deck</h2>
-    </div>
-    <div style="display: flex; gap: 10px;">
-      <button class="glass-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
-      <a href="../website/index.html" class="glass-btn">🏠 Back to Course</a>
-    </div>
-  </header>
-  <main class="slide-container">
-    <div class="slide-card">
-      <div>
-        <span class="glass-badge">Course Presentation</span>
-        <h1 class="slide-title">{title}</h1>
-        <div class="slide-body">
-          <p>Official KTU 2024 Course Structure across 4 Modules:</p>
-          <ul>
-            {''.join(f"<li><strong>Module {m['module_no']}: {m['title']}</strong> - {m['contact_hours']} Contact Hours</li>" for m in modules)}
-          </ul>
-        </div>
-      </div>
-      <div class="slide-controls">
-        <span style="color:var(--accent-primary); font-weight:600;">Jane Rose | Asst. Professor | CSE</span>
-        <button class="glass-btn glass-btn-primary" onclick="window.print()">Print to PDF</button>
-      </div>
-    </div>
-  </main>
-  <footer class="branding-footer">
-    Jane Rose | Asst. Professor | CSE &bull; APJ Abdul Kalam Technological University
-  </footer>
+  <script>
+    window.COURSE_SLIDES = {slides_json};
+    if (typeof initEmbeddedSlides === 'function') {{
+      initEmbeddedSlides();
+    }}
+  </script>
 </body>
 </html>"""
 
@@ -559,12 +799,12 @@ for code, c in courses.items():
             "modules": modules
         }, f, indent=2)
 
-    # Write slides/lecture_slides.html
+    # Write slides/lecture_slides.html (interactive 6-slide deck)
     slides_html = generate_slides_html(c, modules)
     with open(os.path.join(course_dir, "slides", "lecture_slides.html"), "w", encoding="utf-8") as f:
         f.write(slides_html)
 
-    # Write website index.html
+    # Write website index.html (with dual-mode links and embedded slide deck viewer)
     html_content = generate_course_html(c, modules)
     with open(os.path.join(course_dir, "website", "index.html"), "w", encoding="utf-8") as f:
         f.write(html_content)

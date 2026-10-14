@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to Cryptography and Security Introduction to Cr",
-      "contact_hours": 10,
-      "topics": "Introduction to Cryptography and Security Introduction to Cryptography: Definition and History of Cryptography - Importance and Applications - Key Terminologies and Concepts - Types of Attacks Classical Encryption Techniques: Substitution Ciphers: Caesar Cipher, Monoalphabetic Cipher, Playfair Cipher, Hill Cipher, Polybius Square Transposition Ciphers: Rail Fence, Columnar Transposition Steganography: Principles of Steganography, Types of Steganography, Steganography Versus Digital Watermarking, Types of Digital Watermarking, Goals of Digital Watermarking. Quick Review of Number Theory: Prime Numbers, Modular Arithmetic, Greatest Common Divisor, Fermat's and Euler's Theorems, Chinese Remainder Theorem"
+      "title": "Foundational Principles & Theoretical Models",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 2,
-      "title": "Cryptographic Concepts and Techniques Symmetric Key Cryptogr",
+      "title": "Cryptographic Concepts and Techniques  Symmetric Key Cryptog",
       "contact_hours": 10,
-      "topics": "Cryptographic Concepts and Techniques Symmetric Key Cryptography: Block Ciphers: DES, 3DES, AES (Block Level only) - Stream Ciphers: RC4 - Modes of Operation: ECB, CBC, CFB, OFB, CTR Asymmetric Key Cryptography: Principles of Public Key Cryptosystems- RSA Algorithm-Diffie-Hellman Key Exchange-Elliptic Curve Cryptography"
+      "topics": "Cryptographic Concepts and Techniques  Symmetric Key Cryptography: Block Ciphers: DES, 3DES, AES (Block  Level only) - Stream Ciphers: RC4 - Modes of Operation: ECB, CBC, CFB,  OFB, CTR  Asymmetric Key Cryptography: Principles of Public Key Cryptosystems- RSA Algorithm-Diffie-Hellman Key Exchange-Elliptic Curve Cryptography"
     },
     {
       "module_no": 3,
-      "title": "Cryptographic Hash Functions",
-      "contact_hours": 11,
-      "topics": "Cryptographic Hash Functions: Hash Function Requirements and Properties, SHA-256, SHA-3, MD5, HMAC Message Authentication and Cryptographic Protocols Message Authentication Codes: Structure and Usage, CMAC, GMAC, Digital Signatures: RSA, DSA, ECDSA Cryptographic Protocols: Key Management and Distribution, Public Key Infrastructure (PKI), SSL/TLS Protocol"
+      "title": "Understanding Cryptography",
+      "contact_hours": 4,
+      "topics": "Understanding Cryptography:  A Textbook for Students and  Practitioners  Christof Paar and Jan  Pelzl  Springer  2009"
     },
     {
       "module_no": 4,
-      "title": "Secure Electronic Transactions",
-      "contact_hours": 11,
-      "topics": "Secure Electronic Transactions: E-commerce Security Requirements, Payment Protocols - SET, 3D Secure, Cryptographic Tokens Advanced Cryptographic Applications and Emerging Trends Advanced Cryptographic Techniques: Homomorphic Encryption, Zero- Knowledge Proofs Quantum Cryptography: Basics and Algorithms; Cryptography in Cloud Computing and IoT: Security Challenges and Cryptographic Solutions in Cloud Computing, Challenges and Cryptographic Solutions in IoT"
+      "title": "Industry Applications & Optimization",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     }
   ]
 }

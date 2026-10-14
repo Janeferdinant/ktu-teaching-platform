@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction - Why IoT? Trends in IT Space, Internet of Thin",
-      "contact_hours": 8,
-      "topics": "Introduction - Why IoT? Trends in IT Space, Internet of Things Era, Device- to-Device/Machine-to-Machine Integration, Device-to-Cloud (D2C) Integration, IoT Platform as a Service (PaaS), Cloud-to-Cloud (C2C) Integration, IoT Key Application Domains, Emerging IoT Flavors; IoT Ecosystem - Architecture for IoT, Mobile Technologies, Mobile Application Development Platforms, LPWAN."
+      "title": "Internet of Things",
+      "contact_hours": 2,
+      "topics": "Internet of Things : Architecture and  Design Principles Raj Kamal  McGraw Hill"
     },
     {
       "module_no": 2,
-      "title": "Infrastructure and Service Discovery Protocols - Layered Arc",
-      "contact_hours": 10,
-      "topics": "Infrastructure and Service Discovery Protocols - Layered Architecture for IoT, Protocol Architecture of IoT, Infrastructure Protocols, Device or Service Discovery for IoT, Protocols & products for IoT Service Discovery; Integration Technologies and Tools - Smart Enterprises and Environments, Sensor and Actuator Networks, The IoT Device Integration Concepts, Standards, and Implementations, The Device Integration Protocols and Middleware, The Protocol Landscape."
+      "title": "Mastering Internet of Things  Peter Waher  Pact",
+      "contact_hours": 1,
+      "topics": "Mastering Internet of Things  Peter Waher  Pact"
     },
     {
       "module_no": 3,
-      "title": "Platforms for IoT Applications and Analytics - The IoT Build",
-      "contact_hours": 8,
-      "topics": "Platforms for IoT Applications and Analytics - The IoT Building Blocks, Usecases, M2M Application Platform, IoT Architectural Building Blocks, Data Analytics Platforms, IoT Data Virtualization Platforms and capabilities, The IoT Edge Data Analytics; Clouds for IoT Applications and Analytics -"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Introduction to Raspberry Pi, Creating your first project, C",
-      "contact_hours": 10,
-      "topics": "Introduction to Raspberry Pi, Creating your first project, Creating a Sensor to Measure Ambient Light, Creating an Actuator for Controlling Illumination, Publishing Information Using MQTT & HTTP, Creating Web Pages for Your Devices."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

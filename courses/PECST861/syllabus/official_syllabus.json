@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Introduction to Software Architecture",
-      "contact_hours": 8,
-      "topics": "Introduction to Software Architecture: Definition and Importance, Architecture in the Life Cycle, Role of the Architect vs. Engineer, Requirements engineering: Stakeholders, Concerns, and Types of Requirements, Use Cases and Tactics."
+      "title": "Foundational Principles & Theoretical Models",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 2,
-      "title": "Architectural Patterns and Styles",
-      "contact_hours": 8,
-      "topics": "Architectural Patterns and Styles: Architectural Patterns- Overview of Patterns and Styles, Applying Patterns and Choosing a Style. Patterns for Enterprise Applications: Enterprise Applications and Layered Patterns, Concurrency Problems."
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Components, Contracts, and Service-Oriented Architectures",
-      "contact_hours": 9,
-      "topics": "Components, Contracts, and Service-Oriented Architectures: Component Software- Nature of Components and Reuse, UML and Components Design by Contract- Contracts, Polymorphism, Inheritance, and Delegation Service-Oriented Architectures- Standards, Technologies, and Security."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 4,
-      "title": "Architecture Evaluation and Description",
-      "contact_hours": 7,
-      "topics": "Architecture Evaluation and Description: Describing Architectures and Viewpoints, Evaluating Architectures. Architectural Description Languages (ADLs)- Overview and Applications."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

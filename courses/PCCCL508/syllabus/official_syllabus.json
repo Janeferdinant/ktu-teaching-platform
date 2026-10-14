@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Foundational Concepts and Theoretical Framework",
-      "contact_hours": 11,
-      "topics": "Core terminology, principles, and foundational models of NETWORK AND SYSTEM SECURITY LAB."
+      "title": "PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 2,
+      "topics": "PO2  PO3  PO4  PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     },
     {
       "module_no": 2,
-      "title": "Core Methodologies, Architecture and System Design",
-      "contact_hours": 11,
-      "topics": "Detailed structural mechanisms, operations, and analytical representations of NETWORK AND SYSTEM SECURITY LAB."
+      "title": "Core Structural Architecture & Methodologies",
+      "contact_hours": 2,
+      "topics": "Exam Hours"
     },
     {
       "module_no": 3,
-      "title": "Advanced Algorithms, Analysis and Implementations",
-      "contact_hours": 11,
-      "topics": "Complex algorithms, optimization techniques, and non-linear patterns of NETWORK AND SYSTEM SECURITY LAB."
+      "title": "Website mirroring using HTTrack",
+      "contact_hours": 4,
+      "topics": "Website mirroring using HTTrack"
     },
     {
       "module_no": 4,
-      "title": "Modern Applications, Performance Tuning and Emerging Trends",
-      "contact_hours": 11,
-      "topics": "Industry case studies, scalability, evaluation metrics, and contemporary trends in NETWORK AND SYSTEM SECURITY LAB."
+      "title": "Familiarize various Steganography tools  K3 CO5  Use tools f",
+      "contact_hours": 1,
+      "topics": "Familiarize various Steganography tools  K3 CO5  Use tools for Penetration testing  K3 Note: K1- Remember, K2- Understand, K3- Apply, K4- Analyse, K5- Evaluate, K6- Create     --- Page 173 ---     CO- PO Mapping (Mapping of Course Outcomes with Program Outcomes)"
     }
   ]
 }

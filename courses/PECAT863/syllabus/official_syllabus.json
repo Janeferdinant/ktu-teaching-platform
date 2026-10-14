@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Authentication protocols",
-      "contact_hours": 8,
-      "topics": "Authentication protocols:- Message Authentication Requirements, Authentication functions, Message authentication codes-Hash functions, Digital signatures, Authentication Protocols \u2013 Mutual authentication, One way authentication. Kerberos \u2013 Kerberos Version 4, Kerberos Version 5.X.509 Authentication service. Public Key Infrastructure (PKI) \u2013 Trust models, Revocation."
+      "title": "Course Type  Theory  Course Objectives",
+      "contact_hours": 1,
+      "topics": "Course Type  Theory  Course Objectives:"
     },
     {
       "module_no": 2,
-      "title": "Electronic Mail Security- Pretty Good Privacy (PGP) \u2013 Operat",
-      "contact_hours": 8,
-      "topics": "Electronic Mail Security- Pretty Good Privacy (PGP) \u2013 Operational Description, Cryptographic keys and key rings, Message format, PGP message generation, PGP message reception, Public key management. S/MIME \u2013 Functionality, Messages, Certificate processing, Enhanced security services."
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Network Layer Security and Web Security-Internet Protocol Se",
-      "contact_hours": 10,
-      "topics": "Network Layer Security and Web Security-Internet Protocol Security (IPSec) \u2013 Overview, IP security architecture, Authentication Header (AH), Encapsulating Security Payload (ESP), Combining Security Associations, Key management. Internet Key Exchange (IKE) - Phases. Web Security \u2013 Web security considerations. Secure Socket Layer and Transport Layer Security (SSL/TLS) \u2013 SSL Architecture, SSL protocols"
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 4,
-      "title": "Application Layer Security and System Security-Hypertext Tra",
-      "contact_hours": 10,
-      "topics": "Application Layer Security and System Security-Hypertext Transfer Protocol Secure (HTTPS) \u2013Connection initiation, Closure. Secure Shell (SSH) \u2013Transport layer protocol, User authentication protocol, Connection protocol.Secure Electronic Transaction (SET) \u2013 Overview, Features, Participants, Dual signature, Payment processing. Firewalls \u2013 Firewall characteristics, Types of Firewalls, Firewall configurations, Encrypted Tunnels, Trusted systems \u2013 Data access control, The concept of Trusted Systems, Trojan horse defense."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10 PO11 PO12 CO1"
     }
   ]
 }

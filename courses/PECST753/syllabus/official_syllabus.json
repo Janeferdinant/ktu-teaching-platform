@@ -6,27 +6,27 @@
   "modules": [
     {
       "module_no": 1,
-      "title": "Basic Fuzzy Set Theory",
-      "contact_hours": 9,
-      "topics": "Basic Fuzzy Set Theory :- Introduction - Uncertainty, Imprecision and Vagueness. Crisp vs Fuzzy sets. Representation of Fuzzy sets. Membership Functions \u2013 Types, Basic operations - dilation, concentration, normalization, Linguistic hedges. Properties of fuzzy set - Level Sets - Alpha cut representation. Operations on fuzzy sets- fuzzy complement, fuzzy intersection, fuzzy union, aggregation operations"
+      "title": "(Written)  Internal  Examination- 2  (Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Internal  Examination- 2  (Written)  Total"
     },
     {
       "module_no": 2,
-      "title": "Fuzzy Relations",
-      "contact_hours": 9,
-      "topics": "Fuzzy Relations :- Operations on Fuzzy relations: union, intersection, complement, cartesian product. Fuzzy composition- Max- min, Max \u2013 product. Extension Principle- Fuzzy arithmetic \u2013 fuzzy numbers, arithmetic operations on fuzzy numbers. Fuzzy Reasoning \u2013 Generalized Modus Ponens (GMP) and Generalized Modus Tollens (GMT)."
+      "title": "(Written)  Total",
+      "contact_hours": 5,
+      "topics": "(Written)  Total"
     },
     {
       "module_no": 3,
-      "title": "Fuzzification and Defuzzification Methods",
-      "contact_hours": 9,
-      "topics": "Fuzzification and Defuzzification Methods :- Fuzzy inference \u2013 Zadeh rule, Mamdani rule. Development of membership Functions \u2013 Intuition, Inference, Rank ordering, Inductive reasoning. Defuzzification to Scalars - Max membership principle, Centroid method, Weighted average method, Mean max membership, Center of sums, Center of largest area, First (or last) of maxima."
+      "title": "Advanced Algorithms & System Design",
+      "contact_hours": 40,
+      "topics": "CIE Marks"
     },
     {
       "module_no": 4,
-      "title": "Fuzzy Inference Systems",
-      "contact_hours": 9,
-      "topics": "Fuzzy Inference Systems :- Approximate Reasoning, Fuzzy (Rule-Based) Systems \u2013 Multiple conjunctive antecedents, Multiple disjunctive antecedents, Aggregation of fuzzy rules, Graphical Techniques of Inference. Fuzzy Controllers -Mamdani FIS, Larsen Model."
+      "title": "PO5  PO6  PO7  PO8  PO9  PO10  PO11 PO12  CO1",
+      "contact_hours": 3,
+      "topics": "PO5  PO6  PO7  PO8  PO9  PO10  PO11 PO12  CO1"
     }
   ]
 }
